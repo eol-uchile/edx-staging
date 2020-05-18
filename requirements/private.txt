@@ -22,4 +22,4 @@
 -e git+https://github.com/eol-uchile/eol_timify_xblock@1c78f236bb88ee57b109e2c870af4ca51c62852b#egg=eoltimify
 fluent-logger==0.9.6
 python-json-logger==0.1.11
-django-debug-toolbar==1.8
+django-debug-toolbar==2.2
