@@ -6,6 +6,7 @@
 -e git+https://github.com/eol-uchile/eol-dialogs-xblock.git@39a6a777180f00fe63ac2500f1084b9aa354ff9e#egg=eoldialogs-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-question-xblock@a711575e15718d184923375dfa7d645e4593e073#egg=dialogsquestionsxblock-xblock
 -e git+https://github.com/eol-uchile/eol-vof-xblock.git@b7e230504b5b53ba1382982eca37f3adb05807ca#egg=vof-xblock
+-e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@b8a87f33e844f6b6a85c3b0d77f6ff401bc6b73c#egg=eolpersistenttab-xblock
 -e git+https://github.com/eol-uchile/ubcpi@4938eda04cd42bd988744e493ef7833ddc5f8577#egg=ubcpi
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@1e7b764b1a2b2a94abdac47eaa0a6afa6f4e556f#egg=scormxblock
 -e git+https://github.com/eol-uchile/xblock-drag-and-drop-v2@58d8a691cf9210220925f3d2957b39a377f6704c#egg=xblock-drag-and-drop-v2
