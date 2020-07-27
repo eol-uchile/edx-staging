@@ -10,6 +10,7 @@
 -e git+https://github.com/eol-uchile/eol_feedback@9535e49cd6c859a8e65484ba59698b2e5e95fd25#egg=eol_feedback
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@40eb1e4c94d538b2b8e9fadb45a9abb27ca5730f#egg=eolzoom-xblock
 -e git+https://github.com/eol-uchile/eol_contact_form@0e4b666da337df2e1e22355551a3823259e8403e#egg=eol_contact_form
+-e git+https://github.com/eol-uchile/sence-xblock@49ada42a91156f8e948fb104cf4948ba45f33ce0#egg=sence-xblock
 -e git+https://github.com/eol-uchile/ubcpi@9230be63eaa8d546fe1c72dd193fdee2f2d82882#egg=ubcpi
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@1e7b764b1a2b2a94abdac47eaa0a6afa6f4e556f#egg=scormxblock
 -e git+https://github.com/eol-uchile/xblock-drag-and-drop-v2@58d8a691cf9210220925f3d2957b39a377f6704c#egg=xblock-drag-and-drop-v2
