@@ -1,5 +1,5 @@
 -e git+https://github.com/eol-uchile/edx-sga@90b09381e7c5be6ab25a01ee78c082facc509b02#egg=edx-sga
--e git+https://github.com/eol-uchile/edx-ora2.git@16afb1625d88d33dc5256bb2d97b33c42bc7cafa#egg=ora2
+-e git+https://github.com/eol-uchile/edx-ora2.git@d2505a3b2b8de3d83bc2422a7229600dda54eda8#egg=ora2
 -e git+https://github.com/eol-uchile/eol-container-xblock.git@eb1e28dc0b58c6f391e7bb001296e690444f53e3#egg=eolcontainer-xblock
 -e git+https://github.com/eol-uchile/eol-conditional-xblock.git@d8779b22771f28c3ca825b3bfaf0d9f328c50e38#egg=eolconditional-xblock
 -e git+https://github.com/eol-uchile/eol-question-xblock.git@f1cb3d5ff23b36b73037dffec2a1d004d9ac287a#egg=eolquestion-xblock
@@ -7,7 +7,7 @@
 -e git+https://github.com/eol-uchile/eol-dialogs-question-xblock@56a913960b6d1a1e6888b639bf58849c8f5af7b5#egg=dialogsquestionsxblock-xblock
 -e git+https://github.com/eol-uchile/eol-vof-xblock.git@e6b9434ffc5c7337a95f7257b77c1cf2ffe421ce#egg=vof-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@78b26270fe729b3d1f7c94b66b46052a02043dfa#egg=eolpersistenttab-xblock
--e git+https://github.com/eol-uchile/eol_feedback@a75c32f76d0c96727a247f0a2bb302aa710db18e#egg=eol_feedback
+-e git+https://github.com/eol-uchile/eol_feedback@94d06fd892eb7217b92c3dc306da4539c59eae22#egg=eol_feedback
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@1598693a20d4e9caa2869613a0ef95a0d6d4e8dc#egg=eolzoom-xblock
 -e git+https://github.com/eol-uchile/eol_contact_form@0e4b666da337df2e1e22355551a3823259e8403e#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/sence-xblock@76752a286fe5ba087e08f0f5d8fa593ba624beb8#egg=sence-xblock
