@@ -5,7 +5,7 @@
 -e git+https://github.com/eol-uchile/eol-question-xblock.git@f1cb3d5ff23b36b73037dffec2a1d004d9ac287a#egg=eolquestion-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-xblock.git@39a6a777180f00fe63ac2500f1084b9aa354ff9e#egg=eoldialogs-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-question-xblock@56a913960b6d1a1e6888b639bf58849c8f5af7b5#egg=dialogsquestionsxblock-xblock
--e git+https://github.com/eol-uchile/eol-vof-xblock.git@e6b9434ffc5c7337a95f7257b77c1cf2ffe421ce#egg=vof-xblock
+-e git+https://github.com/eol-uchile/eol-vof-xblock.git@8a59aa580eedb481f31f1c524d068b7513bad84d#egg=vof-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@78b26270fe729b3d1f7c94b66b46052a02043dfa#egg=eolpersistenttab-xblock
 -e git+https://github.com/eol-uchile/eol_feedback@94d06fd892eb7217b92c3dc306da4539c59eae22#egg=eol_feedback
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@1598693a20d4e9caa2869613a0ef95a0d6d4e8dc#egg=eolzoom-xblock
