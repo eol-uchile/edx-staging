@@ -16,4 +16,4 @@ RUN openedx-assets themes \
 FROM nginx:1.19.1 as static
 
 COPY default.conf /etc/nginx/conf.d/default.conf
-COPY --from base /openedx/staticfiles /openedx/staticfiles
+COPY --from=base /openedx/staticfiles /openedx/staticfiles
