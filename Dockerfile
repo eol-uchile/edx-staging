@@ -13,7 +13,7 @@ COPY ./themes/ /openedx/themes/
 RUN openedx-assets themes \
     && openedx-assets collect --settings=prod.assets
 
-FROM nginx:1.19.1 as static
+FROM nginx:1.19.2 as static
 
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY --from=base /openedx/staticfiles /openedx/staticfiles
