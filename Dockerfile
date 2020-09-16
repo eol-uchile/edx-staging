@@ -17,3 +17,7 @@ FROM nginx:1.19.2 as static
 
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY --from=base /openedx/staticfiles /openedx/staticfiles
+
+FROM amazon/aws-cli:2.0.49 as s3
+
+COPY --from=base /openedx/staticfiles /data
