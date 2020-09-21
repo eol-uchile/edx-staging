@@ -28,6 +28,6 @@
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@71ed6754855f03cae5afeff05cf22af7890f58e2#egg=eol_duplicate_xblock
 fluent-logger==0.9.6
 python-json-logger==0.1.11
-django-debug-toolbar==2.2
+django-debug-toolbar==3.0
 setuptools==49.6.0
 django-redis==4.9.0
