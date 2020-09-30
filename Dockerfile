@@ -13,11 +13,6 @@ COPY ./themes/ /openedx/themes/
 RUN openedx-assets themes \
     && openedx-assets collect --settings=prod.assets
 
-FROM nginx:1.19.2 as static
-
-COPY default.conf /etc/nginx/conf.d/default.conf
-COPY --from=base /openedx/staticfiles /openedx/staticfiles
-
 FROM rclone/rclone:1.53 as s3
 
 COPY --from=base /openedx/staticfiles /data
