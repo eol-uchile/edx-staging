@@ -19,9 +19,6 @@ jobs:
       - name: Build Open edX
         run: docker build . --file ./Dockerfile --tag eoluchile/edx-staging:${GITHUB_SHA} --tag eoluchile/edx-staging:juniper --target base
 
-      - name: Build Static files for OpenedX
-        run: docker build . --file ./Dockerfile --tag eoluchile/edx-staging:static-${GITHUB_SHA} --tag eoluchile/edx-staging:static-juniper --target static
-
       - name: Build Static files for OpenedX S3
         run: docker build . --file ./Dockerfile --tag eoluchile/edx-staging:s3-static-${GITHUB_SHA} --tag eoluchile/edx-staging:s3-static-juniper --target s3
 
@@ -30,8 +27,6 @@ jobs:
           echo "${DOCKERHUB_PASSWORD}" | docker login --username ${DOCKERHUB_USER} --password-stdin
           docker push eoluchile/edx-staging:${GITHUB_SHA}
           docker push eoluchile/edx-staging:juniper
-          docker push eoluchile/edx-staging:static-${GITHUB_SHA}
-          docker push eoluchile/edx-staging:static-juniper
           docker push eoluchile/edx-staging:s3-static-${GITHUB_SHA}
           docker push eoluchile/edx-staging:s3-static-juniper
         env:
