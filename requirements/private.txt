@@ -15,7 +15,7 @@
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@56060bc8a0e647c2be3f6b749f2a0ec4a76261f6#egg=scormxblock
 -e git+https://github.com/eol-uchile/xblock-drag-and-drop-v2@58d8a691cf9210220925f3d2957b39a377f6704c#egg=xblock-drag-and-drop-v2
 -e git+https://github.com/eol-uchile/eol_timify_xblock@1c9ee9353f2ceb1d70e1166955108a0f872192f2#egg=eol_timify_xblock
--e git+https://github.com/eol-uchile/uchileedxlogin@5067c4172210d1e280565f54bbfa012abdd433ac#egg=uchileedxlogin
+-e git+https://github.com/eol-uchile/uchileedxlogin@d1fd0b422757fac5d71ff363c7b4ebdc26b9d781#egg=uchileedxlogin
 -e git+https://github.com/eol-uchile/free-text-response@93128c8f3379f98be591901d376c28f53384a85b#egg=free-text-response
 -e git+https://github.com/eol-uchile/edx-ucursos@839535acff0253cd3b890b476c32066243489dd2#egg=edx-ucursos
 -e git+https://github.com/eol-uchile/edx-userdata@ee3c9098e79008a11b73c7fab2ae6479017d68f5#egg=edx-userdata
