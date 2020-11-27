@@ -32,6 +32,6 @@
 -e git+https://github.com/eol-uchile/eol_gradeforum_xblock@7480ace94f9cfe52382d62fef2f04debc27cb4b3#egg=eol_gradeforum_xblock
 fluent-logger==0.9.6
 python-json-logger==0.1.11
-django-debug-toolbar==2.2
+django-debug-toolbar==3.1.1
 setuptools==49.6.0
 django-redis==4.9.0
