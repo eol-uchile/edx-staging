@@ -8,6 +8,10 @@ COPY ./requirements/ /openedx/requirements
 RUN touch /openedx/requirements/private.txt \
     && pip install --src ../venv/src -r /openedx/requirements/private.txt
 
+# Rebuild translations
+RUN python manage.py lms --settings=prod.assets compilejsi18n \
+    && python manage.py cms --settings=prod.assets compilejsi18n
+
 # Copy themes
 COPY ./themes/ /openedx/themes/
 RUN openedx-assets themes \
