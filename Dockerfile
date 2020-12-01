@@ -10,6 +10,12 @@ RUN touch /openedx/requirements/private.txt \
 
 # Copy themes
 COPY ./themes/ /openedx/themes/
+
+# Rebuild translations
+RUN python manage.py lms --settings=prod.assets compilejsi18n \
+    && python manage.py cms --settings=prod.assets compilejsi18n
+
+# Build static assets
 RUN openedx-assets themes \
     && openedx-assets collect --settings=prod.assets
 
