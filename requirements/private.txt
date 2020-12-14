@@ -30,7 +30,7 @@
 -e git+https://github.com/eol-uchile/edx-proctoring@f5694affd71d0e0cd48d8f7dddf3f1fcc693d7ea#egg=edx-proctoring
 -e git+https://github.com/eol-uchile/eol_course_email@2fb0649bdb7930a3a02d39db74202547bbebe152#egg=eol_course_email
 -e git+https://github.com/eol-uchile/eol_gradeforum_xblock@7480ace94f9cfe52382d62fef2f04debc27cb4b3#egg=eol_gradeforum_xblock
--e git+https://github.com/eol-uchile/eol-course-program-xblock@3b512fa1aecc6387a37c8cd9f5528b49e2ade91d#egg=eolcourseprogram-xblock
+-e git+https://github.com/eol-uchile/eol-course-program-xblock@74fa126ee8bb00b38f9e43fec4121b9a8ad47c1c#egg=eolcourseprogram-xblock
 fluent-logger==0.9.6
 python-json-logger==0.1.11
 django-debug-toolbar==2.2
