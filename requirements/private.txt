@@ -35,5 +35,5 @@
 fluent-logger==0.9.6
 python-json-logger==0.1.11
 django-debug-toolbar==2.2
-setuptools==49.6.0
+setuptools==51.1.1
 django-redis==4.9.0
