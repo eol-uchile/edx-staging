@@ -34,7 +34,7 @@
 -e git+https://github.com/eol-uchile/corfo_generate_code@17ac37da627770425d039de22e5e71ac41cb04aa#egg=corfo_generate_code
 -e git+https://github.com/eol-uchile/xblock-lti-consumer@a0ba9a234aec1a7555509df92fc2fbe5d5015169#egg=lti-consumer-xblock
 -e git+https://github.com/eol-uchile/eol_progress_tab@f3b59f113a2acf9f28e1b080d01db67155172368#egg=eol_progress_tab
--e git+https://github.com/eol-uchile/eol_xblock_completion@74eaef2dd2932aa173614ec9e20abb4d1eba863a#egg=eol_xblock_completion
+-e git+https://github.com/eol-uchile/eol_xblock_completion@598d8039c029fc591d2b1083e1624eb9b2fb0d65#egg=eol_xblock_completion
 -e git+https://github.com/eol-uchile/super-csv.git@95e78c8e9f0a8713491c477ab5ac34341c65143b#egg=super_csv
 
 fluent-logger==0.9.6
