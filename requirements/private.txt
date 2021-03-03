@@ -31,7 +31,7 @@
 -e git+https://github.com/eol-uchile/eol_course_email@0d4208e490502380222103ead7140892b7e6b127#egg=eol_course_email
 -e git+https://github.com/eol-uchile/eol_gradeforum_xblock@c2a42b3346889ad0cbaa7c96e868b0f6ab059c62#egg=eol_gradeforum_xblock
 -e git+https://github.com/eol-uchile/eol-course-program-xblock@452b62a63424cd3fbde4852a2aeadaf70371c1b7#egg=eolcourseprogram-xblock
--e git+https://github.com/eol-uchile/corfo_generate_code@a3fbdf5f8bd96dd85f76ed25842e233c52e32a27#egg=corfo_generate_code
+-e git+https://github.com/eol-uchile/corfo_generate_code@6b749bd52cf988d24241a44a06b5a7dc5ebc039d#egg=corfo_generate_code
 -e git+https://github.com/eol-uchile/xblock-lti-consumer@7dcc02c03329f0809b6ddee9d94cde71d1bab185#egg=lti-consumer-xblock
 -e git+https://github.com/eol-uchile/eol_progress_tab@f3b59f113a2acf9f28e1b080d01db67155172368#egg=eol_progress_tab
 -e git+https://github.com/eol-uchile/eol_xblock_completion@32db71ccea7ad85e1410e6d16b7570f4cae7f88a#egg=eol_xblock_completion
