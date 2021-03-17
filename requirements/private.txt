@@ -36,6 +36,7 @@
 -e git+https://github.com/eol-uchile/eol_progress_tab@f3b59f113a2acf9f28e1b080d01db67155172368#egg=eol_progress_tab
 -e git+https://github.com/eol-uchile/eol_xblock_completion@32db71ccea7ad85e1410e6d16b7570f4cae7f88a#egg=eol_xblock_completion
 -e git+https://github.com/eol-uchile/super-csv.git@95e78c8e9f0a8713491c477ab5ac34341c65143b#egg=super_csv
+-e git+https://github.com/eol-uchile/eol_grade_ucursos@85005bce34de14bc0752c225458419127041f63b#egg=eol_grade_ucursos
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
