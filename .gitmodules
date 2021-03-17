@@ -1,12 +1,6 @@
-[submodule "themes/eol-uchile-theme"]
-	path = themes/eol-uchile
-	url = https://github.com/eol-uchile/eol-uchile-theme
 [submodule "themes/cmm-openedx"]
 	path = themes/cmm-openedx
 	url = https://github.com/eol-uchile/cmm-openedx
-[submodule "themes/edx-ucursos-theme"]
-	path = themes/edx-ucursos-theme
-	url = https://github.com/eol-uchile/edx-ucursos-theme
 [submodule "themes/eol-uchile-2020"]
 	path = themes/eol-uchile-2020
 	url = https://github.com/eol-uchile/eol-uchile-theme-2020
@@ -16,6 +10,3 @@
 [submodule "themes/edx-uabierta"]
 	path = themes/edx-uabierta
 	url = https://github.com/eol-uchile/uabierta-theme
-[submodule "themes/eduabierta"]
-	path = themes/eduabierta
-	url = https://github.com/eol-uchile/eduabierta_theme
