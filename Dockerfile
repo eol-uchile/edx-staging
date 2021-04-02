@@ -18,6 +18,6 @@ RUN openedx-assets themes \
     && python manage.py cms --settings=prod.assets compilejsi18n \
     && openedx-assets collect --settings=prod.assets
 
-FROM rclone/rclone:1.53 as s3
+FROM rclone/rclone:1.55.0 as s3
 
 COPY --from=base /openedx/staticfiles /data
