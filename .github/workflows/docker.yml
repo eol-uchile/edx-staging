@@ -17,18 +17,19 @@ jobs:
         run: git submodule update --init --recursive
 
       - name: Build Open edX
-        run: docker build . --file ./Dockerfile --tag eoluchile/edx-staging:${GITHUB_SHA} --tag eoluchile/edx-staging:koa --target base
+        run: docker build . --file ./Dockerfile --tag ghcr.io/eol-uchile/edx-staging:${GITHUB_SHA} --tag ghcr.io/eol-uchile/edx-staging:koa --target base
 
       - name: Build Static files for OpenedX S3
-        run: docker build . --file ./Dockerfile --tag eoluchile/edx-staging:s3-static-${GITHUB_SHA} --tag eoluchile/edx-staging:s3-static-koa --target s3
+        run: docker build . --file ./Dockerfile --tag ghcr.io/eol-uchile/edx-staging:s3-static-${GITHUB_SHA} --tag ghcr.io/eol-uchile/edx-staging:s3-static-koa --target s3
 
       - name: Push
         run: |
           echo "${DOCKERHUB_PASSWORD}" | docker login --username ${DOCKERHUB_USER} --password-stdin
-          docker push eoluchile/edx-staging:${GITHUB_SHA}
-          docker push eoluchile/edx-staging:koa
-          docker push eoluchile/edx-staging:s3-static-${GITHUB_SHA}
-          docker push eoluchile/edx-staging:s3-static-koa
+          echo "${CR_PAT}" | docker login ghcr.io -u eolito --password-stdin
+          docker push ghcr.io/eol-uchile/edx-staging:${GITHUB_SHA}
+          docker push ghcr.io/eol-uchile/edx-staging:koa
+          docker push ghcr.io/eol-uchile/edx-staging:s3-static-${GITHUB_SHA}
+          docker push ghcr.io/eol-uchile/edx-staging:s3-static-koa
         env:
           DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USER }}
           DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
