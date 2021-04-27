@@ -1,7 +1,7 @@
 -e git+https://github.com/eol-uchile/edx-sga@9ef5ab55c3947c70f41db5610931293d801d873f#egg=edx-sga
 -e git+https://github.com/eol-uchile/edx-ora2.git@eecb3037e04ea8d0c4f92f0ccfaae5d822056974#egg=ora2
 -e git+https://github.com/eol-uchile/eol-container-xblock.git@4a0072a06aa7e46416133166530eb669756db25d#egg=eolcontainer-xblock
--e git+https://github.com/eol-uchile/eol-conditional-xblock.git@60c22a1212f6e1ae6cd75d200feae567ae1dd296#egg=eolconditional-xblock
+-e git+https://github.com/eol-uchile/eol-conditional-xblock.git@c635d622920c6b814a46bdfb7d6876524a012aa9#egg=eolconditional-xblock
 -e git+https://github.com/eol-uchile/eol-question-xblock.git@f487b67b15f26c3f05b93e7c9e20ef5f5bc6cc55#egg=eolquestion-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-xblock.git@0f1e0ec8bada9ac3735364aa06a483fb7ec7ae1c#egg=eoldialogs-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-question-xblock@f7039905bdb01543260b4b7c58cd64b6b3d944f7#egg=dialogsquestionsxblock-xblock
