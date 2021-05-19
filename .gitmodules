@@ -10,3 +10,6 @@
 [submodule "themes/edx-uabierta"]
 	path = themes/edx-uabierta
 	url = https://github.com/eol-uchile/uabierta-theme
+[submodule "themes/virtual-labx"]
+	path = themes/virtual-labx
+	url = git@github.com:eol-uchile/virtual-labx-theme.git
