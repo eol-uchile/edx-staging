@@ -17,18 +17,18 @@ jobs:
         run: git submodule update --init --recursive
 
       - name: Build Open edX
-        run: docker build . --file ./Dockerfile --tag eoluchile/edx-staging:${GITHUB_SHA} --tag eoluchile/edx-staging:koa --target base
+        run: docker build . --file ./Dockerfile --tag eoluchile/edx-staging:${GITHUB_SHA} --tag eoluchile/edx-staging:lilac --target base
 
       - name: Build Static files for OpenedX S3
-        run: docker build . --file ./Dockerfile --tag eoluchile/edx-staging:s3-static-${GITHUB_SHA} --tag eoluchile/edx-staging:s3-static-koa --target s3
+        run: docker build . --file ./Dockerfile --tag eoluchile/edx-staging:s3-static-${GITHUB_SHA} --tag eoluchile/edx-staging:s3-static-lilac --target s3
 
       - name: Push
         run: |
           echo "${DOCKERHUB_PASSWORD}" | docker login --username ${DOCKERHUB_USER} --password-stdin
           docker push eoluchile/edx-staging:${GITHUB_SHA}
-          docker push eoluchile/edx-staging:koa
+          docker push eoluchile/edx-staging:lilac
           docker push eoluchile/edx-staging:s3-static-${GITHUB_SHA}
-          docker push eoluchile/edx-staging:s3-static-koa
+          docker push eoluchile/edx-staging:s3-static-lilac
         env:
           DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USER }}
           DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
