@@ -1,4 +1,4 @@
--e git+https://github.com/eol-uchile/edx-sga@9ef5ab55c3947c70f41db5610931293d801d873f#egg=edx-sga
+-e git+https://github.com/eol-uchile/edx-sga@7b52248d8421296a50a66c28026344e9060c3bea#egg=edx-sga
 -e git+https://github.com/eol-uchile/edx-ora2.git@92c88386f1724df4f30a1821be7fe6bcad1bb565#egg=ora2
 -e git+https://github.com/eol-uchile/eol-container-xblock.git@4a0072a06aa7e46416133166530eb669756db25d#egg=eolcontainer-xblock
 -e git+https://github.com/eol-uchile/eol-conditional-xblock.git@c974f3e06f801a12428e3ee7f5401974f01c397d#egg=eolconditional-xblock
@@ -7,7 +7,7 @@
 -e git+https://github.com/eol-uchile/eol-dialogs-question-xblock@f7039905bdb01543260b4b7c58cd64b6b3d944f7#egg=dialogsquestionsxblock-xblock
 -e git+https://github.com/eol-uchile/eol-vof-xblock.git@01cb35b69187e619dc02ab83b7677b63e605348e#egg=vof-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@11aea38025fe2fa53446c0b864bba890dddc2af6#egg=eolpersistenttab-xblock
--e git+https://github.com/eol-uchile/eol_feedback@8fb78e4a9acfe2d1d3e48c296721029ec9b7cdf1#egg=eol_feedback
+-e git+https://github.com/eol-uchile/eol_feedback@aaf683ea5a44d93cc0f56a8b3616c13a24d93fc5#egg=eol_feedback
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@1c9c948e7d70377cb754a294ff282eec18cf9aa0#egg=eolzoom-xblock
 -e git+https://github.com/eol-uchile/eol_contact_form@c59e764eee1c8bcae8fb25011a78b2353d14aa63#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/sence-xblock@5371a282b1f189c3334920493928df38f28e50fa#egg=sence-xblock
@@ -20,7 +20,7 @@
 -e git+https://github.com/eol-uchile/edx-ucursos@2b0b839438f08f25014e6b70b15aa92aa36dd8e7#egg=edx-ucursos
 -e git+https://github.com/eol-uchile/edx-userdata@4268e0479f5f3b235986cc1d2a42f0e9631e343e#egg=edx-userdata
 -e git+https://github.com/eol-uchile/eol_completion@72c64c7702286fa35c598a857b1777c49f9b326a#egg=eol_completion
--e git+https://github.com/eol-uchile/eol_list_grade@2e80157f2e26d73e00ac5ada5b54446c19634647#egg=eol_list_grade
+-e git+https://github.com/eol-uchile/eol_list_grade@889ff3e5954917c77cacd38f0e14ef459e8bd86e#egg=eol_list_grade
 -e git+https://github.com/eol-uchile/xblock-in-video-quiz@1555dcbd96341f19b76f915f0135f46192869796#egg=xblock_in_video_quiz
 -e git+https://github.com/eol-uchile/edx-newsletters@060f8d8e1c6a2b5fffc08d3db0c6d982cfc391e9#egg=edx-newsletters
 # -e git+https://github.com/eol-uchile/trueorfalse-xblock@5aa49096e2d1b356352ec6290e529af6e636bb16#egg=trueorfalse-xblock
