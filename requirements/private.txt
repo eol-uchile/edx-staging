@@ -39,7 +39,7 @@
 -e git+https://github.com/eol-uchile/pdfXBlock@9bc7e8ca54d2bbe492a4ffd544a8ff1d1178e903#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/eol_vimeo@25b238aa4cf8f65b74944ad03a1f2803d7014d8d#egg=eol_vimeo
 
-fluent-logger==0.9.6
+fluent-logger==0.10.0
 python-json-logger==0.1.11
 django-debug-toolbar==2.2
 setuptools==49.6.0
