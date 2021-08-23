@@ -39,10 +39,10 @@
 -e git+https://github.com/eol-uchile/pdfXBlock@9bc7e8ca54d2bbe492a4ffd544a8ff1d1178e903#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/eol_vimeo@91fc90705a0c89a32d2a354dad5bab11506be5af#egg=eol_vimeo
 -e git+https://github.com/eol-uchile/eol_report_certificate@a5fdc08eac85e5bd2f12abc98de7d3d62b4e874e#egg=eol_report_certificate
--e git+https://github.com/eol-uchile/smowlcamera@206f87f328cf57fc42b2c6d53e047a611be4aee2#egg=smowlcamera
--e git+https://github.com/eol-uchile/smowlreg@0d0792a5cf962068c7ace03e082e6d29ce6fa081#egg=smowlreg
--e git+https://github.com/eol-uchile/smowlresults@cff4052110d5596770068923319d9ce19cce20bb#egg=smowlresults
--e git+https://github.com/eol-uchile/smowlcheckreg@058d027cc53f439becd0757870c6c6fdfc176a1f#egg=smowlcheckreg
+-e git+https://github.com/eol-uchile/smowlcamera@238b751a81db28c4c89a7fe6d839d7cd58ac78bf#egg=smowlcamera
+-e git+https://github.com/eol-uchile/smowlreg@6eea0fce7bc6640236a25c8992c535dc0a65182c#egg=smowlreg
+-e git+https://github.com/eol-uchile/smowlresults@3af1e2134cb67790ec5a1fd690f85351b4f4e727#egg=smowlresults
+-e git+https://github.com/eol-uchile/smowlcheckreg@2c82a5a9eddaafbb9b9394be6a8509c41290d6b1#egg=smowlcheckreg
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
