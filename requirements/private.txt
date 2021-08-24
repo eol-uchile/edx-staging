@@ -41,7 +41,7 @@
 -e git+https://github.com/eol-uchile/eol_report_certificate@a5fdc08eac85e5bd2f12abc98de7d3d62b4e874e#egg=eol_report_certificate
 -e git+https://github.com/eol-uchile/smowlcamera@70c2d694d2fbcdf586ef23e88a0aa6213f5c0bb3#egg=smowlcamera
 -e git+https://github.com/eol-uchile/smowlreg@6eea0fce7bc6640236a25c8992c535dc0a65182c#egg=smowlreg
--e git+https://github.com/eol-uchile/smowlresults@e18204a0df5c71ea497885da096287f295092260#egg=smowlresults
+-e git+https://github.com/eol-uchile/smowlresults@57eb1d618eae1cf3f734845e3f966a6ceaddecee#egg=smowlresults
 -e git+https://github.com/eol-uchile/smowlcheckreg@bc36e6634fa89059323aa29e301d4289f58287ab#egg=smowlcheckreg
 
 fluent-logger==0.9.6
