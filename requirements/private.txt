@@ -24,7 +24,7 @@
 -e git+https://github.com/eol-uchile/xblock-in-video-quiz@1555dcbd96341f19b76f915f0135f46192869796#egg=xblock_in_video_quiz
 -e git+https://github.com/eol-uchile/edx-newsletters@060f8d8e1c6a2b5fffc08d3db0c6d982cfc391e9#egg=edx-newsletters
 # -e git+https://github.com/eol-uchile/trueorfalse-xblock@5aa49096e2d1b356352ec6290e529af6e636bb16#egg=trueorfalse-xblock
--e git+https://github.com/eol-uchile/eol_duplicate_xblock@ed923fcef757d16805118f2f8157626fb811b3ec#egg=eol_duplicate_xblock
+-e git+https://github.com/eol-uchile/eol_duplicate_xblock@bdd3f406521cb028c142eb29e6c3c9c6433bba49#egg=eol_duplicate_xblock
 -e git+https://github.com/eol-uchile/eol_jump_to@bdbb1fca8ae0e0e7e8d6c38641975942ea9f154e#egg=eol_jump_to
 -e git+https://github.com/eol-uchile/edx-proctoring@a928e8a15aaad5bfa7a2fa34005a95b6e36eb713#egg=edx-proctoring
 -e git+https://github.com/eol-uchile/eol_course_email@33cb39a4eee6f3126efb3a1d5b64b3ad798e8c60#egg=eol_course_email
@@ -39,7 +39,7 @@
 -e git+https://github.com/eol-uchile/pdfXBlock@9bc7e8ca54d2bbe492a4ffd544a8ff1d1178e903#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/eol_vimeo@91fc90705a0c89a32d2a354dad5bab11506be5af#egg=eol_vimeo
 -e git+https://github.com/eol-uchile/eol_report_certificate@a5fdc08eac85e5bd2f12abc98de7d3d62b4e874e#egg=eol_report_certificate
--e git+https://github.com/eol-uchile/smowlcamera@70c2d694d2fbcdf586ef23e88a0aa6213f5c0bb3#egg=smowlcamera
+-e git+https://github.com/eol-uchile/smowlcamera@45728bb48a459e1685ae8abfcc22ea70ddc0aa50#egg=smowlcamera
 -e git+https://github.com/eol-uchile/smowlreg@6eea0fce7bc6640236a25c8992c535dc0a65182c#egg=smowlreg
 -e git+https://github.com/eol-uchile/smowlresults@57eb1d618eae1cf3f734845e3f966a6ceaddecee#egg=smowlresults
 -e git+https://github.com/eol-uchile/smowlcheckreg@bc36e6634fa89059323aa29e301d4289f58287ab#egg=smowlcheckreg
