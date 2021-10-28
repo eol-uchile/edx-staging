@@ -12,7 +12,7 @@
 -e git+https://github.com/eol-uchile/eol_contact_form@c59e764eee1c8bcae8fb25011a78b2353d14aa63#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/sence-xblock@5371a282b1f189c3334920493928df38f28e50fa#egg=sence-xblock
 -e git+https://github.com/eol-uchile/ubcpi@ae4bac403c89fd6c6525cedb7171a66e3aefca4c#egg=ubcpi
--e git+https://github.com/eol-uchile/edx_xblock_scorm@a7aad05381191f5e3385075abd22f3ab394f5c2d#egg=scormxblock
+-e git+https://github.com/eol-uchile/edx_xblock_scorm@88bc715620034ced28675ee0b7f0cb65aae89576#egg=scormxblock
 -e git+https://github.com/eol-uchile/xblock-drag-and-drop-v2@58d8a691cf9210220925f3d2957b39a377f6704c#egg=xblock-drag-and-drop-v2
 # -e git+https://github.com/eol-uchile/eol_timify_xblock@1c9ee9353f2ceb1d70e1166955108a0f872192f2#egg=eol_timify_xblock
 -e git+https://github.com/eol-uchile/uchileedxlogin@5f3183cd768c6f60a24adda2ab898ef7b5710d63#egg=uchileedxlogin
@@ -39,10 +39,6 @@
 -e git+https://github.com/eol-uchile/pdfXBlock@9bc7e8ca54d2bbe492a4ffd544a8ff1d1178e903#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/eol_vimeo@d4bca91962b3c4b02de93fa49ebb7d2a1c5d0926#egg=eol_vimeo
 -e git+https://github.com/eol-uchile/eol_report_certificate@a5fdc08eac85e5bd2f12abc98de7d3d62b4e874e#egg=eol_report_certificate
--e git+https://github.com/eol-uchile/smowlcamera@45728bb48a459e1685ae8abfcc22ea70ddc0aa50#egg=smowlcamera
--e git+https://github.com/eol-uchile/smowlreg@6eea0fce7bc6640236a25c8992c535dc0a65182c#egg=smowlreg
--e git+https://github.com/eol-uchile/smowlresults@57eb1d618eae1cf3f734845e3f966a6ceaddecee#egg=smowlresults
--e git+https://github.com/eol-uchile/smowlcheckreg@bc36e6634fa89059323aa29e301d4289f58287ab#egg=smowlcheckreg
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
