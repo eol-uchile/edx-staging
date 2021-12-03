@@ -40,7 +40,7 @@
 -e git+https://github.com/eol-uchile/eol_vimeo@d4bca91962b3c4b02de93fa49ebb7d2a1c5d0926#egg=eol_vimeo
 -e git+https://github.com/eol-uchile/eol_report_certificate@a5fdc08eac85e5bd2f12abc98de7d3d62b4e874e#egg=eol_report_certificate
 -e git+https://github.com/eol-uchile/flow-control-xblock@4e275efba4e37d9371a27df4997c692c0b40d281#egg=flow-control-xblock
--e git+https://github.com/eol-uchile/eol_img_annotation@c0984d607b50aab562908de3f0d3e8da6e861f91#egg=eol_img_annotation
+-e git+https://github.com/eol-uchile/eol_img_annotation@679e29ec28d6c2df26da598f77d70868582ff8be#egg=eol_img_annotation
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
