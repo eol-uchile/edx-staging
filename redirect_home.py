@@ -315,3 +315,4 @@ def footer(request):
 
     else:
         return HttpResponse(status=406)
+#
