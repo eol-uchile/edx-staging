@@ -10,8 +10,6 @@ RUN touch /openedx/requirements/private.txt \
 # Copy themes
 COPY ./themes/ /openedx/themes/
 
-COPY redirect_home.py /openedx/edx-platform/lms/djangoapps/branding/views.py
-
 # Build static assets
 RUN openedx-assets themes \
     # Rebuild translations
