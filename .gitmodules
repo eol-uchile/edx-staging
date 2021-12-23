@@ -13,3 +13,6 @@
 [submodule "themes/virtual-labx"]
 	path = themes/virtual-labx
 	url = https://github.com/eol-uchile/virtual-labx-theme
+[submodule "themes/norteamericano-theme"]
+	path = themes/norteamericano-theme
+	url = https://github.com/eol-virtuallabx/norteamericano-theme.git
