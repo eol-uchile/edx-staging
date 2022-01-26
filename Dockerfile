@@ -1,4 +1,4 @@
-FROM ghcr.io/eol-uchile/edx-platform:83e9529ac1ff0627af3d6fd73b846016a2f8e2e0 as base
+FROM ghcr.io/eol-uchile/edx-platform:83e9529ac1ff0627af3d6fd73b846016a2f8e2e0  as base
 # Install private requirements: this is useful for installing custom xblocks.
 # In particular, to install xblocks from a private repository, clone the
 # repositories to ./requirements on the host and add `-e ./myxblock/` to
