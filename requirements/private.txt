@@ -42,6 +42,8 @@
 -e git+https://github.com/eol-uchile/flow-control-xblock@4e275efba4e37d9371a27df4997c692c0b40d281#egg=flow-control-xblock
 -e git+https://github.com/eol-uchile/eol_img_annotation@6af8b78deecc33e60be2f9549496895fd509da69#egg=eol_img_annotation
 -e git+https://github.com/eol-uchile/payment_link_xblock@915d289364fa4e60d8ec7dfae7aeb8c08f8711d3#egg=payment_link_xblock
+-e git+https://github.com/eol-virtuallabx/norteamericano_custom_form@9836aefe7a470e6e96e91076914ee660e4a7c1a7#egg=norteamericano_custom_form
+-e git+https://github.com/eol-virtuallabx/norteamericano-api@ea1bb3c1136669a1f6f83991b5279164cfa7b0eb#egg=norteamericano-api
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
