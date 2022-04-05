@@ -43,7 +43,7 @@
 -e git+https://github.com/eol-uchile/eol_img_annotation@6af8b78deecc33e60be2f9549496895fd509da69#egg=eol_img_annotation
 -e git+https://github.com/eol-uchile/payment_link_xblock@915d289364fa4e60d8ec7dfae7aeb8c08f8711d3#egg=payment_link_xblock
 -e git+https://github.com/eol-virtuallabx/norteamericano_custom_form@cd360ec9903b4833d5d4572ff29cda7b36ff6c5b#egg=norteamericano_custom_form
--e git+https://github.com/eol-virtuallabx/norteamericano-api@96c262eaa3f52fa5dd411668f145552852a4a6e4#egg=norteamericano-api
+-e git+https://github.com/eol-virtuallabx/norteamericano-api@5a19a734b26b3a0c076bfa213d7292c683445c7c#egg=norteamericano-api
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
