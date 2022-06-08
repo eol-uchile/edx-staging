@@ -45,7 +45,7 @@
 -e git+https://github.com/eol-virtuallabx/norteamericano_custom_form@cd360ec9903b4833d5d4572ff29cda7b36ff6c5b#egg=norteamericano_custom_form
 -e git+https://github.com/eol-virtuallabx/norteamericano-api@a139b473d44184bb7cdd439046119d40ac4ed46e#egg=norteamericano-api
 -e git+https://github.com/eol-uchile/portal_api@6a37c0d1883c25330fda7e793eaa2f5308998c22#egg=portal_api
--e git+https://github.com/eol-uchile/CMM-API@6b3a6a61724d2dd7ccb3bc0ab559c0b3ee43643c#egg=CMM-API
+-e git+https://github.com/eol-uchile/CMM-API@9a29a992bb201f2cc07dd0cf3b7e36dc03eb591a#egg=CMM-API
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
