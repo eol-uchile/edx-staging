@@ -47,6 +47,7 @@
 -e git+https://github.com/eol-uchile/portal_api@6a37c0d1883c25330fda7e793eaa2f5308998c22#egg=portal_api
 -e git+https://github.com/eol-uchile/CMM-API@03c52a7087341288f01aa3fe130c6d3f0e34cade#egg=CMM-API
 -e git+https://github.com/eol-uchile/eol_welcome_mail@6c5195dbcbdcb9bfc8e619fd221ac5b806194287#egg=welcome_mail
+-e git+https://github.com/eol-uchile/problem-builder@97ce5aa38ec9dd284a58298f4e3195db057000cb#egg=problem-builder
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
