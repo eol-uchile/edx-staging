@@ -48,7 +48,7 @@
 -e git+https://github.com/eol-uchile/CMM-API@03c52a7087341288f01aa3fe130c6d3f0e34cade#egg=CMM-API
 -e git+https://github.com/eol-uchile/eol_welcome_mail@6c5195dbcbdcb9bfc8e619fd221ac5b806194287#egg=welcome_mail
 -e git+https://github.com/eol-uchile/problem-builder@97ce5aa38ec9dd284a58298f4e3195db057000cb#egg=problem-builder
--e git+https://github.com/eol-uchile/xblock-filestorage@bc77d294f34679898ae75ac77c1c180b3c390709#egg=xblock-filestorage
+-e git+https://github.com/eol-uchile/proctoring_hide_xblock@8e84b697d38d29e0f89fbcd5cb08452c601a50aa#egg=proctoring_hide_xblock
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
