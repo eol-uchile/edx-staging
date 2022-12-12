@@ -22,3 +22,6 @@
 [submodule "themes/virtual-labx-theme"]
 	path = themes/virtual-labx-theme
 	url = https://github.com/eol-uchile/virtual-labx-theme.git
+[submodule "themes/redfid-theme"]
+	path = themes/redfid-theme
+	url = https://github.com/eol-uchile/redfid-theme.git
