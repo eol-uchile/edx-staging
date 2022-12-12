@@ -50,7 +50,7 @@
 -e git+https://github.com/eol-uchile/problem-builder@97ce5aa38ec9dd284a58298f4e3195db057000cb#egg=problem-builder
 -e git+https://github.com/eol-uchile/proctoring_hide_xblock@5b3d9eae526b795cb1cb23ea717398ec35bc988f#egg=proctoring_hide_xblock
 -e git+https://github.com/eol-uchile/eol_auto_login@d3321e51339af81cab51c01eae66139a3bd23417#egg=eol_auto_login
--e git+https://github.com/eol-uchile/eol_xblock_discussion@5d3d15a5703fb7b824f6f71dd442ad786ed74521#egg=eoldiscussion
+-e git+https://github.com/eol-uchile/eol_xblock_discussion@711d3d0d98be2005d53d6ed7f61dd7d45c1a27ab#egg=eoldiscussion
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
