@@ -8,7 +8,7 @@
 -e git+https://github.com/eol-uchile/eol-vof-xblock.git@d41b92d399d3448ea3765f5fa149e5454d759ca1#egg=vof-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@a40f7ac0e5687dac685debd801cb1598d354f87c#egg=eolpersistenttab-xblock
 -e git+https://github.com/eol-uchile/eol_feedback@d293244b53bb50951c9d37106a342bc106c119a5#egg=eol_feedback
--e git+https://github.com/eol-uchile/eol-zoom-xblock@277643d1146f9e5131d2bb055f22cfe66ec6a73f#egg=eolzoom-xblock
+-e git+https://github.com/eol-uchile/eol-zoom-xblock@52cfe736d9ba951345a9d41fc587ec8fdbdb3b9b#egg=eolzoom-xblock
 -e git+https://github.com/eol-uchile/eol_contact_form@c59e764eee1c8bcae8fb25011a78b2353d14aa63#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/sence-xblock@5371a282b1f189c3334920493928df38f28e50fa#egg=sence-xblock
 -e git+https://github.com/eol-uchile/ubcpi@ae4bac403c89fd6c6525cedb7171a66e3aefca4c#egg=ubcpi
