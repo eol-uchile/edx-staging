@@ -51,7 +51,7 @@
 -e git+https://github.com/eol-uchile/proctoring_hide_xblock@5b3d9eae526b795cb1cb23ea717398ec35bc988f#egg=proctoring_hide_xblock
 -e git+https://github.com/eol-uchile/eol_auto_login@d3321e51339af81cab51c01eae66139a3bd23417#egg=eol_auto_login
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@9f817d788b5e75df7a57468018caccdbaa3523cb#egg=eoldiscussion
--e git+https://github.com/eol-uchile/eol_forum_notifications@dda8f3dbd9c614f7db5e94dbac36f4cf967b58e7#egg=eol_forum_notifications
+-e git+https://github.com/eol-uchile/eol_forum_notifications@9d70f5b03376c1bd16e2cc8a79bac77a19d0d350#egg=eol_forum_notifications
 -e git+https://github.com/eol-uchile/eol_report_analytics@970e8dc1a74c91778f259e94b1728bf50cf39ea9#egg=eol_report_analytics
 
 fluent-logger==0.9.6
