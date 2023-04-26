@@ -1,5 +1,5 @@
 -e git+https://github.com/eol-uchile/edx-sga@12948a546025eddf570eee59820b0356d42f6620#egg=edx-sga
--e git+https://github.com/eol-uchile/edx-ora2.git@c36c8a0a8443b972db8177a4c76cfe5c48b0cc06#egg=ora2
+-e git+https://github.com/eol-uchile/edx-ora2.git@9d5d38eac0221d8069deb7f013fd8c8588806860#egg=ora2
 -e git+https://github.com/eol-uchile/eol-container-xblock.git@89705d9f2db98300d6d2b146812878c16e023826#egg=eolcontainer-xblock
 -e git+https://github.com/eol-uchile/eol-conditional-xblock.git@725b8eac92418a70b5a5081e953539477f459a60#egg=eolconditional-xblock
 -e git+https://github.com/eol-uchile/eol-question-xblock.git@6ff1219132dd287e25c357c1e333203dc846f19f#egg=eolquestion-xblock
