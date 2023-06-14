@@ -1,11 +1,6 @@
 name: Docker Image CI
 
-on:
-  push:
-    branches:
-      - staging
-      - trying
-      - expiry
+on: [push]
 
 jobs:
   build:
