@@ -54,6 +54,7 @@
 -e git+https://github.com/eol-uchile/eol_forum_notifications@9d70f5b03376c1bd16e2cc8a79bac77a19d0d350#egg=eol_forum_notifications
 -e git+https://github.com/eol-uchile/eol_report_analytics@5430b009e4103f70d933ecbded45e3c4a3fc39bf#egg=eol_report_analytics
 -e git+https://github.com/eol-uchile/xblock-eoc-journal@5f32bfedafec3b44f1ff8efbee513dc687722308#egg=xblock-eoc-journal
+-e git+https://github.com/eol-uchile/edx-search@09bcbc086c22f99cd8d8a40b853fb6cd4d21cb4d#egg=edx-search
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
