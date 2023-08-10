@@ -33,7 +33,7 @@
 -e git+https://github.com/eol-uchile/corfo_generate_code@788111b85fe27b7ec9c194bfbc444b851be0022c#egg=corfo_generate_code
 -e git+https://github.com/eol-uchile/xblock-lti-consumer@b1384343be9ae1a4d6de5760a3a5c1475a3024cf#egg=lti-consumer-xblock
 -e git+https://github.com/eol-uchile/eol_progress_tab@698177942488d4bc3c3b931887e6fef0b94473aa#egg=eol_progress_tab
--e git+https://github.com/eol-uchile/eol_xblock_completion@4828c6d048d93e5f5f25fdb7c76ba850267ebd9a#egg=eol_xblock_completion
+-e git+https://github.com/eol-uchile/eol_xblock_completion@3410eee052604a8c41c37252b4fd3cd854329355#egg=eol_xblock_completion
 -e git+https://github.com/eol-uchile/super-csv.git@7eba102f1ce365131d05ba60967ada7b04a194d1#egg=super_csv
 -e git+https://github.com/eol-uchile/eol_grade_ucursos@d0d850909ddf3fce5c890142fd9d8b635d895096#egg=eol_grade_ucursos
 -e git+https://github.com/eol-uchile/pdfXBlock@aa3aeef784737beaadfeab586c2ab631e5d0a741#egg=pdf-xblock
