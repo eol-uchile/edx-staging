@@ -56,6 +56,7 @@
 -e git+https://github.com/eol-uchile/xblock-eoc-journal@5f32bfedafec3b44f1ff8efbee513dc687722308#egg=xblock-eoc-journal
 -e git+https://github.com/eol-uchile/edx-search@799a6503fc1c8b9ff05821ea88a7bca6f5efdfd3#egg=edx-search
 -e git+https://github.com/eol-uchile/redfid_logout@bb679f20d510d0815bc67a4d403c5555f5b52d62#egg=redfid_logout
+-e git+https://github.com/eol-uchile/generate_certificate_xblock@9fd6d20f69336c826cb69b0a823f44589f16fc50#egg=generate_certificate_xblock
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
