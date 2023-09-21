@@ -57,7 +57,7 @@
 -e git+https://github.com/eol-uchile/edx-search@7612bd5843dfd2f3b6b0305abb58506fb7826559#egg=edx-search
 -e git+https://github.com/eol-uchile/redfid_logout@bb679f20d510d0815bc67a4d403c5555f5b52d62#egg=redfid_logout
 -e git+https://github.com/eol-uchile/generate_certificate_xblock@9fd6d20f69336c826cb69b0a823f44589f16fc50#egg=generate_certificate_xblock
--e git+https://github.com/eol-uchile/course_classification@8647dab39b5793b19bfb6263ce547d15312899d4#egg=course_classification
+-e git+https://github.com/eol-uchile/course_classification@80bb2f094a889540cb872e6a05152953fd212d33#egg=course_classification
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
