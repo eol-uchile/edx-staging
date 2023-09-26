@@ -1,0 +1,16 @@
+name: Webhook Update staging
+
+on:
+  workflow_run:
+    workflows: ["Docker Image CI v2"]
+    types:
+      - completed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger second repository
+        run: |
+          curl -XPOST -u "eolito:${{secrets.WEBHOOK_SECRET}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/eol-uchile/edx-kustomize/dispatches --data '{"event_type": "update-image-staging", "client_payload": {"type": "staging"}}'
