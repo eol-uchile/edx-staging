@@ -7,9 +7,9 @@ on:
       - completed
 
 jobs:
-  build:
+  webhook:
     runs-on: ubuntu-latest
-
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Trigger second repository
         run: |
