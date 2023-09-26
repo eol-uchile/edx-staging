@@ -17,7 +17,7 @@ jobs:
 
       - name: Define release version
         # TODO: parameterize release name
-	run: echo "RELEASE-NAME=koa" >> $GITHUB_ENV
+        run: echo "RELEASE-NAME=koa" >> $GITHUB_ENV
 
       - name: Build Open edX
         run: docker build . --file ./Dockerfile --tag ghcr.io/eol-uchile/edx-staging:${{ env.RELEASE-NAME }} --target base
