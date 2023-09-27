@@ -34,7 +34,7 @@ jobs:
           password: ${{ secrets.CR_PAT }}
 
       - name: Push
-        if: github.ref == format('{0}{1}', 'refs/heads/eol-release/', ${{ env.RELEASE-NAME }})
+        if: github.ref == format('refs/heads/eol-release/{0}', ${{ env.RELEASE-NAME }})
         run: |
           docker push ghcr.io/eol-uchile/edx-staging:${{ env.RELEASE-NAME }}
           docker push ghcr.io/eol-uchile/edx-staging:s3-static-${{ env.RELEASE-NAME }}
