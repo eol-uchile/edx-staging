@@ -23,7 +23,7 @@ jobs:
         # TODO: parameterize release name
         run: echo "RELEASE-NAME=koa" >> $GITHUB_ENV
 
-     - name: Set current date as env variable
+      - name: Set current date as env variable
         run: echo "TS=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
 
       - name: Build Open edX
