@@ -3,7 +3,7 @@ name: Docker Image CI v2
 on:
   push:
     branches:
-      -'eol-release/koa'
+      - 'eol-release/koa'
 
 jobs:
   build:
