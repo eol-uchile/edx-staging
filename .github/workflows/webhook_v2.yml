@@ -2,7 +2,9 @@ name: Webhook Update staging v2
 
 on:
   workflow_run:
-    workflows: ["Docker Image CI v2"]
+    workflows:
+      - 'Docker Image CI v2'
+      - 'Update Image'
     types:
       - completed
 

@@ -1,0 +1,43 @@
+name: Update Image
+
+on:
+  repository_dispatch:
+    types: [update-image]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Select branch
+        run: git checkout eol-release/${{ github.event.client_payload.version }}
+
+      - name: Pull submodules
+        run: git submodule update --init --recursive
+
+     - name: Set current date as env variable
+        run: echo "TS=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
+
+      - name: Build Open edX
+        run: docker build . --file ./Dockerfile --tag ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.version }} --tag ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.version }}-${{ env.TS }} --target base
+
+      - name: Build Static files for OpenedX S3
+        run: docker build . --file ./Dockerfile --tag ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.version }} --tag ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.version }}-${{ env.TS }} --target s3
+
+      - name: Login to GitHub Container Registry
+        if: github.ref == format('{0}{1}', 'refs/heads/eol-release/', ${{ github.event.client_payload.version }})
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: eolito
+          password: ${{ secrets.CR_PAT }}
+
+      - name: Push
+        if: github.ref == format('refs/heads/eol-release/{0}', ${{ github.event.client_payload.version }})
+        run: |
+          docker push ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.version }}
+          docker push ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.version }}-${{ env.TS }}
+          docker push ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.version }}
+          docker push ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.version }}-${{ env.TS }}
