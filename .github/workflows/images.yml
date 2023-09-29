@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Select branch
-        run: git checkout eol-release/${{ github.event.client_payload.version }}
+        run: git checkout 'eol-release/${{ github.event.client_payload.version }}'
 
       - name: Pull submodules
         run: git submodule update --init --recursive
