@@ -9,10 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Select branch
-        run: git checkout 'eol-release/${{ github.event.client_payload.version }}'
+      - uses: actions/checkout@v4
+        with:
+          ref: 'eol-release/${{ github.event.client_payload.version }}'
 
       - name: Pull submodules
         run: git submodule update --init --recursive
