@@ -10,6 +10,18 @@
 [submodule "themes/edx-uabierta"]
 	path = themes/edx-uabierta
 	url = https://github.com/eol-uchile/uabierta-theme
-[submodule "themes/virtual-labx"]
-	path = themes/virtual-labx
-	url = https://github.com/eol-uchile/virtual-labx-theme
+[submodule "themes/norteamericano-theme"]
+	path = themes/norteamericano-theme
+	url = https://github.com/eol-virtuallabx/norteamericano-theme.git
+[submodule "themes/open-uchile-theme"]
+	path = themes/open-uchile-theme
+	url = https://github.com/open-uchile/open-uchile-theme.git
+[submodule "themes/virtual-labx-cla-theme"]
+	path = themes/virtual-labx-cla-theme
+	url = https://github.com/eol-virtuallabx/virtual-labx-cla-theme.git
+[submodule "themes/virtual-labx-theme"]
+	path = themes/virtual-labx-theme
+	url = https://github.com/eol-uchile/virtual-labx-theme.git
+[submodule "themes/redfid-theme"]
+	path = themes/redfid-theme
+	url = https://github.com/eol-uchile/redfid-theme.git
