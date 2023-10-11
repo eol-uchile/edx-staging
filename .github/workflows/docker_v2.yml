@@ -3,7 +3,9 @@ name: Docker Image CI v2
 on:
   push:
     branches:
-      - 'eol-release/koa'
+      - staging
+      - trying
+      - expiry
     paths:
       - 'Dockerfile'
       - 'requirements/**'
