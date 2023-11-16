@@ -26,8 +26,6 @@
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@c23184c0e22a7847f0b0c917bbe431c2973770fb#egg=scormxblock
 -e git+https://github.com/eol-uchile/sence-xblock@5371a282b1f189c3334920493928df38f28e50fa#egg=sence-xblock
 -e git+https://github.com/eol-uchile/edx-sga@12948a546025eddf570eee59820b0356d42f6620#egg=edx-sga
-# -e git+https://github.com/eol-uchile/eol_timify_xblock@1c9ee9353f2ceb1d70e1166955108a0f872192f2#egg=eol_timify_xblock
-# -e git+https://github.com/eol-uchile/trueorfalse-xblock@5aa49096e2d1b356352ec6290e529af6e636bb16#egg=trueorfalse-xblock
 -e git+https://github.com/eol-uchile/ubcpi@ae4bac403c89fd6c6525cedb7171a66e3aefca4c#egg=ubcpi
 -e git+https://github.com/eol-uchile/eol-vof-xblock.git@d41b92d399d3448ea3765f5fa149e5454d759ca1#egg=vof-xblock
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@52cfe736d9ba951345a9d41fc587ec8fdbdb3b9b#egg=eolzoom-xblock
