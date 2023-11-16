@@ -4,8 +4,18 @@ FROM ghcr.io/eol-uchile/edx-platform:testing-koa as base
 # repositories to ./requirements on the host and add `-e ./myxblock/` to
 # ./requirements/private.txt.
 COPY ./requirements/ /openedx/requirements
-RUN touch /openedx/requirements/private.txt \
-    && pip install --src ../venv/src -r /openedx/requirements/private.txt
+RUN /openedx/requirements/python_packages.txt \
+    && pip install --src ../venv/src -r /openedx/requirements/python_packages.txt
+RUN /openedx/requirements/apps.txt \
+    && pip install --src ../venv/src -r /openedx/requirements/apps.txt
+RUN /openedx/requirements/apis.txt \
+    && pip install --src ../venv/src -r /openedx/requirements/apis.txt
+RUN /openedx/requirements/reports.txt \
+    && pip install --src ../venv/src -r /openedx/requirements/reports.txt
+RUN /openedx/requirements/xblocks.txt \
+    && pip install --src ../venv/src -r /openedx/requirements/xblocks.txt
+RUN /openedx/requirements/tabs_plugins.txt \
+    && pip install --src ../venv/src -r /openedx/requirements/tabs_plugins.txt
 
 # Copy themes
 COPY ./themes/ /openedx/themes/
