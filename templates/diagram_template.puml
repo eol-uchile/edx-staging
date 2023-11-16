@@ -1,0 +1,32 @@
+@startuml
+
+!define C4Container https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include C4Container
+
+skinparam svgLinkTarget foo
+
+System_Boundary(c1, "Docker image: edx-staging", $link="{{data.repository_url}}") {
+    System_Boundary(c2, "requirements", $link="{{data.repository_url}}/blob/{{data.repository_branch}}/requirements/") {
+        {% for requirement in data.requirements %}
+            System_Boundary({{ requirement.basename }}, "{{ requirement.basename }}", $link="{{data.repository_url}}/blob/{{data.repository_branch}}/requirements/{{requirement.basename}}.txt") {
+            {% for package in requirement.packages %}
+                Container({{requirement.basename}}{{loop.index}}, "{{package.name}}", $link="{{package.link}}")
+            {% endfor %}
+            }
+        {% endfor %}
+    }
+
+    System_Boundary(theme, "Themes", $link="{{data.repository_url}}/blob/{{data.repository_branch}}/themes/") {
+        {% for theme in data.themes %}
+            Container(theme{{loop.index}}, "{{theme.name}}", $link="{{theme.link}}")
+        {% endfor %}
+    }
+
+    System_Boundary(dockerfile, "Dockerfile", $link="{{data.repository_url}}/blob/{{data.repository_branch}}/Dockerfile") {
+            Container(dk, "Base Image", $link="{{data.docker_image_url}}")
+    }
+}
+
+SHOW_LEGEND()
+
+@enduml
