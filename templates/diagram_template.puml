@@ -5,7 +5,7 @@
 
 skinparam svgLinkTarget foo
 
-System_Boundary(c1, "Docker image: edx-staging", $link="{{data.repository_url}}") {
+System_Boundary(c1, "edx-platform: edx-staging", $link="{{data.repository_url}}") {
     System_Boundary(c2, "requirements", $link="{{data.repository_url}}/blob/{{data.repository_branch}}/requirements/") {
         {% for requirement in data.requirements %}
             System_Boundary({{ requirement.basename }}, "{{ requirement.basename }}", $link="{{data.repository_url}}/blob/{{data.repository_branch}}/requirements/{{requirement.basename}}.txt") {
@@ -22,8 +22,8 @@ System_Boundary(c1, "Docker image: edx-staging", $link="{{data.repository_url}}"
         {% endfor %}
     }
 
-    System_Boundary(dockerfile, "Dockerfile", $link="{{data.repository_url}}/blob/{{data.repository_branch}}/Dockerfile") {
-            Container(dk, "Base Image", $link="{{data.docker_image_url}}")
+    System_Boundary(dockerfile, "edx-platform base", $link="{{data.repository_url}}/blob/{{data.repository_branch}}/Dockerfile") {
+            Container(dk, "{{data.docker_image_name}}", $link="{{data.docker_image_url}}")
     }
 }
 
