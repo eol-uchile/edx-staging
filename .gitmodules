@@ -25,3 +25,6 @@
 [submodule "themes/redfid-theme"]
 	path = themes/redfid-theme
 	url = https://github.com/eol-uchile/redfid-theme.git
+[submodule "themes/alpha-project-theme"]
+	path = themes/alpha-project-theme
+	url = https://github.com/eol-uchile/alpha-project-theme.git
