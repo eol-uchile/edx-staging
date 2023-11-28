@@ -1,6 +1,6 @@
 -e git+https://github.com/eol-uchile/eol_auto_login@d3321e51339af81cab51c01eae66139a3bd23417#egg=eol_auto_login
 -e git+https://github.com/eol-uchile/eol_contact_form@c59e764eee1c8bcae8fb25011a78b2353d14aa63#egg=eol_contact_form
--e git+https://github.com/eol-uchile/course_classification@80bb2f094a889540cb872e6a05152953fd212d33#egg=course_classification
+-e git+https://github.com/eol-uchile/course_classification@bfcb4cf52d9fb2c7b1572d21b44266d26456d4b8#egg=course_classification
 -e git+https://github.com/eol-virtuallabx/norteamericano_custom_form@cd360ec9903b4833d5d4572ff29cda7b36ff6c5b#egg=norteamericano_custom_form
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@bdd3f406521cb028c142eb29e6c3c9c6433bba49#egg=eol_duplicate_xblock
 -e git+https://github.com/eol-uchile/eol_jump_to@bdbb1fca8ae0e0e7e8d6c38641975942ea9f154e#egg=eol_jump_to
@@ -8,7 +8,7 @@
 -e git+https://github.com/eol-uchile/edx-proctoring@d2130f85d111a3dccdddd234cb421773ef19934e#egg=edx-proctoring
 -e git+https://github.com/eol-uchile/redfid_logout@bb679f20d510d0815bc67a4d403c5555f5b52d62#egg=redfid_logout
 -e git+https://github.com/eol-uchile/edx-search@7612bd5843dfd2f3b6b0305abb58506fb7826559#egg=edx-search
--e git+https://github.com/eol-uchile/eol_sso_login.git@55a696c28a23100098ebda4e2e29a672b19060ca#egg=eol_sso_login
+-e git+https://github.com/eol-uchile/eol_sso_login.git@b4437554654fa7f33be867b151aaa038f2b2ce39#egg=eol_sso_login
 -e git+https://github.com/eol-uchile/super-csv.git@7eba102f1ce365131d05ba60967ada7b04a194d1#egg=super_csv
 -e git+https://github.com/eol-uchile/uchileedxlogin@13c208b7aa583ec7187bafe6263d4bffe5c5a998#egg=uchileedxlogin
 -e git+https://github.com/eol-uchile/edx-ucursos@e75b61cbecf3a91bbfdab468c2712a84ea92bcd8#egg=edx-ucursos
