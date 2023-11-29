@@ -110,15 +110,17 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps10, "edx-search", $link="https://github.com/eol-uchile/edx-search")
             
-                Container(apps11, "super_csv", $link="https://github.com/eol-uchile/super-csv.git")
+                Container(apps11, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login.git")
             
-                Container(apps12, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin")
+                Container(apps12, "super_csv", $link="https://github.com/eol-uchile/super-csv.git")
             
-                Container(apps13, "edx-ucursos", $link="https://github.com/eol-uchile/edx-ucursos")
+                Container(apps13, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin")
             
-                Container(apps14, "edx-userdata", $link="https://github.com/eol-uchile/edx-userdata")
+                Container(apps14, "edx-ucursos", $link="https://github.com/eol-uchile/edx-ucursos")
             
-                Container(apps15, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
+                Container(apps15, "edx-userdata", $link="https://github.com/eol-uchile/edx-userdata")
+            
+                Container(apps16, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
             
             }
         

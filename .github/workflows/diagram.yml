@@ -10,6 +10,15 @@ on:
       - 'diagrams/diagram.puml'
       - 'themes/**'
       - '.gitmodules'
+      - 'gen_deps_diagram.py'
+
+  workflow_call:
+    inputs:
+      username:
+        description: 'A username passed from the caller workflow'
+        default: 'eolito'
+        required: false
+        type: string
 jobs:
   generate_diagram:
     runs-on: ubuntu-latest
@@ -37,8 +46,11 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements_script.txt
+        pip install Jinja2==3.0.3
       shell: bash
+
+    - name: Download script
+      run: wget https://github.com/eol-uchile/edx-staging/raw/markdown-diagram-updates/gen_deps_diagram.py -O gen_deps_diagram.py
 
     - name: Execute script
       run: python3 gen_deps_diagram.py
