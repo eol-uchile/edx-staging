@@ -1,8 +1,0 @@
-pull_request_rules:
-  - name: Continuous integration with Bors-like strategy
-    conditions:
-      - check-success=build
-      - base=master
-    actions:
-      merge:
-        method: merge

@@ -2,12 +2,12 @@ name: generate diagram
 on:
   push:
     branches:
-      - 'markdown-diagram-updates'
+      - 'eol-release/koa'
     paths:
       - 'Dockerfile'
       - 'requirements/**.txt'
       - '.github/workflows/diagram.yml'
-      - 'diagrams/diagram.puml'
+      - 'templates/diagram_template.j2'
       - 'themes/**'
       - '.gitmodules'
       - 'gen_deps_diagram.py'
@@ -19,6 +19,7 @@ on:
         default: 'eolito'
         required: false
         type: string
+
 jobs:
   generate_diagram:
     runs-on: ubuntu-latest
@@ -49,19 +50,22 @@ jobs:
         pip install Jinja2==3.0.3
       shell: bash
 
-    - name: Download script
+    - name: Create templates directory
+      run: test -d templates || mkdir templates
+
+    - name: Download template
+      run: wget https://github.com/eol-uchile/edx-staging/raw/markdown-diagram-updates/templates/diagram_template.j2 -O templates/diagram_template.j2
+
+    - name: Download diagram generator script
       run: wget https://github.com/eol-uchile/edx-staging/raw/markdown-diagram-updates/gen_deps_diagram.py -O gen_deps_diagram.py
 
-    - name: Execute script
+    - name: Generate diagram.puml
       run: python3 gen_deps_diagram.py
 
-    - name: Draw diagrams
+    - name: Draw diagram
       uses: Timmy/plantuml-action@v1
       with:
         args: '-tsvg diagrams/diagram.puml'
-
-    - name: Display diagrams
-      run: cat diagrams/diagram.puml
 
     - name: Configure Git
       run: |
@@ -70,6 +74,11 @@ jobs:
 
     - name: Commit UML Images
       run: |
-        git add diagrams/**
-        git commit -m "Auto-generate UML images"
-        git push origin HEAD:${{ github.ref }}
+        if [[ $(git status --porcelain) ]]; then
+          git add diagrams/**
+          git commit -m "Auto-generate UML images"
+          git push origin HEAD:${{ github.ref }}
+        else
+          echo "No changes to commit."
+        fi
+
