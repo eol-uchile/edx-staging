@@ -10,7 +10,7 @@ System_Boundary(c1, "edx-platform: {{data.repository_name}}", $link="{{data.repo
         {% for requirement in data.requirements %}
             System_Boundary({{ requirement.basename }}, "{{ requirement.basename }}", $link="{{data.repository_url}}/blob/{{data.repository_branch}}/requirements/{{requirement.basename}}.txt") {
             {% for package in requirement.packages %}
-                Container({{requirement.basename}}{{loop.index}}, "{{package.name}}", $link="{{package.link}}")
+                Container({{requirement.basename}}{{loop.index}}, "{{package.name}}"{% if package.link %}, $link="{{package.link}}"{% endif %})
             {% endfor %}
             }
         {% endfor %}

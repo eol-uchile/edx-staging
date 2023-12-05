@@ -1,7 +1,8 @@
-name: generate diagram
+name: Generate Diagram
 on:
   push:
     branches:
+      - 'markdown-diagram-updates'
       - 'eol-release/koa'
     paths:
       - 'Dockerfile'
@@ -12,20 +13,16 @@ on:
       - '.gitmodules'
       - 'gen_deps_diagram.py'
 
+# Required for the workflow to be reused by other repositories.
   workflow_call:
-    inputs:
-      username:
-        description: 'A username passed from the caller workflow'
-        default: 'eolito'
-        required: false
-        type: string
 
 jobs:
   generate_diagram:
     runs-on: ubuntu-latest
-    name: plantuml
+    name: PlantUML Diagram
+
     steps:
-    - name: checkout
+    - name: Checkout
       uses: actions/checkout@v4
       with:
         fetch-depth: 1
@@ -60,12 +57,15 @@ jobs:
       run: wget https://github.com/eol-uchile/edx-staging/raw/markdown-diagram-updates/gen_deps_diagram.py -O gen_deps_diagram.py
 
     - name: Generate diagram.puml
-      run: python3 gen_deps_diagram.py
+      run: python gen_deps_diagram.py
 
     - name: Draw diagram
       uses: Timmy/plantuml-action@v1
       with:
         args: '-tsvg diagrams/diagram.puml'
+
+    - name: Check Git status
+      run: echo GIT_STATUS='$(git status --porcelain)' >> $GITHUB_ENV
 
     - name: Configure Git
       run: |
@@ -73,12 +73,9 @@ jobs:
         git config --global user.email 'eol-uchile@users.noreply.github.com'
 
     - name: Commit UML Images
+      if: ${{ env.GIT_STATUS }}
       run: |
-        if [[ $(git status --porcelain) ]]; then
-          git add diagrams/**
-          git commit -m "Auto-generate UML images"
-          git push origin HEAD:${{ github.ref }}
-        else
-          echo "No changes to commit."
-        fi
+        git add diagrams/**
+        git commit -m "Auto-generate UML diagram"
+        git push origin HEAD:${{ github.ref }}
 
