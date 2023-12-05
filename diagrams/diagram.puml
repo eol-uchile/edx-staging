@@ -132,8 +132,6 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apis3, "portal_api", $link="https://github.com/eol-uchile/portal_api")
             
-                Container(apis4, "eol-test", $link="https://github.com/eol-uchile/eol-test")
-            
             }
         
             System_Boundary(python_packages, "python_packages", $link="https://github.com/eol-uchile/edx-staging/blob/markdown-diagram-updates/requirements/python_packages.txt") {
