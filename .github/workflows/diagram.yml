@@ -65,7 +65,14 @@ jobs:
         args: '-tsvg diagrams/diagram.puml'
 
     - name: Check Git status
-      run: echo GIT_STATUS='$(git status --porcelain)' >> $GITHUB_ENV
+      id: status-getter
+      run: |
+        if [ "$(git status --porcelain)" != "" ]
+        then
+          echo "{GIT_STATUS}={1}" >> "$GITHUB_OUTPUT"
+        else
+          echo "{GIT_STATUS}={0}" >> "$GITHUB_OUTPUT"
+        fi
 
     - name: Configure Git
       run: |
@@ -73,7 +80,7 @@ jobs:
         git config --global user.email 'eol-uchile@users.noreply.github.com'
 
     - name: Commit UML Images
-      if: ${{ env.GIT_STATUS }}
+      if: ${{ steps.status-getter.outputs.GIT_STATUS }}
       run: |
         git add diagrams/**
         git commit -m "Auto-generate UML diagram"
