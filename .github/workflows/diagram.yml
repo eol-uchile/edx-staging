@@ -1,0 +1,81 @@
+name: Generate Diagram
+on:
+  push:
+    branches:
+      - 'markdown-diagram-updates'
+      - 'eol-release/koa'
+    paths:
+      - 'Dockerfile'
+      - 'requirements/**.txt'
+      - '.github/workflows/diagram.yml'
+      - 'templates/diagram_template.j2'
+      - 'themes/**'
+      - '.gitmodules'
+      - 'gen_deps_diagram.py'
+
+# Required for the workflow to be reused by other repositories.
+  workflow_call:
+
+jobs:
+  generate_diagram:
+    runs-on: ubuntu-latest
+    name: PlantUML Diagram
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+        submodules: 'recursive'
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Create virtual environment
+      run: python -m venv venv
+      shell: bash
+
+    - name: Activate virtual environment
+      run: source venv/bin/activate
+      shell: bash
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install Jinja2==3.0.3
+      shell: bash
+
+    - name: Create templates directory
+      run: test -d templates || mkdir templates
+
+    - name: Download template
+      run: wget https://github.com/eol-uchile/edx-staging/raw/markdown-diagram-updates/templates/diagram_template.j2 -O templates/diagram_template.j2
+
+    - name: Download diagram generator script
+      run: wget https://github.com/eol-uchile/edx-staging/raw/markdown-diagram-updates/gen_deps_diagram.py -O gen_deps_diagram.py
+
+    - name: Generate diagram.puml
+      run: python gen_deps_diagram.py
+
+    - name: Draw diagram
+      uses: Timmy/plantuml-action@v1
+      with:
+        args: '-tsvg diagrams/diagram.puml'
+
+    - name: Check Git status
+      run: echo GIT_STATUS='$(git status --porcelain)' >> $GITHUB_ENV
+
+    - name: Configure Git
+      run: |
+        git config --global user.name "eolito"
+        git config --global user.email 'eol-uchile@users.noreply.github.com'
+
+    - name: Commit UML Images
+      if: ${{ env.GIT_STATUS }}
+      run: |
+        git add diagrams/**
+        git commit -m "Auto-generate UML diagram"
+        git push origin HEAD:${{ github.ref }}
+
