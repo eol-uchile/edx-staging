@@ -33,14 +33,6 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Create virtual environment
-      run: python -m venv venv
-      shell: bash
-
-    - name: Activate virtual environment
-      run: source venv/bin/activate
-      shell: bash
-
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -69,9 +61,9 @@ jobs:
       run: |
         if [ "$(git status --porcelain)" != "" ]
         then
-          echo "{GIT_STATUS}={1}" >> "$GITHUB_OUTPUT"
+          echo "GIT_STATUS=1" >> "$GITHUB_OUTPUT"
         else
-          echo "{GIT_STATUS}={0}" >> "$GITHUB_OUTPUT"
+          echo "GIT_STATUS=0" >> "$GITHUB_OUTPUT"
         fi
 
     - name: Configure Git
