@@ -1,4 +1,3 @@
 -e git+https://github.com/eol-uchile/CMM-API@03c52a7087341288f01aa3fe130c6d3f0e34cade#egg=CMM-API
 -e git+https://github.com/eol-virtuallabx/norteamericano-api@a139b473d44184bb7cdd439046119d40ac4ed46e#egg=norteamericano-api
 -e git+https://github.com/eol-uchile/portal_api@fb3603663c33fc09abdb2ab2792e08aca88b5439#egg=portal_api
--e git+https://github.com/eol-uchile/eol-test@fb3603663c33fc09abdb2ab2792e08aca88b5439#egg=eol-test
