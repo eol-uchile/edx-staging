@@ -75,4 +75,4 @@ jobs:
       run: |
         git add diagrams/**
         git commit -m "Auto-generate UML diagram"
-        git push https://eolito:${{ secrets.GITHUB_TOKEN }}git@github.com:eol-uchile/edx-staging.git HEAD:${{ github.ref }}
+        git push https://eolito:${{ secrets.GITHUB_TOKEN }}@github.com/eol-uchile/edx-staging.git HEAD:${{ github.ref }}
