@@ -2,7 +2,6 @@ name: Generate Diagram
 on:
   push:
     branches:
-      - 'markdown-diagram-updates'
       - 'eol-release/koa'
     paths:
       - 'Dockerfile'
@@ -27,7 +26,6 @@ jobs:
       with:
         fetch-depth: 1
         submodules: 'recursive'
-        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -77,5 +75,4 @@ jobs:
       run: |
         git add diagrams/**
         git commit -m "Auto-generate UML diagram"
-        git push origin HEAD:${{ github.ref }}
-
+        git push https://eolito:${{ secrets.GITHUB_TOKEN }}git@github.com:eol-uchile/edx-staging.git HEAD:${{ github.ref }}
