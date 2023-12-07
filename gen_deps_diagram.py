@@ -96,8 +96,11 @@ def extract_info_from_txt(txt_file_path):
     return basename, has_links, None
 
 def process_txt_files(requirements_path, data):
+    # Obtener la lista de archivos en la carpeta '/requirements'
+    txt_files = sorted(os.listdir(requirements_path))
+
     # Procesar cada archivo .txt en la carpeta '/requirements'
-    for txt_file in os.listdir(requirements_path):
+    for txt_file in txt_files:
         if txt_file.endswith(".txt"):
             txt_file_path = os.path.join(requirements_path, txt_file)
             try:
