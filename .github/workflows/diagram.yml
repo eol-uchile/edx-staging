@@ -2,7 +2,6 @@ name: Generate Diagram
 on:
   push:
     branches:
-      - 'markdown-diagram-updates'
       - 'eol-release/koa'
     paths:
       - 'Dockerfile'
@@ -77,4 +76,3 @@ jobs:
         git add diagrams/**
         git commit -m "Auto-generate UML diagram"
         git push origin HEAD:${{ github.ref }}
-
