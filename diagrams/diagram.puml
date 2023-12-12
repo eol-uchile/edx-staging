@@ -164,23 +164,23 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
 
     System_Boundary(theme, "Themes", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/themes/") {
         
-            Container(theme1, "eol-uchile-2020", $link="https://github.com/eol-uchile/eol-uchile-theme-2020")
+            Container(theme1, "alpha-project-theme", $link="https://github.com/eol-uchile/alpha-project-theme.git")
         
-            Container(theme2, "open-uchile-theme", $link="https://github.com/open-uchile/open-uchile-theme.git")
+            Container(theme2, "cmm-openedx", $link="https://github.com/eol-uchile/cmm-openedx")
         
-            Container(theme3, "redfid-theme", $link="https://github.com/eol-uchile/redfid-theme.git")
+            Container(theme3, "eduonline-ing", $link="https://github.com/eol-uchile/eol_eduonline_ing_theme")
         
-            Container(theme4, "alpha-project-theme", $link="https://github.com/eol-uchile/alpha-project-theme.git")
+            Container(theme4, "edx-uabierta", $link="https://github.com/eol-uchile/uabierta-theme")
         
-            Container(theme5, "norteamericano-theme", $link="https://github.com/eol-virtuallabx/norteamericano-theme.git")
+            Container(theme5, "eol-uchile-2020", $link="https://github.com/eol-uchile/eol-uchile-theme-2020")
         
-            Container(theme6, "cmm-openedx", $link="https://github.com/eol-uchile/cmm-openedx")
+            Container(theme6, "norteamericano-theme", $link="https://github.com/eol-virtuallabx/norteamericano-theme.git")
         
-            Container(theme7, "virtual-labx-cla-theme", $link="https://github.com/eol-virtuallabx/virtual-labx-cla-theme.git")
+            Container(theme7, "open-uchile-theme", $link="https://github.com/open-uchile/open-uchile-theme.git")
         
-            Container(theme8, "eduonline-ing", $link="https://github.com/eol-uchile/eol_eduonline_ing_theme")
+            Container(theme8, "redfid-theme", $link="https://github.com/eol-uchile/redfid-theme.git")
         
-            Container(theme9, "edx-uabierta", $link="https://github.com/eol-uchile/uabierta-theme")
+            Container(theme9, "virtual-labx-cla-theme", $link="https://github.com/eol-virtuallabx/virtual-labx-cla-theme.git")
         
             Container(theme10, "virtual-labx-theme", $link="https://github.com/eol-uchile/virtual-labx-theme.git")
         
