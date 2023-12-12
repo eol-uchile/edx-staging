@@ -55,7 +55,10 @@ def get_docker_image_info(data):
         sys.exit(-1)
 
 def process_themes(themes_path, data):
-    for theme in os.listdir(themes_path):
+    # Obtener la lista de temas y ordenarla alfabéticamente
+    themes = sorted(os.listdir(themes_path))
+
+    for theme in themes:
         theme_path = os.getcwd()+'/'+ themes_path+'/'+ theme
         if os.path.isdir(theme_path):
             link = subprocess.check_output(['git', 'remote', 'get-url', 'origin'], cwd=theme_path, universal_newlines=True).strip()
