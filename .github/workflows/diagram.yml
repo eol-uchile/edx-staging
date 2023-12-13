@@ -59,24 +59,18 @@ jobs:
       with:
         args: '-tsvg diagrams/diagram.puml'
 
-    - name: Check Git status
-      id: status-getter
-      run: |
-        if [ "$(git status --porcelain)" != "" ]
-        then
-          echo "GIT_STATUS=1" >> "$GITHUB_OUTPUT"
-        else
-          echo "GIT_STATUS=0" >> "$GITHUB_OUTPUT"
-        fi
-
     - name: Configure Git
       run: |
         git config --global user.name "eolito"
         git config --global user.email 'eol-uchile@users.noreply.github.com'
 
     - name: Commit UML Images
-      if: ${{ steps.status-getter.outputs.GIT_STATUS }}
       run: |
-        git add diagrams/**
-        git commit -m "Auto-generate UML diagram"
-        git push origin HEAD:${{ github.ref }}
+        if [ "$(git status --porcelain)" != "" ]
+        then
+          git add diagrams/**
+          git commit -m "Auto-generate UML diagram"
+          git push origin HEAD:${{ github.ref }}
+        else
+          echo "No changes to commit. Skipping commit step."
+        fi
