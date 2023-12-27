@@ -27,6 +27,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
+        persist-credentials: false
         token: ${{ secrets.SECRET_DIAGRAM }}
         fetch-depth: 1
         submodules: 'recursive'
