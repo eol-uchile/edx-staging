@@ -24,6 +24,10 @@ jobs:
     name: PlantUML Diagram
 
     steps:
+
+    - name: Verify token
+      run: git ls-remote --tags --heads https://$SECRET_DIAGRAM@github.com/${{ github.repository }} HEAD
+
     - name: Checkout
       run: |
         git clone --single-branch --depth 1 https://github.com/${{ github.repository }} .
