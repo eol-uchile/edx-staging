@@ -25,11 +25,11 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.SECRET_DIAGRAM }}
-        fetch-depth: 1
-        submodules: 'recursive'
+      run: |
+        git clone --single-branch --depth 1 https://github.com/${{ github.repository }} .
+        git submodule update --init --recursive
+      env:
+        TOKEN: ${{ secrets.SECRET_DIAGRAM }}
 
     - name: Set up Python
       uses: actions/setup-python@v4
