@@ -46,10 +46,10 @@ jobs:
       run: test -d templates || mkdir templates
 
     - name: Download template
-      run: wget https://github.com/eol-uchile/edx-staging/raw/markdown-diagram-updates/templates/diagram_template.j2 -O templates/diagram_template.j2
+      run: wget https://github.com/eol-uchile/edx-staging/raw/eol-release/koa/templates/diagram_template.j2 -O templates/diagram_template.j2
 
     - name: Download diagram generator script
-      run: wget https://github.com/eol-uchile/edx-staging/raw/markdown-diagram-updates/gen_deps_diagram.py -O gen_deps_diagram.py
+      run: wget https://github.com/eol-uchile/edx-staging/raw/eol-release/koa/gen_deps_diagram.py -O gen_deps_diagram.py
 
     - name: Generate diagram.puml
       run: python gen_deps_diagram.py
