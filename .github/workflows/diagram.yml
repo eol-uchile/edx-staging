@@ -25,15 +25,12 @@ jobs:
 
     steps:
 
-    - name: Verify token
-      run: git ls-remote --tags --heads https://$SECRET_DIAGRAM@github.com/${{ github.repository }} HEAD
-
     - name: Checkout
-      run: |
-        git clone --single-branch --depth 1 https://github.com/${{ github.repository }} .
-        git submodule update --init --recursive
-      env:
-        TOKEN: ${{ secrets.SECRET_DIAGRAM }}
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.SECRET_DIAGRAM }}
+        fetch-depth: 1
+        submodules: 'recursive'
 
     - name: Set up Python
       uses: actions/setup-python@v4
