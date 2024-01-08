@@ -69,7 +69,7 @@ jobs:
 
     - name: Commit UML Images
       run: |
-        if [ "$(git status --porcelain)" != "" ]
+        if [ "$(git status --porcelain diagrams/)" != "" ]
         then
           git add diagrams/**
           git commit -m "Auto-generate UML diagram"
