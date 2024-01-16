@@ -7,7 +7,7 @@
 -e git+https://github.com/eol-uchile/edx-newsletters@060f8d8e1c6a2b5fffc08d3db0c6d982cfc391e9#egg=edxnewsletters
 #-e git+https://github.com/eol-uchile/edx-proctoring@d2130f85d111a3dccdddd234cb421773ef19934e#egg=edx-proctoring
 -e git+https://github.com/eol-uchile/redfid_logout@bb679f20d510d0815bc67a4d403c5555f5b52d62#egg=redfid_logout
--e git+https://github.com/eol-uchile/edx-search@7612bd5843dfd2f3b6b0305abb58506fb7826559#egg=edx-search
+-e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
 -e git+https://github.com/eol-uchile/eol_sso_login.git@9d677bd8c154e228e95d4f5ddee102143e27cf3c#egg=eol_sso_login
 -e git+https://github.com/eol-uchile/super-csv.git@7eba102f1ce365131d05ba60967ada7b04a194d1#egg=super_csv
 -e git+https://github.com/eol-uchile/uchileedxlogin@13c208b7aa583ec7187bafe6263d4bffe5c5a998#egg=uchileedxlogin
