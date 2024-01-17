@@ -14,12 +14,12 @@ on:
 
 # Required for the workflow to be reused by other repositories.
   workflow_call:
-    secrets:
-      SECRET_DIAGRAM:
-        required: false
+#    secrets:
+#      SECRET_DIAGRAM:
+#        required: false
 
-permissions:
-  contents: write
+#permissions:
+#  contents: write
 
 jobs:
   generate_diagram:
@@ -31,6 +31,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
+        token: ${{ secrets.PUSH_EOL }}
         fetch-depth: 1
         submodules: 'recursive'
 
@@ -62,10 +63,11 @@ jobs:
       with:
         args: '-tsvg diagrams/diagram.puml'
 
-    - name: Configure Git
-      run: |
-        git config user.name ${{ github.actor }}
-        git config user.email ${{ github.actor }}@users.noreply.github.com
+#    - name: Configure Git
+#      run: |
+#        git config user.name fsologureng
+#        git config user.email fsologureng@users.noreply.github.com
+#        git remote set-url origin https://fsologureng:${{ secrets.PUSH_EOL }}@github.com/${{ github.repository }}
 
     - name: Commit UML Images
       run: |
