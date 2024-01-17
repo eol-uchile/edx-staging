@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - 'eol-release/koa'
+      - 'fix_wf_perm_issues'
     paths:
       - 'Dockerfile'
       - 'requirements/**.txt'
@@ -18,8 +19,8 @@ on:
 #      SECRET_DIAGRAM:
 #        required: false
 
-#permissions:
-#  contents: write
+permissions:
+  contents: write
 
 jobs:
   generate_diagram:
@@ -31,7 +32,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.PUSH_EOL }}
         fetch-depth: 1
         submodules: 'recursive'
 
@@ -63,11 +63,10 @@ jobs:
       with:
         args: '-tsvg diagrams/diagram.puml'
 
-#    - name: Configure Git
-#      run: |
-#        git config user.name fsologureng
-#        git config user.email fsologureng@users.noreply.github.com
-#        git remote set-url origin https://fsologureng:${{ secrets.PUSH_EOL }}@github.com/${{ github.repository }}
+    - name: Configure Git
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
 
     - name: Commit UML Images
       run: |
