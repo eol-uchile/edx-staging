@@ -15,9 +15,6 @@ on:
 
 # Required for the workflow to be reused by other repositories.
   workflow_call:
-#    secrets:
-#      SECRET_DIAGRAM:
-#        required: false
 
 permissions:
   contents: write
