@@ -4,15 +4,9 @@
 [submodule "themes/eol-uchile-2020"]
 	path = themes/eol-uchile-2020
 	url = https://github.com/eol-uchile/eol-uchile-theme-2020
-[submodule "themes/eduonline-ing"]
-	path = themes/eduonline-ing
-	url = https://github.com/eol-uchile/eol_eduonline_ing_theme
 [submodule "themes/edx-uabierta"]
 	path = themes/edx-uabierta
 	url = https://github.com/eol-uchile/uabierta-theme
-[submodule "themes/norteamericano-theme"]
-	path = themes/norteamericano-theme
-	url = https://github.com/eol-virtuallabx/norteamericano-theme.git
 [submodule "themes/open-uchile-theme"]
 	path = themes/open-uchile-theme
 	url = https://github.com/open-uchile/open-uchile-theme.git
