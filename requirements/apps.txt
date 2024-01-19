@@ -1,7 +1,6 @@
 -e git+https://github.com/eol-uchile/eol_auto_login@d3321e51339af81cab51c01eae66139a3bd23417#egg=eol_auto_login
 -e git+https://github.com/eol-uchile/eol_contact_form@c59e764eee1c8bcae8fb25011a78b2353d14aa63#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/course_classification@bfcb4cf52d9fb2c7b1572d21b44266d26456d4b8#egg=course_classification
-#-e git+https://github.com/eol-virtuallabx/norteamericano_custom_form@cd360ec9903b4833d5d4572ff29cda7b36ff6c5b#egg=norteamericano_form
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@bdd3f406521cb028c142eb29e6c3c9c6433bba49#egg=eol_duplicate_xblock
 -e git+https://github.com/eol-uchile/eol_jump_to@bdbb1fca8ae0e0e7e8d6c38641975942ea9f154e#egg=eol_jump_to
 -e git+https://github.com/eol-uchile/edx-newsletters@060f8d8e1c6a2b5fffc08d3db0c6d982cfc391e9#egg=edxnewsletters
