@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: 'eol-release/${{ github.event.client_payload.version }}'
+          ref: '${{ github.event.client_payload.project }}-release/${{ github.event.client_payload.version }}'
 
       - name: Pull submodules
         run: git submodule update --init --recursive
@@ -22,13 +22,13 @@ jobs:
         run: echo "TS=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
 
       - name: Build Open edX
-        run: docker build . --file ./Dockerfile --tag ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.version }} --tag ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.version }}-${{ env.TS }} --target base
+        run: docker build . --file ./Dockerfile --tag ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.code }}-${{ github.event.client_payload.version }} --tag ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.code }}-${{ github.event.client_payload.version }}-${{ env.TS }} --target base
 
       - name: Build Static files for OpenedX S3
-        run: docker build . --file ./Dockerfile --tag ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.version }} --tag ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.version }}-${{ env.TS }} --target s3
+        run: docker build . --file ./Dockerfile --tag ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.code }}-${{ github.event.client_payload.version }} --tag ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.code }}-${{ github.event.client_payload.version }}-${{ env.TS }} --target s3
 
       - name: Login to GitHub Container Registry
-        if: github.ref == format('{0}{1}', 'refs/heads/eol-release/', ${{ github.event.client_payload.version }})
+        if: github.ref == format('refs/heads/{0}-release/{1}', ${{ github.event.client_payload.project }}, ${{ github.event.client_payload.version }})
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
@@ -36,9 +36,13 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push
-        if: github.ref == format('refs/heads/eol-release/{0}', ${{ github.event.client_payload.version }})
+        if: github.ref == format('refs/heads/{0}-release/{1}', ${{ github.event.client_payload.project }}, ${{ github.event.client_payload.version }})
         run: |
-          docker push ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.version }}
-          docker push ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.version }}-${{ env.TS }}
-          docker push ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.version }}
-          docker push ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.version }}-${{ env.TS }}
+          docker push ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.code }}-${{ github.event.client_payload.version }}
+          docker push ghcr.io/eol-uchile/edx-staging:${{ github.event.client_payload.code }}-${{ github.event.client_payload.version }}-${{ env.TS }}
+          docker push ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.code }}-${{ github.event.client_payload.version }}
+          docker push ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.code }}-${{ github.event.client_payload.version }}-${{ env.TS }}
+
+      - uses: ./.github/workflows/webhook.yml
+        with:
+          code: ${{ env.CODE }}

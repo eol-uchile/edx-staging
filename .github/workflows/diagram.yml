@@ -2,8 +2,8 @@ name: Generate Diagram
 on:
   push:
     branches:
+      - 'openuchile-release/koa'
       - 'eol-release/koa'
-      - 'fix_wf_perm_issues'
     paths:
       - 'Dockerfile'
       - 'requirements/**.txt'
