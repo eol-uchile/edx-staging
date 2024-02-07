@@ -43,6 +43,8 @@ jobs:
           docker push ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.code }}-${{ github.event.client_payload.version }}
           docker push ghcr.io/eol-uchile/edx-staging:s3-static-${{ github.event.client_payload.code }}-${{ github.event.client_payload.version }}-${{ env.TS }}
 
-      - uses: ./.github/workflows/webhook.yml
-        with:
-          code: ${{ env.CODE }}
+  webhook:
+    needs: [ variables, build ]
+    uses: ./.github/workflows/webhook.yml
+      with:
+        code: ${{ needs.variables.outputs.code }}
