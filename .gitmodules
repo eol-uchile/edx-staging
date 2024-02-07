@@ -1,24 +1,3 @@
-[submodule "themes/cmm-openedx"]
-	path = themes/cmm-openedx
-	url = https://github.com/eol-uchile/cmm-openedx
-[submodule "themes/eol-uchile-2020"]
-	path = themes/eol-uchile-2020
-	url = https://github.com/eol-uchile/eol-uchile-theme-2020
-[submodule "themes/edx-uabierta"]
-	path = themes/edx-uabierta
-	url = https://github.com/eol-uchile/uabierta-theme
 [submodule "themes/open-uchile-theme"]
 	path = themes/open-uchile-theme
 	url = https://github.com/open-uchile/open-uchile-theme.git
-[submodule "themes/virtual-labx-cla-theme"]
-	path = themes/virtual-labx-cla-theme
-	url = https://github.com/eol-virtuallabx/virtual-labx-cla-theme.git
-[submodule "themes/virtual-labx-theme"]
-	path = themes/virtual-labx-theme
-	url = https://github.com/eol-uchile/virtual-labx-theme.git
-[submodule "themes/redfid-theme"]
-	path = themes/redfid-theme
-	url = https://github.com/eol-uchile/redfid-theme.git
-[submodule "themes/alpha-project-theme"]
-	path = themes/alpha-project-theme
-	url = https://github.com/eol-uchile/alpha-project-theme.git
