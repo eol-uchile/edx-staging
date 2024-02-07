@@ -55,5 +55,5 @@ jobs:
   webhook:
     needs: [ variables, build ]
     uses: ./.github/workflows/webhook.yml
-      with:
-        code: ${{ needs.variables.outputs.code }}
+    with:
+      code: ${{ needs.variables.outputs.code }}
