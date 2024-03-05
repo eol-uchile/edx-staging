@@ -20,7 +20,7 @@
 -e git+https://github.com/eol-uchile/payment_link_xblock@915d289364fa4e60d8ec7dfae7aeb8c08f8711d3#egg=payment-link
 -e git+https://github.com/eol-uchile/pdfXBlock@aa3aeef784737beaadfeab586c2ab631e5d0a741#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@a40f7ac0e5687dac685debd801cb1598d354f87c#egg=eolpersistenttab-xblock
--e git+https://github.com/eol-uchile/problem-builder@97ce5aa38ec9dd284a58298f4e3195db057000cb#egg=xblock-problem-builder
+-e git+https://github.com/eol-uchile/problem-builder@0a562ae063277c155fecf5d4cbf82517fc39bb28#egg=xblock-problem-builder
 -e git+https://github.com/eol-uchile/proctoring_hide_xblock@5b3d9eae526b795cb1cb23ea717398ec35bc988f#egg=proctoring_hide_xblock
 -e git+https://github.com/eol-uchile/eol-question-xblock.git@6ff1219132dd287e25c357c1e333203dc846f19f#egg=eolquestion-xblock
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@c23184c0e22a7847f0b0c917bbe431c2973770fb#egg=scormxblock-xblock
