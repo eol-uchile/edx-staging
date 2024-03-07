@@ -71,7 +71,7 @@ jobs:
         then
           git add diagrams/**
           git commit -m "Auto-generate UML diagram"
-          git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          git push https://${{ github.actor }}:${{ secrets.SECRET_DIAGRAM }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
         else
           echo "No changes to commit. Skipping commit step."
         fi
