@@ -31,6 +31,7 @@ jobs:
       with:
         fetch-depth: 1
         submodules: 'recursive'
+        token: ${{ secrets.SECRET_DIAGRAM }}
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -71,7 +72,7 @@ jobs:
         then
           git add diagrams/**
           git commit -m "Auto-generate UML diagram"
-          git push https://${{ github.actor }}:${{ secrets.SECRET_DIAGRAM }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          git push
         else
           echo "No changes to commit. Skipping commit step."
         fi
