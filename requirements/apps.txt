@@ -1,17 +1,8 @@
--e git+https://github.com/eol-uchile/eol_auto_login@d3321e51339af81cab51c01eae66139a3bd23417#egg=eol_auto_login
--e git+https://github.com/eol-uchile/eol_contact_form@c59e764eee1c8bcae8fb25011a78b2353d14aa63#egg=eol_contact_form
+-e git+https://github.com/eol-uchile/eol_auto_login@93ce98962284a6d0e6bbd0f0f5ee4231a279a1d3#egg=eol_auto_login
+-e git+https://github.com/open-uchile/eol_contact_form@42f36c6c2324d4a61fa4d442fbbc3c2b46b4b124#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/course_classification@bfcb4cf52d9fb2c7b1572d21b44266d26456d4b8#egg=course_classification
--e git+https://github.com/eol-uchile/eol_duplicate_xblock@bdd3f406521cb028c142eb29e6c3c9c6433bba49#egg=eol_duplicate_xblock
--e git+https://github.com/eol-uchile/eol_jump_to@bdbb1fca8ae0e0e7e8d6c38641975942ea9f154e#egg=eol_jump_to
--e git+https://github.com/eol-uchile/edx-newsletters@060f8d8e1c6a2b5fffc08d3db0c6d982cfc391e9#egg=edxnewsletters
-#-e git+https://github.com/eol-uchile/edx-proctoring@d2130f85d111a3dccdddd234cb421773ef19934e#egg=edx-proctoring
--e git+https://github.com/eol-uchile/redfid_logout@bb679f20d510d0815bc67a4d403c5555f5b52d62#egg=redfid_logout
+-e git+https://github.com/open-uchile/edx-proctoring@3815d8852fc7059848444fbe401a5c08f89a9aac#egg=edx-proctoring
 -e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
--e git+https://github.com/eol-uchile/eol_sso_login.git@9d67b3da622ae16aaba7358c26a83f4386aba1a6#egg=eol_sso_login
--e git+https://github.com/eol-uchile/super-csv.git@7eba102f1ce365131d05ba60967ada7b04a194d1#egg=super_csv
--e git+https://github.com/eol-uchile/eol_survey.git@232e96a31866dc6deabab2ec3828e25644aa28c1#egg=eol_survey
--e git+https://github.com/eol-uchile/uchileedxlogin@13c208b7aa583ec7187bafe6263d4bffe5c5a998#egg=uchileedxlogin
--e git+https://github.com/eol-uchile/edx-ucursos@e75b61cbecf3a91bbfdab468c2712a84ea92bcd8#egg=edxucursos
--e git+https://github.com/eol-uchile/edx-userdata@e2f20aa2f45282bfd117b8ca4b17b6f6ffec67cb#egg=edxuserdata
--e git+https://github.com/eol-uchile/eol_vimeo@6ec33d8ff5bb46721471c9176fe2228d6d9ef09b#egg=eol_vimeo
-
+-e git+https://github.com/eol-uchile/eol_sso_login@54466ebf06415385cd7c3be94b069b52a6fcaae7#egg=eol_sso_login
+-e git+https://github.com/open-uchile/uchileedxlogin@509db9ad8c4f7421e720f5f2c8b993eabcc68d2c#egg=uchileedxlogin
+-e git+https://github.com/open-uchile/eol_vimeo@3a2ba6628cbc96976b9f44c1ff37a75b6dcaf8dc#egg=eol_vimeo
