@@ -1,4 +1,4 @@
--e git+https://github.com/eol-uchile/eol-container-xblock.git@747b14c92559540ff47a44891f7da1393c2fffab#egg=eolcontainer-xblock
+-e git+https://github.com/eol-uchile/eol-container-xblock.git@02f52e4cf50054d8dda7d824a728a45678ea77dd#egg=eolcontainer-xblock
 -e git+https://github.com/eol-uchile/corfo_generate_code@a6b171148ba7278c05c664f0eb41f52743634bd2#egg=corfogeneratecode
 -e git+https://github.com/eol-uchile/eol-course-program-xblock@df549273a21c6b4674c6645940d7f33c4c8a2aea#egg=eolcourseprogram-xblock
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@51bbea2a892b1f1ec522f6919deea07b766cf6ea#egg=eoldiscussion-xblock
