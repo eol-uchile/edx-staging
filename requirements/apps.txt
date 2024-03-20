@@ -1,5 +1,5 @@
 -e git+https://github.com/eol-uchile/eol_auto_login@93ce98962284a6d0e6bbd0f0f5ee4231a279a1d3#egg=eol_auto_login
--e git+https://github.com/open-uchile/eol_contact_form@42f36c6c2324d4a61fa4d442fbbc3c2b46b4b124#egg=eol_contact_form
+-e git+https://github.com/open-uchile/eol_contact_form@f3619d443057806e5d587b23f6c6de5c950452c6#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/course_classification@bfcb4cf52d9fb2c7b1572d21b44266d26456d4b8#egg=course_classification
 -e git+https://github.com/open-uchile/edx-proctoring@3815d8852fc7059848444fbe401a5c08f89a9aac#egg=edx-proctoring
 -e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
