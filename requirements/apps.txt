@@ -4,5 +4,6 @@
 -e git+https://github.com/open-uchile/edx-proctoring@3815d8852fc7059848444fbe401a5c08f89a9aac#egg=edx-proctoring
 -e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
 -e git+https://github.com/eol-uchile/eol_sso_login@7de574ddcfd6d6c03bd221fcb8ee44be82c96942#egg=eol_sso_login
+-e git+https://github.com/eol-uchile/eol_survey@ab8506723ca972bf9ecb6afd1b4fed3f4cf32501#egg=eol_survey
 -e git+https://github.com/open-uchile/uchileedxlogin@509db9ad8c4f7421e720f5f2c8b993eabcc68d2c#egg=uchileedxlogin
 -e git+https://github.com/open-uchile/eol_vimeo@3a2ba6628cbc96976b9f44c1ff37a75b6dcaf8dc#egg=eol_vimeo
