@@ -22,17 +22,19 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps3, "course_classification", $link="https://github.com/eol-uchile/course_classification")
             
-                Container(apps4, "edx-proctoring", $link="https://github.com/open-uchile/edx-proctoring")
+                Container(apps4, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
             
-                Container(apps5, "edx-search", $link="https://github.com/eol-uchile/edx-search")
+                Container(apps5, "edx-proctoring", $link="https://github.com/open-uchile/edx-proctoring")
             
-                Container(apps6, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login")
+                Container(apps6, "edx-search", $link="https://github.com/eol-uchile/edx-search")
             
-                Container(apps7, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
+                Container(apps7, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login")
             
-                Container(apps8, "uchileedxlogin", $link="https://github.com/open-uchile/uchileedxlogin")
+                Container(apps8, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
             
-                Container(apps9, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
+                Container(apps9, "uchileedxlogin", $link="https://github.com/open-uchile/uchileedxlogin")
+            
+                Container(apps10, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
             
             }
         
