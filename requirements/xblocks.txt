@@ -1,7 +1,7 @@
 -e git+https://github.com/eol-uchile/eol-conditional-xblock.git@725b8eac92418a70b5a5081e953539477f459a60#egg=eolconditional-xblock
 -e git+https://github.com/eol-uchile/eol-container-xblock.git@89705d9f2db98300d6d2b146812878c16e023826#egg=eolcontainer-xblock
 -e git+https://github.com/eol-uchile/corfo_generate_code@788111b85fe27b7ec9c194bfbc444b851be0022c#egg=corfogeneratecode
--e git+https://github.com/eol-uchile/eol-course-program-xblock@bf56d8f1471ee45f251a57b634a97fe3812dd633#egg=eolcourseprogram-xblock
+-e git+https://github.com/eol-uchile/eol-course-program-xblock@df549273a21c6b4674c6645940d7f33c4c8a2aea#egg=eolcourseprogram-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-xblock.git@0ca2e7360bfeeee912a7be7a7151543a54b088f8#egg=eoldialogs-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-question-xblock@3c5d9857e0678f1776b3ef5342a349509bc9b884#egg=dialogsquestionsxblock-xblock
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@32cbba5b5ee175fbff143b20b0fce968aa644f6d#egg=eoldiscussion-xblock
