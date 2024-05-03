@@ -10,6 +10,14 @@ on:
       - 'Dockerfile'
       - 'requirements/*.txt'
       - 'themes/**'
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+    branches:
+      - eol-release/**
+      - openuchile-release/**
 
 jobs:
   variables:
