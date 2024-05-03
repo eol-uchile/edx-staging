@@ -1,6 +1,7 @@
 name: Docker Image CI
 
 on:
+  merge_group:
   push:
     branches:
       - eol-release/**
@@ -58,3 +59,12 @@ jobs:
     with:
       code: ${{ needs.variables.outputs.code }}
     secrets: inherit
+
+  MQ-ok:
+    name: Merge-Queue-OK
+    needs: [variables, build, webhook]
+    if: github.event_name == 'merge_group'
+    runs-on: ubuntu-latest
+    steps:
+      - name: CI succeeded
+        run: exit 0
