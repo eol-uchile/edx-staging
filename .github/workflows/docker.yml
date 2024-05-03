@@ -2,6 +2,7 @@ name: Docker Image CI
 
 on:
   merge_group:
+    types: [checks_requested]
   push:
     branches:
       - eol-release/**
@@ -18,6 +19,11 @@ on:
     branches:
       - eol-release/**
       - openuchile-release/**
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 
 jobs:
   variables:
@@ -67,12 +73,3 @@ jobs:
     with:
       code: ${{ needs.variables.outputs.code }}
     secrets: inherit
-
-  MQ-ok:
-    name: Merge-Queue-OK
-    needs: [variables, build, webhook]
-    if: github.event_name == 'merge_group'
-    runs-on: ubuntu-latest
-    steps:
-      - name: CI succeeded
-        run: exit 0
