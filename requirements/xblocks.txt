@@ -18,7 +18,7 @@
 -e git+https://github.com/eol-uchile/xblock-lti-consumer@b1384343be9ae1a4d6de5760a3a5c1475a3024cf#egg=lti-consumer-xblock
 -e git+https://github.com/eol-uchile/edx-ora2.git@81fdd8c46e3abb1a4dda17f946e0b12d181a2078#egg=ora2
 -e git+https://github.com/eol-uchile/payment_link_xblock@915d289364fa4e60d8ec7dfae7aeb8c08f8711d3#egg=payment-link
--e git+https://github.com/eol-uchile/pdfXBlock@aa3aeef784737beaadfeab586c2ab631e5d0a741#egg=pdf-xblock
+-e git+https://github.com/eol-uchile/pdfXBlock@3c652901f100ebeb33fce6692ed5697175182954#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@a40f7ac0e5687dac685debd801cb1598d354f87c#egg=eolpersistenttab-xblock
 -e git+https://github.com/eol-uchile/problem-builder@0a562ae063277c155fecf5d4cbf82517fc39bb28#egg=xblock-problem-builder
 -e git+https://github.com/eol-uchile/proctoring_hide_xblock@5b3d9eae526b795cb1cb23ea717398ec35bc988f#egg=proctoring_hide_xblock
