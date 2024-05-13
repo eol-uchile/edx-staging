@@ -1,6 +1,8 @@
 name: Docker Image CI
 
 on:
+  merge_group:
+    types: [checks_requested]
   push:
     branches:
       - eol-release/**
@@ -9,6 +11,17 @@ on:
       - 'Dockerfile'
       - 'requirements/*.txt'
       - 'themes/**'
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+    branches:
+      - openuchile-release/**
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   variables:
@@ -37,7 +50,7 @@ jobs:
         run: docker build . --file ./Dockerfile --tag ghcr.io/eol-uchile/edx-staging:s3-static-${{ env.CODE }}-${{ env.RELEASE-NAME }} --tag ghcr.io/eol-uchile/edx-staging:s3-static-${{ env.CODE }}-${{ env.RELEASE-NAME }}-${{ env.TS }} --target s3
 
       - name: Login to GitHub Container Registry
-        if: github.ref == format('refs/heads/{0}-release/{1}', ${{ env.PROJECT }}, ${{ env.RELEASE-NAME }})
+        if: ${{ github.event_name == 'merge_group' }}
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
@@ -45,7 +58,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push
-        if: github.ref == format('refs/heads/{0}-release/{1}', ${{ env.PROJECT }}, ${{ env.RELEASE-NAME }})
+        if: ${{ github.event_name == 'merge_group' }}
         run: |
           docker push ghcr.io/eol-uchile/edx-staging:${{ env.CODE }}-${{ env.RELEASE-NAME }}
           docker push ghcr.io/eol-uchile/edx-staging:${{ env.CODE }}-${{ env.RELEASE-NAME }}-${{ env.TS }}
@@ -54,6 +67,7 @@ jobs:
 
   webhook:
     needs: [ variables, build ]
+    if: ${{ github.event_name == 'merge_group' }}
     uses: ./.github/workflows/webhook.yml
     with:
       code: ${{ needs.variables.outputs.code }}
