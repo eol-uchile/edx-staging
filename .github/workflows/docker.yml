@@ -17,6 +17,7 @@ on:
       - reopened
       - synchronize
     branches:
+      - eol-release/**
       - openuchile-release/**
 
 concurrency:
