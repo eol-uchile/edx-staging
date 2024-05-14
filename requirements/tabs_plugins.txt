@@ -1,2 +1,3 @@
 -e git+https://github.com/eol-uchile/eol_completion@8188c385a678fb94ed2d7f51591a348e51815666#egg=eol_completion
+-e git+https://github.com/eol-uchile/eol_progress_tab@698177942488d4bc3c3b931887e6fef0b94473aa#egg=eol_progress_tab
 -e git+https://github.com/eol-uchile/eol_welcome_mail@d45ed6908eac47bc615c5206572ecdea4d86adc5#egg=welcome-mail
