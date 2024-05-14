@@ -3,14 +3,6 @@ name: Docker Image CI
 on:
   merge_group:
     types: [checks_requested]
-  push:
-    branches:
-      - eol-release/**
-      - openuchile-release/**
-    paths:
-      - 'Dockerfile'
-      - 'requirements/*.txt'
-      - 'themes/**'
   pull_request:
     types:
       - opened
