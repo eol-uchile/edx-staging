@@ -156,6 +156,8 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks31, "eolzoom-xblock", $link="https://github.com/eol-uchile/eol-zoom-xblock")
             
+                Container(xblocks32, "iterativexblock", $link="https://github.com/cmmedu/iterative-xblock.git")
+            
             }
         
     }
