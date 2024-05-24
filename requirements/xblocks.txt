@@ -29,3 +29,4 @@
 -e git+https://github.com/eol-uchile/ubcpi@ae4bac403c89fd6c6525cedb7171a66e3aefca4c#egg=ubcpi-xblock
 -e git+https://github.com/eol-uchile/eol-vof-xblock.git@5229b57c74982e4cf2c2f27e96e6b85eeff20c7c#egg=vof-xblock
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@52cfe736d9ba951345a9d41fc587ec8fdbdb3b9b#egg=eolzoom-xblock
+-e git+https://github.com/cmmedu/iterative-xblock.git@ef7bfd53321acd635fb1e242f70c7e0dee291d9a#egg=iterativexblock
