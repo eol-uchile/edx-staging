@@ -18,37 +18,37 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(apps, "apps", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/apps.txt") {
             
-                Container(apps1, "eol_auto_login", $link="https://github.com/eol-uchile/eol_auto_login")
+                Container(apps1, "course_classification", $link="https://github.com/eol-uchile/course_classification")
             
-                Container(apps2, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form")
+                Container(apps2, "edxnewsletters", $link="https://github.com/eol-uchile/edx-newsletters")
             
-                Container(apps3, "course_classification", $link="https://github.com/eol-uchile/course_classification")
+                Container(apps3, "edx-search", $link="https://github.com/eol-uchile/edx-search")
             
-                Container(apps4, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
+                Container(apps4, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos")
             
-                Container(apps5, "eol_jump_to", $link="https://github.com/eol-uchile/eol_jump_to")
+                Container(apps5, "edxuserdata", $link="https://github.com/eol-uchile/edx-userdata")
             
-                Container(apps6, "edxnewsletters", $link="https://github.com/eol-uchile/edx-newsletters")
+                Container(apps6, "eol_auto_login", $link="https://github.com/eol-uchile/eol_auto_login")
             
-                Container(apps7, "redfid_logout", $link="https://github.com/eol-uchile/redfid_logout")
+                Container(apps7, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form")
             
-                Container(apps8, "edx-search", $link="https://github.com/eol-uchile/edx-search")
+                Container(apps8, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
             
-                Container(apps9, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login.git")
+                Container(apps9, "eol_instructor", $link="https://github.com/eol-uchile/eol_instructor")
             
-                Container(apps10, "super_csv", $link="https://github.com/eol-uchile/super-csv.git")
+                Container(apps10, "eol_jump_to", $link="https://github.com/eol-uchile/eol_jump_to")
             
-                Container(apps11, "eol_survey", $link="https://github.com/eol-uchile/eol_survey.git")
+                Container(apps11, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login")
             
-                Container(apps12, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin")
+                Container(apps12, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
             
-                Container(apps13, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos")
+                Container(apps13, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
             
-                Container(apps14, "edxuserdata", $link="https://github.com/eol-uchile/edx-userdata")
+                Container(apps14, "redfid_logout", $link="https://github.com/eol-uchile/redfid_logout")
             
-                Container(apps15, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
+                Container(apps15, "super_csv", $link="https://github.com/eol-uchile/super-csv")
             
-                Container(apps16, "eol_instructor", $link="https://github.com/eol-uchile/eol_instructor")
+                Container(apps16, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin")
             
             }
         
@@ -94,69 +94,69 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(xblocks, "xblocks", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/xblocks.txt") {
             
-                Container(xblocks1, "eolconditional-xblock", $link="https://github.com/eol-uchile/eol-conditional-xblock.git")
+                Container(xblocks1, "iterativexblock", $link="https://github.com/cmmedu/iterative-xblock")
             
-                Container(xblocks2, "eolcontainer-xblock", $link="https://github.com/eol-uchile/eol-container-xblock.git")
+                Container(xblocks2, "corfogeneratecode", $link="https://github.com/eol-uchile/corfo_generate_code")
             
-                Container(xblocks3, "corfogeneratecode", $link="https://github.com/eol-uchile/corfo_generate_code")
+                Container(xblocks3, "ora2", $link="https://github.com/eol-uchile/edx-ora2")
             
-                Container(xblocks4, "eolcourseprogram-xblock", $link="https://github.com/eol-uchile/eol-course-program-xblock")
+                Container(xblocks4, "edx-sga", $link="https://github.com/eol-uchile/edx-sga")
             
-                Container(xblocks5, "eoldialogs-xblock", $link="https://github.com/eol-uchile/eol-dialogs-xblock.git")
+                Container(xblocks5, "scormxblock-xblock", $link="https://github.com/eol-uchile/edx_xblock_scorm")
             
-                Container(xblocks6, "dialogsquestionsxblock-xblock", $link="https://github.com/eol-uchile/eol-dialogs-question-xblock")
+                Container(xblocks6, "eolconditional-xblock", $link="https://github.com/eol-uchile/eol-conditional-xblock")
             
-                Container(xblocks7, "eoldiscussion-xblock", $link="https://github.com/eol-uchile/eol_xblock_discussion")
+                Container(xblocks7, "eolcontainer-xblock", $link="https://github.com/eol-uchile/eol-container-xblock")
             
-                Container(xblocks8, "xblock-drag-and-drop-v2", $link="https://github.com/eol-uchile/xblock-drag-and-drop-v2")
+                Container(xblocks8, "eolcourseprogram-xblock", $link="https://github.com/eol-uchile/eol-course-program-xblock")
             
-                Container(xblocks9, "xblock-eoc-journal", $link="https://github.com/eol-uchile/xblock-eoc-journal")
+                Container(xblocks9, "dialogsquestionsxblock-xblock", $link="https://github.com/eol-uchile/eol-dialogs-question-xblock")
             
-                Container(xblocks10, "flow-control-xblock", $link="https://github.com/eol-uchile/flow-control-xblock")
+                Container(xblocks10, "eoldialogs-xblock", $link="https://github.com/eol-uchile/eol-dialogs-xblock")
             
                 Container(xblocks11, "eol_forum_notifications", $link="https://github.com/eol-uchile/eol_forum_notifications")
             
-                Container(xblocks12, "xblock-free-text-response", $link="https://github.com/eol-uchile/free-text-response")
+                Container(xblocks12, "eolgradediscussion", $link="https://github.com/eol-uchile/eol_gradeforum_xblock")
             
-                Container(xblocks13, "generate_certificate", $link="https://github.com/eol-uchile/generate_certificate_xblock")
+                Container(xblocks13, "img-annotation", $link="https://github.com/eol-uchile/eol_img_annotation")
             
-                Container(xblocks14, "eolgradediscussion", $link="https://github.com/eol-uchile/eol_gradeforum_xblock")
+                Container(xblocks14, "eollistgrade-xblock", $link="https://github.com/eol-uchile/eol_list_grade")
             
-                Container(xblocks15, "img-annotation", $link="https://github.com/eol-uchile/eol_img_annotation")
+                Container(xblocks15, "eolpersistenttab-xblock", $link="https://github.com/eol-uchile/eol-persistent-tab-xblock")
             
-                Container(xblocks16, "invideoquiz-xblock", $link="https://github.com/eol-uchile/xblock-in-video-quiz")
+                Container(xblocks16, "eolquestion-xblock", $link="https://github.com/eol-uchile/eol-question-xblock")
             
-                Container(xblocks17, "eollistgrade-xblock", $link="https://github.com/eol-uchile/eol_list_grade")
+                Container(xblocks17, "vof-xblock", $link="https://github.com/eol-uchile/eol-vof-xblock")
             
-                Container(xblocks18, "lti-consumer-xblock", $link="https://github.com/eol-uchile/xblock-lti-consumer")
+                Container(xblocks18, "eoldiscussion-xblock", $link="https://github.com/eol-uchile/eol_xblock_discussion")
             
-                Container(xblocks19, "ora2", $link="https://github.com/eol-uchile/edx-ora2.git")
+                Container(xblocks19, "eolzoom-xblock", $link="https://github.com/eol-uchile/eol-zoom-xblock")
             
-                Container(xblocks20, "payment-link", $link="https://github.com/eol-uchile/payment_link_xblock")
+                Container(xblocks20, "flow-control-xblock", $link="https://github.com/eol-uchile/flow-control-xblock")
             
-                Container(xblocks21, "pdf-xblock", $link="https://github.com/eol-uchile/pdfXBlock")
+                Container(xblocks21, "xblock-free-text-response", $link="https://github.com/eol-uchile/free-text-response")
             
-                Container(xblocks22, "eolpersistenttab-xblock", $link="https://github.com/eol-uchile/eol-persistent-tab-xblock")
+                Container(xblocks22, "generate_certificate", $link="https://github.com/eol-uchile/generate_certificate_xblock")
             
-                Container(xblocks23, "xblock-problem-builder", $link="https://github.com/eol-uchile/problem-builder")
+                Container(xblocks23, "payment-link", $link="https://github.com/eol-uchile/payment_link_xblock")
             
-                Container(xblocks24, "proctoring_hide_xblock", $link="https://github.com/eol-uchile/proctoring_hide_xblock")
+                Container(xblocks24, "pdf-xblock", $link="https://github.com/eol-uchile/pdfXBlock")
             
-                Container(xblocks25, "eolquestion-xblock", $link="https://github.com/eol-uchile/eol-question-xblock.git")
+                Container(xblocks25, "xblock-problem-builder", $link="https://github.com/eol-uchile/problem-builder")
             
-                Container(xblocks26, "scormxblock-xblock", $link="https://github.com/eol-uchile/edx_xblock_scorm")
+                Container(xblocks26, "proctoring_hide_xblock", $link="https://github.com/eol-uchile/proctoring_hide_xblock")
             
                 Container(xblocks27, "sence-xblock", $link="https://github.com/eol-uchile/sence-xblock")
             
-                Container(xblocks28, "edx-sga", $link="https://github.com/eol-uchile/edx-sga")
+                Container(xblocks28, "ubcpi-xblock", $link="https://github.com/eol-uchile/ubcpi")
             
-                Container(xblocks29, "ubcpi-xblock", $link="https://github.com/eol-uchile/ubcpi")
+                Container(xblocks29, "xblock-drag-and-drop-v2", $link="https://github.com/eol-uchile/xblock-drag-and-drop-v2")
             
-                Container(xblocks30, "vof-xblock", $link="https://github.com/eol-uchile/eol-vof-xblock.git")
+                Container(xblocks30, "xblock-eoc-journal", $link="https://github.com/eol-uchile/xblock-eoc-journal")
             
-                Container(xblocks31, "eolzoom-xblock", $link="https://github.com/eol-uchile/eol-zoom-xblock")
+                Container(xblocks31, "invideoquiz-xblock", $link="https://github.com/eol-uchile/xblock-in-video-quiz")
             
-                Container(xblocks32, "iterativexblock", $link="https://github.com/cmmedu/iterative-xblock.git")
+                Container(xblocks32, "lti-consumer-xblock", $link="https://github.com/eol-uchile/xblock-lti-consumer")
             
             }
         
