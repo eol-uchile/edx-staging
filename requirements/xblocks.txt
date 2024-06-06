@@ -1,10 +1,10 @@
--e git+https://github.com/cmmedu/iterative-xblock@ef7bfd53321acd635fb1e242f70c7e0dee291d9a#egg=iterativexblock
+-e git+https://github.com/cmmedu/iterative-xblock@f7253ca16c37e6882d7b1a9bd815e14793083d31#egg=iterativexblock
 -e git+https://github.com/eol-uchile/corfo_generate_code@788111b85fe27b7ec9c194bfbc444b851be0022c#egg=corfogeneratecode
 -e git+https://github.com/eol-uchile/edx-ora2@81fdd8c46e3abb1a4dda17f946e0b12d181a2078#egg=ora2
 -e git+https://github.com/eol-uchile/edx-sga@12948a546025eddf570eee59820b0356d42f6620#egg=edx-sga
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@c23184c0e22a7847f0b0c917bbe431c2973770fb#egg=scormxblock-xblock
 -e git+https://github.com/eol-uchile/eol-conditional-xblock@725b8eac92418a70b5a5081e953539477f459a60#egg=eolconditional-xblock
--e git+https://github.com/eol-uchile/eol-container-xblock@829d779af1d8cc04da74b67bda4ef3c649991fab#egg=eolcontainer-xblock
+-e git+https://github.com/eol-uchile/eol-container-xblock@d5ffb79baf410ba1b102e9122d3531532a557bab#egg=eolcontainer-xblock
 -e git+https://github.com/eol-uchile/eol-course-program-xblock@df549273a21c6b4674c6645940d7f33c4c8a2aea#egg=eolcourseprogram-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-question-xblock@6317d9e406c8242ffa8dbb18c20cfb66e4d9ea0f#egg=dialogsquestionsxblock-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-xblock@60159d2dd68295a5d8942f3b70fd20bdfae4e2e4#egg=eoldialogs-xblock
