@@ -74,7 +74,7 @@ jobs:
         if [ "$(git status --porcelain diagrams/)" != "" ]
         then
           git add diagrams/**
-          git commit -m "Auto-generate UML diagram"
+          git commit -m "chore: Auto-generate UML diagram"
           git push
         else
           echo "No changes to commit. Skipping commit step."
