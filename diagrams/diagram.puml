@@ -28,27 +28,25 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps5, "edxuserdata", $link="https://github.com/eol-uchile/edx-userdata")
             
-                Container(apps6, "eol_auto_login", $link="https://github.com/eol-uchile/eol_auto_login")
+                Container(apps6, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form")
             
-                Container(apps7, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form")
+                Container(apps7, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
             
-                Container(apps8, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
+                Container(apps8, "eol_instructor", $link="https://github.com/eol-uchile/eol_instructor")
             
-                Container(apps9, "eol_instructor", $link="https://github.com/eol-uchile/eol_instructor")
+                Container(apps9, "eol_jump_to", $link="https://github.com/eol-uchile/eol_jump_to")
             
-                Container(apps10, "eol_jump_to", $link="https://github.com/eol-uchile/eol_jump_to")
+                Container(apps10, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login")
             
-                Container(apps11, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login")
+                Container(apps11, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
             
-                Container(apps12, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
+                Container(apps12, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
             
-                Container(apps13, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
+                Container(apps13, "redfid_logout", $link="https://github.com/eol-uchile/redfid_logout")
             
-                Container(apps14, "redfid_logout", $link="https://github.com/eol-uchile/redfid_logout")
+                Container(apps14, "super_csv", $link="https://github.com/eol-uchile/super-csv")
             
-                Container(apps15, "super_csv", $link="https://github.com/eol-uchile/super-csv")
-            
-                Container(apps16, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin")
+                Container(apps15, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin")
             
             }
         
