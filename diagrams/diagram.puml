@@ -18,35 +18,27 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(apps, "apps", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/apps.txt") {
             
-                Container(apps1, "course_classification", $link="https://github.com/eol-uchile/course_classification")
+                Container(apps1, "edx-search", $link="https://github.com/eol-uchile/edx-search")
             
-                Container(apps2, "edxnewsletters", $link="https://github.com/eol-uchile/edx-newsletters")
+                Container(apps2, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos")
             
-                Container(apps3, "edx-search", $link="https://github.com/eol-uchile/edx-search")
+                Container(apps3, "edxuserdata", $link="https://github.com/eol-uchile/edx-userdata")
             
-                Container(apps4, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos")
+                Container(apps4, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form")
             
-                Container(apps5, "edxuserdata", $link="https://github.com/eol-uchile/edx-userdata")
+                Container(apps5, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
             
-                Container(apps6, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form")
+                Container(apps6, "eol_instructor", $link="https://github.com/eol-uchile/eol_instructor")
             
-                Container(apps7, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
+                Container(apps7, "eol_jump_to", $link="https://github.com/eol-uchile/eol_jump_to")
             
-                Container(apps8, "eol_instructor", $link="https://github.com/eol-uchile/eol_instructor")
+                Container(apps8, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
             
-                Container(apps9, "eol_jump_to", $link="https://github.com/eol-uchile/eol_jump_to")
+                Container(apps9, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
             
-                Container(apps10, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login")
+                Container(apps10, "super_csv", $link="https://github.com/eol-uchile/super-csv")
             
-                Container(apps11, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
-            
-                Container(apps12, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
-            
-                Container(apps13, "redfid_logout", $link="https://github.com/eol-uchile/redfid_logout")
-            
-                Container(apps14, "super_csv", $link="https://github.com/eol-uchile/super-csv")
-            
-                Container(apps15, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin")
+                Container(apps11, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin")
             
             }
         
