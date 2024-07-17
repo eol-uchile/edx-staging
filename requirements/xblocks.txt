@@ -17,7 +17,7 @@
 -e git+https://github.com/eol-uchile/eol-vof-xblock@5229b57c74982e4cf2c2f27e96e6b85eeff20c7c#egg=vof-xblock
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@32cbba5b5ee175fbff143b20b0fce968aa644f6d#egg=eoldiscussion-xblock
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@52cfe736d9ba951345a9d41fc587ec8fdbdb3b9b#egg=eolzoom-xblock
--e git+https://github.com/eol-uchile/flow-control-xblock@4e275efba4e37d9371a27df4997c692c0b40d281#egg=flow-control-xblock
+-e git+https://github.com/eol-uchile/flow-control-xblock@eecf476bf551c07042f6e64b62c77b02e43928a6#egg=flow-control-xblock
 -e git+https://github.com/eol-uchile/free-text-response@eec58e583bde6aa5098230e4c74a1e59fb9f7702#egg=xblock-free-text-response
 -e git+https://github.com/eol-uchile/generate_certificate_xblock@9fd6d20f69336c826cb69b0a823f44589f16fc50#egg=generate_certificate
 -e git+https://github.com/eol-uchile/payment_link_xblock@915d289364fa4e60d8ec7dfae7aeb8c08f8711d3#egg=payment-link
