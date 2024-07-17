@@ -21,7 +21,7 @@
 -e git+https://github.com/eol-uchile/free-text-response@eec58e583bde6aa5098230e4c74a1e59fb9f7702#egg=xblock-free-text-response
 -e git+https://github.com/eol-uchile/generate_certificate_xblock@9fd6d20f69336c826cb69b0a823f44589f16fc50#egg=generate_certificate
 -e git+https://github.com/eol-uchile/payment_link_xblock@915d289364fa4e60d8ec7dfae7aeb8c08f8711d3#egg=payment-link
--e git+https://github.com/eol-uchile/pdfXBlock@39372a83bb53604018d986091cda3ed1fa7896fb#egg=pdf-xblock
+-e git+https://github.com/eol-uchile/pdfXBlock@328931eecaad13e027554d092271d47e27b81fdc#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/problem-builder@0a562ae063277c155fecf5d4cbf82517fc39bb28#egg=xblock-problem-builder
 -e git+https://github.com/eol-uchile/proctoring_hide_xblock@5b3d9eae526b795cb1cb23ea717398ec35bc988f#egg=proctoring_hide_xblock
 -e git+https://github.com/eol-uchile/sence-xblock@5371a282b1f189c3334920493928df38f28e50fa#egg=sence-xblock
