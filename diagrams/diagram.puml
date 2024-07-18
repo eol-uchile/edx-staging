@@ -52,8 +52,6 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(python_packages4, "python-json-logger")
             
-                Container(python_packages5, "setuptools")
-            
             }
         
             System_Boundary(reports, "reports", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/reports.txt") {
