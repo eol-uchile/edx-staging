@@ -7,9 +7,6 @@
 [submodule "themes/edx-uabierta"]
 	path = themes/edx-uabierta
 	url = https://github.com/eol-uchile/uabierta-theme
-[submodule "themes/open-uchile-theme"]
-	path = themes/open-uchile-theme
-	url = https://github.com/open-uchile/open-uchile-theme.git
 [submodule "themes/virtual-labx-cla-theme"]
 	path = themes/virtual-labx-cla-theme
 	url = https://github.com/eol-virtuallabx/virtual-labx-cla-theme.git
