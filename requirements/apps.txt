@@ -5,4 +5,4 @@
 -e git+https://github.com/eol-uchile/eol_survey@ab8506723ca972bf9ecb6afd1b4fed3f4cf32501#egg=eol_survey
 -e git+https://github.com/eol-uchile/eol_vimeo@cf918de25456ac716a3c596d44bf0a0cf0564d33#egg=eol_vimeo
 -e git+https://github.com/open-uchile/edx-proctoring@3815d8852fc7059848444fbe401a5c08f89a9aac#egg=edx-proctoring
--e git+https://github.com/open-uchile/eol_contact_form@8815dfc3177958d136c40c5a5845ebb047933125#egg=eol_contact_form
+-e git+https://github.com/open-uchile/eol_contact_form@705e9415061d30a25f89a037595ca6bef43d08d7#egg=eol_contact_form
