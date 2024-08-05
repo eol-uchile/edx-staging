@@ -1,2 +1,2 @@
 -e git+https://github.com/eol-uchile/CMM-API@03c52a7087341288f01aa3fe130c6d3f0e34cade#egg=cmmapi
--e git+https://github.com/eol-uchile/portal_api@fb3603663c33fc09abdb2ab2792e08aca88b5439#egg=portal_api
+-e git+https://github.com/eol-uchile/portal_api@0.3#egg=portal_api
