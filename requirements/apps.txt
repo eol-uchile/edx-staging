@@ -1,5 +1,5 @@
 https://github.com/eol-uchile/course_classification/archive/refs/tags/0.2.0.zip
-https://github.com/eol-uchile/context-extender/archive/refs/tags/0.0.3-dev1.zip
+https://github.com/eol-uchile/context-extender/archive/refs/tags/0.0.4-dev1.zip
 -e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@bdd3f406521cb028c142eb29e6c3c9c6433bba49#egg=eol_duplicate_xblock
 https://github.com/eol-uchile/eol_sso_login/archive/refs/tags/0.0.3.zip
