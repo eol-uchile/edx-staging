@@ -3,7 +3,7 @@
 -e git+https://github.com/eol-uchile/edx-sga@12948a546025eddf570eee59820b0356d42f6620#egg=edx-sga
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@c23184c0e22a7847f0b0c917bbe431c2973770fb#egg=scormxblock-xblock
 -e git+https://github.com/eol-uchile/eol-container-xblock@02f52e4cf50054d8dda7d824a728a45678ea77dd#egg=eolcontainer-xblock
--e git+https://github.com/eol-uchile/eol-course-program-xblock@0.1.1#egg=eolcourseprogram-xblock
+https://github.com/eol-uchile/eol-course-program-xblock/archive/refs/tags/0.1.1.zip
 -e git+https://github.com/eol-uchile/eol_forum_notifications@6d4ced6cd7b667e6048bf199a22f2c82b801e120#egg=eol_forum_notifications
 -e git+https://github.com/eol-uchile/eol_gradeforum_xblock@1b5160b01a081aa68b42f9aed87845fa88b2b8a0#egg=eolgradediscussion
 -e git+https://github.com/eol-uchile/eol_list_grade@0d7688919bad8b229bff2948f31fedd76f1029d2#egg=eollistgrade-xblock
