@@ -1,7 +1,7 @@
 https://github.com/eol-uchile/course_classification/archive/refs/tags/0.2.0.zip
 -e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@bdd3f406521cb028c142eb29e6c3c9c6433bba49#egg=eol_duplicate_xblock
-https://github.com/eol-uchile/eol_sso_login/archive/refs/tags/0.0.3.zip
+https://github.com/eol-uchile/eol_sso_login/archive/refs/tags/0.0.4-dev1.zip
 -e git+https://github.com/eol-uchile/eol_survey@ab8506723ca972bf9ecb6afd1b4fed3f4cf32501#egg=eol_survey
 -e git+https://github.com/eol-uchile/eol_vimeo@cf918de25456ac716a3c596d44bf0a0cf0564d33#egg=eol_vimeo
 -e git+https://github.com/open-uchile/edx-proctoring@3815d8852fc7059848444fbe401a5c08f89a9aac#egg=edx-proctoring
