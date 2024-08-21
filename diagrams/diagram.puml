@@ -16,21 +16,23 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(apps, "apps", $link="https://github.com/eol-uchile/edx-staging/blob/openuchile-release/koa/requirements/apps.txt") {
             
-                Container(apps1, "course_classification", $link="https://github.com/eol-uchile/course_classification")
+                Container(apps1, "context_extender", $link="https://github.com/eol-uchile/context-extender")
             
-                Container(apps2, "edx-search", $link="https://github.com/eol-uchile/edx-search")
+                Container(apps2, "course_classification", $link="https://github.com/eol-uchile/course_classification")
             
-                Container(apps3, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
+                Container(apps3, "edx-search", $link="https://github.com/eol-uchile/edx-search")
             
-                Container(apps4, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login")
+                Container(apps4, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
             
-                Container(apps5, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
+                Container(apps5, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login")
             
-                Container(apps6, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
+                Container(apps6, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
             
-                Container(apps7, "edx-proctoring", $link="https://github.com/open-uchile/edx-proctoring")
+                Container(apps7, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
             
-                Container(apps8, "eol_contact_form", $link="https://github.com/open-uchile/eol_contact_form")
+                Container(apps8, "edx-proctoring", $link="https://github.com/open-uchile/edx-proctoring")
+            
+                Container(apps9, "eol_contact_form", $link="https://github.com/open-uchile/eol_contact_form")
             
             }
         
