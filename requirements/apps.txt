@@ -1,4 +1,4 @@
--e git+https://github.com/eol-uchile/context-extender@0.0.4-dev2#egg=context_extender
+-e git+https://github.com/eol-uchile/context-extender@0.0.5-dev1#egg=context_extender
 -e git+https://github.com/eol-uchile/course_classification@0.2.0#egg=course_classification
 -e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@bdd3f406521cb028c142eb29e6c3c9c6433bba49#egg=eol_duplicate_xblock
