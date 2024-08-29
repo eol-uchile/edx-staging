@@ -1,5 +1,5 @@
 -e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
--e git+https://github.com/eol-uchile/edx-ucursos@a43c989c3bec6d04b33e3711ce3ac2b311fbb49c#egg=edxucursos
+-e git+https://github.com/eol-uchile/edx-ucursos@0.0.1#egg=edxucursos
 -e git+https://github.com/eol-uchile/edx-userdata@e2f20aa2f45282bfd117b8ca4b17b6f6ffec67cb#egg=edxuserdata
 -e git+https://github.com/eol-uchile/eol_contact_form@c59e764eee1c8bcae8fb25011a78b2353d14aa63#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@bdd3f406521cb028c142eb29e6c3c9c6433bba49#egg=eol_duplicate_xblock
@@ -8,4 +8,4 @@
 -e git+https://github.com/eol-uchile/eol_survey@3e46e6ff83f9de1720130e62f452e925a1d9ea4d#egg=eol_survey
 -e git+https://github.com/eol-uchile/eol_vimeo@6ec33d8ff5bb46721471c9176fe2228d6d9ef09b#egg=eol_vimeo
 -e git+https://github.com/eol-uchile/super-csv@7eba102f1ce365131d05ba60967ada7b04a194d1#egg=super_csv
--e git+https://github.com/eol-uchile/uchileedxlogin@13c208b7aa583ec7187bafe6263d4bffe5c5a998#egg=uchileedxlogin
+-e git+https://github.com/eol-uchile/uchileedxlogin@0.0.1#egg=uchileedxlogin
