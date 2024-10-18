@@ -48,9 +48,11 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(python_packages2, "django-redis")
             
-                Container(python_packages3, "fluent-logger")
+                Container(python_packages3, "edx-username-changer")
             
-                Container(python_packages4, "python-json-logger")
+                Container(python_packages4, "fluent-logger")
+            
+                Container(python_packages5, "python-json-logger")
             
             }
         
