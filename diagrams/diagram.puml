@@ -66,6 +66,8 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(reports4, "xblockcompletion", $link="https://github.com/eol-uchile/eol_xblock_completion")
             
+                Container(reports5, "cmmedu_seguimiento", $link="https://github.com/cmmedu/cmmedu-seguimiento")
+            
             }
         
             System_Boundary(tabs_plugins, "tabs_plugins", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/tabs_plugins.txt") {
