@@ -2,3 +2,4 @@
 -e git+https://github.com/eol-uchile/eol_report_analytics@5430b009e4103f70d933ecbded45e3c4a3fc39bf#egg=eol_report_analytics
 -e git+https://github.com/eol-uchile/eol_report_certificate@a5fdc08eac85e5bd2f12abc98de7d3d62b4e874e#egg=eolreportcertificate
 -e git+https://github.com/eol-uchile/eol_xblock_completion@cb8483afd07f3547d5d760c511b1d6e16f8500d2#egg=xblockcompletion
+-e git+https://github.com/cmmedu/cmmedu-seguimiento@v0.1.0#egg=cmmedu_seguimiento
