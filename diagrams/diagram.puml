@@ -90,7 +90,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks12, "ubcpi-xblock", $link="https://github.com/eol-uchile/ubcpi")
             
-                Container(xblocks13, "pdf-xblock", $link="https://github.com/open-uchile/pdfXBlock")
+                Container(xblocks13, "pdf-xblock", $link="https://github.com/eol-uchile/pdfXBlock")
             
             }
         
