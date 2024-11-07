@@ -10,4 +10,4 @@
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@51bbea2a892b1f1ec522f6919deea07b766cf6ea#egg=eoldiscussion-xblock
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@52cfe736d9ba951345a9d41fc587ec8fdbdb3b9b#egg=eolzoom-xblock
 -e git+https://github.com/eol-uchile/ubcpi@ae4bac403c89fd6c6525cedb7171a66e3aefca4c#egg=ubcpi-xblock
--e git+https://github.com/eol-uchile/pdfXBlock@v0.5.0#egg=pdf-xblock
+-e git+https://github.com/eol-uchile/pdfXBlock@v0.5.1#egg=pdf-xblock
