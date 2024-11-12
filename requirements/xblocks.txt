@@ -1,4 +1,4 @@
--e git+https://github.com/cmmedu/iterative-xblock@fb6d62b1f6f98535f07b958a529ebebe0cc6a693#egg=iterativexblock
+-e git+https://github.com/cmmedu/iterative-xblock@v1.0#egg=iterativexblock
 -e git+https://github.com/eol-uchile/corfo_generate_code@788111b85fe27b7ec9c194bfbc444b851be0022c#egg=corfogeneratecode
 -e git+https://github.com/eol-uchile/edx-ora2@81fdd8c46e3abb1a4dda17f946e0b12d181a2078#egg=ora2
 -e git+https://github.com/eol-uchile/edx-sga@0.10.0+eol3.1.2-dev1#egg=edx-sga
@@ -13,8 +13,8 @@
 -e git+https://github.com/eol-uchile/eol_img_annotation@6af8b78deecc33e60be2f9549496895fd509da69#egg=img-annotation
 -e git+https://github.com/eol-uchile/eol_list_grade@361bb8381752754fe05bef416dbd5d17c4089432#egg=eollistgrade-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@53ec1b6462eb14e15e97ebb07580fbbb447ce324#egg=eolpersistenttab-xblock
--e git+https://github.com/eol-uchile/eol-question-xblock@b6a360e39b37a7e213d9b53c451549859af17eb8#egg=eolquestion-xblock
--e git+https://github.com/eol-uchile/eol-vof-xblock@669eb814039599828c6e6816b06a17446077239d#egg=vof-xblock
+-e git+https://github.com/eol-uchile/eol-question-xblock@v1.0.0#egg=eolquestion-xblock
+-e git+https://github.com/eol-uchile/eol-vof-xblock@v1.0.0#egg=vof-xblock
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@32cbba5b5ee175fbff143b20b0fce968aa644f6d#egg=eoldiscussion-xblock
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@52cfe736d9ba951345a9d41fc587ec8fdbdb3b9b#egg=eolzoom-xblock
 -e git+https://github.com/eol-uchile/flow-control-xblock@4e275efba4e37d9371a27df4997c692c0b40d281#egg=flow-control-xblock
