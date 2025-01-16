@@ -3,7 +3,7 @@
 -e git+https://github.com/eol-uchile/edx-ora2@81fdd8c46e3abb1a4dda17f946e0b12d181a2078#egg=ora2
 -e git+https://github.com/eol-uchile/edx-sga@0.10.0+eol3.1.2-dev1#egg=edx-sga
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@c23184c0e22a7847f0b0c917bbe431c2973770fb#egg=scormxblock-xblock
--e git+https://github.com/eol-uchile/eol-conditional-xblock@725b8eac92418a70b5a5081e953539477f459a60#egg=eolconditional-xblock
+-e git+https://github.com/eol-uchile/eol-conditional-xblock@5b5b47a9aaf4987f5778664bc84d56052c105d6c#egg=eolconditional-xblock
 -e git+https://github.com/eol-uchile/eol-container-xblock@v1.0.0#egg=eolcontainer-xblock
 -e git+https://github.com/eol-uchile/eol-course-program-xblock@df549273a21c6b4674c6645940d7f33c4c8a2aea#egg=eolcourseprogram-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-question-xblock@d60fbea611924b8339747af3ed2ef23c02e9f6b6#egg=dialogsquestionsxblock-xblock
@@ -12,7 +12,7 @@
 -e git+https://github.com/eol-uchile/eol_gradeforum_xblock@1b5160b01a081aa68b42f9aed87845fa88b2b8a0#egg=eolgradediscussion
 -e git+https://github.com/eol-uchile/eol_img_annotation@6af8b78deecc33e60be2f9549496895fd509da69#egg=img-annotation
 -e git+https://github.com/eol-uchile/eol_list_grade@361bb8381752754fe05bef416dbd5d17c4089432#egg=eollistgrade-xblock
--e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@53ec1b6462eb14e15e97ebb07580fbbb447ce324#egg=eolpersistenttab-xblock
+-e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@7f748e4a826a938ec1bbf86c5dbf6733a27f0774#egg=eolpersistenttab-xblock
 -e git+https://github.com/eol-uchile/eol-question-xblock@v1.0.0#egg=eolquestion-xblock
 -e git+https://github.com/eol-uchile/eol-vof-xblock@v1.0.0#egg=vof-xblock
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@32cbba5b5ee175fbff143b20b0fce968aa644f6d#egg=eoldiscussion-xblock
