@@ -18,27 +18,25 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(apps, "apps", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/apps.txt") {
             
-                Container(apps1, "edx-search", $link="https://github.com/eol-uchile/edx-search")
+                Container(apps1, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos")
             
-                Container(apps2, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos")
+                Container(apps2, "edxuserdata", $link="https://github.com/eol-uchile/edx-userdata")
             
-                Container(apps3, "edxuserdata", $link="https://github.com/eol-uchile/edx-userdata")
+                Container(apps3, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form")
             
-                Container(apps4, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form")
+                Container(apps4, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
             
-                Container(apps5, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
+                Container(apps5, "eol_instructor", $link="https://github.com/eol-uchile/eol_instructor")
             
-                Container(apps6, "eol_instructor", $link="https://github.com/eol-uchile/eol_instructor")
+                Container(apps6, "eol_jump_to", $link="https://github.com/eol-uchile/eol_jump_to")
             
-                Container(apps7, "eol_jump_to", $link="https://github.com/eol-uchile/eol_jump_to")
+                Container(apps7, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
             
-                Container(apps8, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
+                Container(apps8, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
             
-                Container(apps9, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
+                Container(apps9, "super_csv", $link="https://github.com/eol-uchile/super-csv")
             
-                Container(apps10, "super_csv", $link="https://github.com/eol-uchile/super-csv")
-            
-                Container(apps11, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin")
+                Container(apps10, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin")
             
             }
         
