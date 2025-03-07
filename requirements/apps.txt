@@ -1,4 +1,4 @@
--e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
+# -e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
 -e git+https://github.com/eol-uchile/edx-ucursos@0.0.1#egg=edxucursos
 -e git+https://github.com/eol-uchile/edx-userdata@e2f20aa2f45282bfd117b8ca4b17b6f6ffec67cb#egg=edxuserdata
 -e git+https://github.com/eol-uchile/eol_contact_form@c59e764eee1c8bcae8fb25011a78b2353d14aa63#egg=eol_contact_form
