@@ -23,14 +23,22 @@ COPY ./themes/ /openedx/themes/
 COPY ./lms-assets.py /openedx/edx-platform/lms/envs/prod/assets.py
 COPY ./cms-assets.py /openedx/edx-platform/cms/envs/prod/assets.py
 
+# staticfiles env
+ENV STATIC_ROOT_LMS /openedx/staticfiles/
+ENV STATIC_ROOT_CMS /openedx/staticfiles/studio/
+
 # Build static assets
-RUN openedx-assets npm \
-    && openedx-assets webpack --env=prod \
-    && openedx-assets common \
-    && openedx-assets themes \
-    && python manage.py lms --settings=prod.assets compilejsi18n \
-    && python manage.py cms --settings=prod.assets compilejsi18n \
-    && openedx-assets collect --settings=prod.assets
+RUN openedx-assets xmodule
+RUN openedx-assets npm
+RUN openedx-assets webpack --env=prod
+RUN openedx-assets common
+RUN openedx-assets themes
+RUN python manage.py lms --settings=prod.assets compilejsi18n
+RUN python manage.py cms --settings=prod.assets compilejsi18n
+RUN openedx-assets collect --settings=prod.assets
+
+# production settings
+ENV SETTINGS prod.production
 
 FROM rclone/rclone:1.56.0 as s3
 
