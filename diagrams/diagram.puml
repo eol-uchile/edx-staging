@@ -56,15 +56,15 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(reports, "reports", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/reports.txt") {
             
-                Container(reports1, "gradeucursos", $link="https://github.com/eol-uchile/eol_grade_ucursos")
+                Container(reports1, "cmmedu_seguimiento", $link="https://github.com/cmmedu/cmmedu-seguimiento")
             
-                Container(reports2, "eol_report_analytics", $link="https://github.com/eol-uchile/eol_report_analytics")
+                Container(reports2, "gradeucursos", $link="https://github.com/eol-uchile/eol_grade_ucursos")
             
-                Container(reports3, "eolreportcertificate", $link="https://github.com/eol-uchile/eol_report_certificate")
+                Container(reports3, "eol_report_analytics", $link="https://github.com/eol-uchile/eol_report_analytics")
             
-                Container(reports4, "xblockcompletion", $link="https://github.com/eol-uchile/eol_xblock_completion")
+                Container(reports4, "eolreportcertificate", $link="https://github.com/eol-uchile/eol_report_certificate")
             
-                Container(reports5, "cmmedu_seguimiento", $link="https://github.com/cmmedu/cmmedu-seguimiento")
+                Container(reports5, "xblockcompletion", $link="https://github.com/eol-uchile/eol_xblock_completion")
             
             }
         
