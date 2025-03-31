@@ -2,4 +2,4 @@
 -e git+https://github.com/eol-uchile/eol_grade_ucursos@9974d9d43b4df564a4bdd03fe3205d816c48e5be#egg=gradeucursos
 -e git+https://github.com/eol-uchile/eol_report_analytics@feef8ef18e1e1f3959c1a6073ccdb365a7c14466#egg=eol_report_analytics
 -e git+https://github.com/eol-uchile/eol_report_certificate@a5fdc08eac85e5bd2f12abc98de7d3d62b4e874e#egg=eolreportcertificate
--e git+https://github.com/eol-uchile/eol_xblock_completion@d1d05f9caa23ecf5b53b5ac3d4164d8bb9fcc31d#egg=xblockcompletion
+-e git+https://github.com/eol-uchile/eol_xblock_completion@db245f7d27299abea015b73739fada6f1117aa5a#egg=xblockcompletion
