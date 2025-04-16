@@ -1,1 +1,1 @@
--e git+https://github.com/eol-uchile/eol_report_analytics@feef8ef18e1e1f3959c1a6073ccdb365a7c14466#egg=eol_report_analytics
+-e git+https://github.com/eol-uchile/eol_report_analytics@0.0.1#egg=eol_report_analytics
