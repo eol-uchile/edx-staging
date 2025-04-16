@@ -10,7 +10,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(apis, "apis", $link="https://github.com/eol-uchile/edx-staging/blob/openuchile-release/koa/requirements/apis.txt") {
             
-                Container(apis1, "portal_api", $link="https://github.com/open-uchile/portal_api")
+                Container(apis1, "portal_api", $link="https://github.com/eol-uchile/portal_api")
             
             }
         
