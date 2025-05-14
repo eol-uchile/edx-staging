@@ -11,7 +11,7 @@
 -e git+https://github.com/eol-uchile/eol_forum_notifications@1.0.0#egg=eol_forum_notifications
 -e git+https://github.com/eol-uchile/eol_gradeforum_xblock@1b5160b01a081aa68b42f9aed87845fa88b2b8a0#egg=eolgradediscussion
 -e git+https://github.com/eol-uchile/eol_img_annotation@a8ebb5c5b87b3608ac0d9acd9db4bd0b8bc81051#egg=img-annotation
--e git+https://github.com/eol-uchile/eol_list_grade@361bb8381752754fe05bef416dbd5d17c4089432#egg=eollistgrade-xblock
+-e git+https://github.com/eol-uchile/eol_list_grade@1.0.0#egg=eollistgrade-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@1.0.0#egg=eolpersistenttab-xblock
 -e git+https://github.com/eol-uchile/eol-question-xblock@v1.0.0#egg=eolquestion-xblock
 -e git+https://github.com/eol-uchile/eol-vof-xblock@v1.0.0#egg=vof-xblock
