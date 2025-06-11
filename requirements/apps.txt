@@ -1,7 +1,7 @@
 # -e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
 -e git+https://github.com/eol-uchile/edx-ucursos@0.1.0#egg=edxucursos
 -e git+https://github.com/eol-uchile/edx-userdata@0.0.2#egg=edxuserdata
--e git+https://github.com/eol-uchile/eol_contact_form@c59e764eee1c8bcae8fb25011a78b2353d14aa63#egg=eol_contact_form
+-e git+https://github.com/eol-uchile/eol_contact_form@0.0.1#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@1.0.0#egg=eol_duplicate_xblock
 -e git+https://github.com/eol-uchile/eol_instructor@0.0.1#egg=eol_instructor
 -e git+https://github.com/eol-uchile/eol_jump_to@bdbb1fca8ae0e0e7e8d6c38641975942ea9f154e#egg=eol_jump_to
