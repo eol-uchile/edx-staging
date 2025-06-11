@@ -6,7 +6,7 @@
 -e git+https://github.com/eol-uchile/eol-course-program-xblock@0.1.1#egg=eolcourseprogram-xblock
 -e git+https://github.com/eol-uchile/eol_forum_notifications@6d4ced6cd7b667e6048bf199a22f2c82b801e120#egg=eol_forum_notifications
 -e git+https://github.com/eol-uchile/eol_gradeforum_xblock@1b5160b01a081aa68b42f9aed87845fa88b2b8a0#egg=eolgradediscussion
--e git+https://github.com/eol-uchile/eol_list_grade@0d7688919bad8b229bff2948f31fedd76f1029d2#egg=eollistgrade-xblock
+-e git+https://github.com/eol-uchile/eol_list_grade@1.0.0#egg=eollistgrade-xblock
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@51bbea2a892b1f1ec522f6919deea07b766cf6ea#egg=eoldiscussion-xblock
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@1.0.0#egg=eolzoom-xblock
 -e git+https://github.com/eol-uchile/ubcpi@ae4bac403c89fd6c6525cedb7171a66e3aefca4c#egg=ubcpi-xblock
