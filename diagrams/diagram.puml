@@ -142,11 +142,9 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks29, "xblock-drag-and-drop-v2", $link="https://github.com/eol-uchile/xblock-drag-and-drop-v2")
             
-                Container(xblocks30, "xblock-eoc-journal", $link="https://github.com/eol-uchile/xblock-eoc-journal")
+                Container(xblocks30, "invideoquiz-xblock", $link="https://github.com/eol-uchile/xblock-in-video-quiz")
             
-                Container(xblocks31, "invideoquiz-xblock", $link="https://github.com/eol-uchile/xblock-in-video-quiz")
-            
-                Container(xblocks32, "lti-consumer-xblock", $link="https://github.com/eol-uchile/xblock-lti-consumer")
+                Container(xblocks31, "lti-consumer-xblock", $link="https://github.com/eol-uchile/xblock-lti-consumer")
             
             }
         
