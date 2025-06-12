@@ -26,7 +26,6 @@
 -e git+https://github.com/eol-uchile/proctoring_hide_xblock@5b3d9eae526b795cb1cb23ea717398ec35bc988f#egg=proctoring_hide_xblock
 -e git+https://github.com/eol-uchile/sence-xblock@1.0.0#egg=sence-xblock
 -e git+https://github.com/eol-uchile/ubcpi@ae4bac403c89fd6c6525cedb7171a66e3aefca4c#egg=ubcpi-xblock
--e git+https://github.com/eol-uchile/xblock-drag-and-drop-v2@58d8a691cf9210220925f3d2957b39a377f6704c#egg=xblock-drag-and-drop-v2
--e git+https://github.com/eol-uchile/xblock-eoc-journal@5f32bfedafec3b44f1ff8efbee513dc687722308#egg=xblock-eoc-journal
+-e git+https://github.com/eol-uchile/xblock-drag-and-drop-v2@v2.3.4+eol#egg=xblock-drag-and-drop-v2
 -e git+https://github.com/eol-uchile/xblock-in-video-quiz@1555dcbd96341f19b76f915f0135f46192869796#egg=invideoquiz-xblock
 -e git+https://github.com/eol-uchile/xblock-lti-consumer@b1384343be9ae1a4d6de5760a3a5c1475a3024cf#egg=lti-consumer-xblock
