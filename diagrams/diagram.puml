@@ -126,25 +126,17 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks21, "xblock-free-text-response", $link="https://github.com/eol-uchile/free-text-response")
             
-                Container(xblocks22, "generate_certificate", $link="https://github.com/eol-uchile/generate_certificate_xblock")
+                Container(xblocks22, "pdf-xblock", $link="https://github.com/eol-uchile/pdfXBlock")
             
-                Container(xblocks23, "payment-link", $link="https://github.com/eol-uchile/payment_link_xblock")
+                Container(xblocks23, "sence-xblock", $link="https://github.com/eol-uchile/sence-xblock")
             
-                Container(xblocks24, "pdf-xblock", $link="https://github.com/eol-uchile/pdfXBlock")
+                Container(xblocks24, "ubcpi-xblock", $link="https://github.com/eol-uchile/ubcpi")
             
-                Container(xblocks25, "xblock-problem-builder", $link="https://github.com/eol-uchile/problem-builder")
+                Container(xblocks25, "xblock-drag-and-drop-v2", $link="https://github.com/eol-uchile/xblock-drag-and-drop-v2")
             
-                Container(xblocks26, "proctoring_hide_xblock", $link="https://github.com/eol-uchile/proctoring_hide_xblock")
+                Container(xblocks26, "invideoquiz-xblock", $link="https://github.com/eol-uchile/xblock-in-video-quiz")
             
-                Container(xblocks27, "sence-xblock", $link="https://github.com/eol-uchile/sence-xblock")
-            
-                Container(xblocks28, "ubcpi-xblock", $link="https://github.com/eol-uchile/ubcpi")
-            
-                Container(xblocks29, "xblock-drag-and-drop-v2", $link="https://github.com/eol-uchile/xblock-drag-and-drop-v2")
-            
-                Container(xblocks30, "invideoquiz-xblock", $link="https://github.com/eol-uchile/xblock-in-video-quiz")
-            
-                Container(xblocks31, "lti-consumer-xblock", $link="https://github.com/eol-uchile/xblock-lti-consumer")
+                Container(xblocks27, "lti-consumer-xblock", $link="https://github.com/eol-uchile/xblock-lti-consumer")
             
             }
         
