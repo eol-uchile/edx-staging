@@ -29,12 +29,19 @@ jobs:
 
     steps:
 
+    - name: Create GitHub App Token
+      id: app_token
+      uses: actions/create-github-app-token@v2
+      with:
+        app-id: ${{ secrets.EOLITO_BOT_APP_ID }}
+        private-key: ${{ secrets.EOLITO_BOT_PRIVATE_KEY }}
+
     - name: Checkout
       uses: actions/checkout@v4
       with:
         fetch-depth: 1
         submodules: 'recursive'
-        token: ${{ secrets.SECRET_DIAGRAM }}
+        token: ${{ steps.app_token.outputs.token }} # create-github-app-token@v2 genera en tiempo de ejecución un token short‑lived para la App (eolito-bot) con los permisos definidos.
 
     - name: Set up Python
       uses: actions/setup-python@v4
