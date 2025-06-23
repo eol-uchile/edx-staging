@@ -13,11 +13,21 @@ on:
       - '.gitmodules'
       - 'gen_deps_diagram.py'
 
+  pull_request:
+    branches:
+      - 'openuchile-release/koa'
+      - 'eol-release/koa'
+    paths:
+      - 'Dockerfile'
+      - 'requirements/**.txt'
+      - '.github/workflows/diagram.yml'
+      - 'templates/diagram_template.j2'
+      - 'themes/**'
+      - '.gitmodules'
+      - 'gen_deps_diagram.py'
+
 # Required for the workflow to be reused by other repositories.
   workflow_call:
-    secrets:
-      SECRET_DIAGRAM:
-        required: true
 
 permissions:
   contents: write
@@ -33,7 +43,7 @@ jobs:
       id: app_token
       uses: actions/create-github-app-token@v2
       with:
-        app-id: ${{ secrets.EOLITO_BOT_APP_ID }}
+        app-id: ${{ vars.EOLITO_BOT_APP_ID }}
         private-key: ${{ secrets.EOLITO_BOT_PRIVATE_KEY }}
 
     - name: Checkout
@@ -41,7 +51,7 @@ jobs:
       with:
         fetch-depth: 1
         submodules: 'recursive'
-        token: ${{ steps.app_token.outputs.token }} # create-github-app-token@v2 genera en tiempo de ejecución un token short‑lived para la App (eolito-bot) con los permisos definidos.
+        token: ${{ steps.app_token.outputs.token }} # create-github-app-token@v2 generates at runtime a short-lived token for the App (eolito-bot) with the defined permissions.
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -77,6 +87,7 @@ jobs:
         git config user.email ${{ github.actor }}@users.noreply.github.com
 
     - name: Commit UML Images
+      if: ${{ github.event_name != 'pull_request' }}
       run: |
         if [ "$(git status --porcelain diagrams/)" != "" ]
         then
