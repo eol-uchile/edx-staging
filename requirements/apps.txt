@@ -2,7 +2,7 @@
 -e git+https://github.com/eol-uchile/edx-search@726d991728f78efe3f98d3a71ac4600d46a125ea#egg=edx-search
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@1.0.0#egg=eol_duplicate_xblock
 -e git+https://github.com/eol-uchile/eol_sso_login@0.1.1#egg=eol_sso_login
--e git+https://github.com/eol-uchile/eol_survey@ab8506723ca972bf9ecb6afd1b4fed3f4cf32501#egg=eol_survey
+-e git+https://github.com/eol-uchile/eol_survey@1.0.0#egg=eol_survey
 -e git+https://github.com/eol-uchile/eol_vimeo@1.0.0#egg=eol_vimeo
 -e git+https://github.com/open-uchile/edx-proctoring@3815d8852fc7059848444fbe401a5c08f89a9aac#egg=edx-proctoring
 -e git+https://github.com/eol-uchile/eol_contact_form@0.2.2+open#egg=eol_contact_form
