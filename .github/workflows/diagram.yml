@@ -15,6 +15,13 @@ on:
 
 # Required for the workflow to be reused by other repositories.
   workflow_call:
+    secrets:
+      private_key:
+        required: true
+    inputs:
+      app_id:
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -23,15 +30,14 @@ jobs:
   generate_diagram:
     runs-on: ubuntu-latest
     name: PlantUML Diagram
-
     steps:
 
     - name: Create GitHub App Token
       id: app_token
       uses: actions/create-github-app-token@v2
       with:
-        app-id: ${{ vars.EOLITO_BOT_APP_ID }}
-        private-key: ${{ secrets.EOLITO_BOT_PRIVATE_KEY }}
+        app-id: ${{ inputs.app_id || vars.EOLITO_BOT_APP_ID }}
+        private-key: ${{ secrets.private_key || secrets.EOLITO_BOT_PRIVATE_KEY }}
 
     - name: Checkout
       uses: actions/checkout@v4
