@@ -13,21 +13,15 @@ on:
       - '.gitmodules'
       - 'gen_deps_diagram.py'
 
-  pull_request:
-    branches:
-      - 'openuchile-release/koa'
-      - 'eol-release/koa'
-    paths:
-      - 'Dockerfile'
-      - 'requirements/**.txt'
-      - '.github/workflows/diagram.yml'
-      - 'templates/diagram_template.j2'
-      - 'themes/**'
-      - '.gitmodules'
-      - 'gen_deps_diagram.py'
-
 # Required for the workflow to be reused by other repositories.
   workflow_call:
+    secrets:
+      private_key:
+        required: true
+    inputs:
+      app_id:
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -36,15 +30,14 @@ jobs:
   generate_diagram:
     runs-on: ubuntu-latest
     name: PlantUML Diagram
-
     steps:
 
     - name: Create GitHub App Token
       id: app_token
       uses: actions/create-github-app-token@v2
       with:
-        app-id: ${{ vars.EOLITO_BOT_APP_ID }}
-        private-key: ${{ secrets.EOLITO_BOT_PRIVATE_KEY }}
+        app-id: ${{ inputs.app_id || vars.EOLITO_BOT_APP_ID }}
+        private-key: ${{ secrets.private_key || secrets.EOLITO_BOT_PRIVATE_KEY }}
 
     - name: Checkout
       uses: actions/checkout@v4
@@ -87,7 +80,6 @@ jobs:
         git config user.email ${{ github.actor }}@users.noreply.github.com
 
     - name: Commit UML Images
-      if: ${{ github.event_name != 'pull_request' }}
       run: |
         if [ "$(git status --porcelain diagrams/)" != "" ]
         then
