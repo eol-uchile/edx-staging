@@ -16,8 +16,12 @@ on:
 # Required for the workflow to be reused by other repositories.
   workflow_call:
     secrets:
-      SECRET_DIAGRAM:
+      private_key:
         required: true
+    inputs:
+      app_id:
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -26,15 +30,21 @@ jobs:
   generate_diagram:
     runs-on: ubuntu-latest
     name: PlantUML Diagram
-
     steps:
+
+    - name: Create GitHub App Token
+      id: app_token
+      uses: actions/create-github-app-token@v2
+      with:
+        app-id: ${{ inputs.app_id || vars.EOLITO_BOT_APP_ID }}
+        private-key: ${{ secrets.private_key || secrets.EOLITO_BOT_PRIVATE_KEY }}
 
     - name: Checkout
       uses: actions/checkout@v4
       with:
         fetch-depth: 1
         submodules: 'recursive'
-        token: ${{ secrets.SECRET_DIAGRAM }}
+        token: ${{ steps.app_token.outputs.token }} # create-github-app-token@v2 generates at runtime a short-lived token for the App (eolito-bot) with the defined permissions.
 
     - name: Set up Python
       uses: actions/setup-python@v5
