@@ -6,6 +6,12 @@ on:
       code:
         required: true
         type: string
+      app_id:
+        required: true
+        type: string
+    secrets:
+      private_key:
+        required: true
   repository_dispatch:
     types: [debug-webhook]
 
