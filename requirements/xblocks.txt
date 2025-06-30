@@ -22,6 +22,6 @@
 -e git+https://github.com/eol-uchile/pdfXBlock@v0.5.1#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/sence-xblock@1.0.0#egg=sence-xblock
 -e git+https://github.com/eol-uchile/ubcpi@1.0.0#egg=ubcpi-xblock
--e git+https://github.com/eol-uchile/xblock-drag-and-drop-v2@v2.3.4+eol#egg=xblock-drag-and-drop-v2
+-e git+https://github.com/openedx/xblock-drag-and-drop-v2@v3.1.3#egg=xblock-drag-and-drop-v2
 -e git+https://github.com/eol-uchile/xblock-in-video-quiz@1555dcbd96341f19b76f915f0135f46192869796#egg=invideoquiz-xblock
 -e git+https://github.com/eol-uchile/xblock-lti-consumer@b1384343be9ae1a4d6de5760a3a5c1475a3024cf#egg=lti-consumer-xblock
