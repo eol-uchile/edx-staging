@@ -132,7 +132,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks24, "ubcpi-xblock", $link="https://github.com/eol-uchile/ubcpi")
             
-                Container(xblocks25, "xblock-drag-and-drop-v2", $link="https://github.com/eol-uchile/xblock-drag-and-drop-v2")
+                Container(xblocks25, "xblock-drag-and-drop-v2", $link="https://github.com/openedx/xblock-drag-and-drop-v2")
             
                 Container(xblocks26, "invideoquiz-xblock", $link="https://github.com/eol-uchile/xblock-in-video-quiz")
             
