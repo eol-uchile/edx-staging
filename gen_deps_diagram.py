@@ -2,7 +2,7 @@ import os
 import re
 import sys
 import logging
-from jinja2 import Template, Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader
 import subprocess
 
 # Configurar logger
@@ -10,8 +10,9 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # Expresiones regulares
-package_pattern_with_link = re.compile(r'^-e git\+(https://[^\s@]+)@[^#]+#egg=([^\s]+)')
+package_pattern_with_link = re.compile(r'^-e git\+(https://[^\s@]+)@([^#]+)#egg=([^\s]+)')
 package_pattern_without_link = re.compile(r'^([^=\s]+)==([\d\.]+)')
+commit_hash_pattern = re.compile(r'^[0-9a-fA-F]{7,40}$')
 
 
 def get_repository_branch(data):
@@ -64,40 +65,6 @@ def process_themes(themes_path, data):
             link = subprocess.check_output(['git', 'remote', 'get-url', 'origin'], cwd=theme_path, universal_newlines=True).strip()
             data['themes'].append({'name': theme, 'link': link})
 
-# Funcion que permite obtener el basename (nombre del archivo sin extensión) y un indicador has_links que indica si hay enlaces en el archivo.
-def extract_info_from_txt(txt_file_path):
-    basename = os.path.splitext(os.path.basename(txt_file_path))[0].lower()
-    has_links = False
-
-    with open(txt_file_path, 'r') as file:
-        for line in file:
-            # Buscar información del paquete con enlace
-            package_match = package_pattern_with_link.match(line)
-            if package_match:
-                has_links = True
-                link = package_match.group(1)
-                package_name = package_match.group(2)
-
-                return basename, has_links, {
-                    'name': package_name,
-                    'version': None,  # El paquete con enlace no tiene versión en este contexto
-                    'link': link
-                }
-
-            # Buscar información del paquete sin enlace
-            package_match = package_pattern_without_link.match(line)
-            if package_match:
-                package_name = package_match.group(1)
-                package_version = package_match.group(2)
-
-                return basename, has_links, {
-                    'name': package_name,
-                    'version': package_version,
-                    'link': None
-                }
-
-    return basename, has_links, None
-
 def process_txt_files(requirements_path, data):
     # Obtener la lista de archivos en la carpeta '/requirements'
     txt_files = sorted(os.listdir(requirements_path))
@@ -113,14 +80,13 @@ def process_txt_files(requirements_path, data):
                 sys.exit(-1)
 
 def process_txt_file(txt_file_path, data):
-    # Extraer el basename y los nombres de los paquetes desde el archivo .txt
-    basename, _, has_links = extract_info_from_txt(txt_file_path)
+    # Extraer el basename desde el archivo .txt
+    basename = os.path.splitext(os.path.basename(txt_file_path))[0].lower()
 
     # Agregar información al diccionario de datos
     data['requirements'].append({
         'basename': basename,
-        'packages': [],
-        'has_links': has_links
+        'packages': []
     })
 
     with open(txt_file_path, 'r') as file:
@@ -128,13 +94,13 @@ def process_txt_file(txt_file_path, data):
             # Buscar información del paquete con enlace
             package_match = package_pattern_with_link.match(line)
             if package_match:
-                has_links = True
-                link = package_match.group(1)
-                package_name = package_match.group(2)
-
-                if not data['requirements']:
-                    # Si la lista está vacía, agregar un diccionario vacío para contener los paquetes
-                    data['requirements'].append({'basename': basename, 'packages': [], 'has_links': has_links})
+                base_link = package_match.group(1)
+                hash_or_tag = package_match.group(2)
+                package_name = package_match.group(3)
+                if commit_hash_pattern.match(hash_or_tag):
+                    link = f'{base_link}/commit/{hash_or_tag}'
+                else:
+                    link = f'{base_link}/releases/tag/{hash_or_tag}'
 
                 data['requirements'][-1]['packages'].append({
                     'name': package_name,
@@ -147,10 +113,6 @@ def process_txt_file(txt_file_path, data):
             if package_match:
                 package_name = package_match.group(1)
                 package_version = package_match.group(2)
-
-                if not data['requirements']:
-                    # Si la lista está vacía, agregar un diccionario vacío para contener los paquetes
-                    data['requirements'].append({'basename': basename, 'packages': [], 'has_links': has_links})
 
                 data['requirements'][-1]['packages'].append({
                     'name': package_name,
