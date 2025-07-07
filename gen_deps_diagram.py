@@ -10,8 +10,9 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # Expresiones regulares
-package_pattern_with_link = re.compile(r'^-e git\+(https://[^\s@]+)@[^#]+#egg=([^\s]+)')
+package_pattern_with_link = re.compile(r'^-e git\+(https://[^\s@]+)@([^#]+)#egg=([^\s]+)')
 package_pattern_without_link = re.compile(r'^([^=\s]+)==([\d\.]+)')
+commit_hash_pattern = re.compile(r'^[0-9a-fA-F]{7,40}$')
 
 
 def get_repository_branch(data):
@@ -75,8 +76,13 @@ def extract_info_from_txt(txt_file_path):
             package_match = package_pattern_with_link.match(line)
             if package_match:
                 has_links = True
-                link = package_match.group(1)
-                package_name = package_match.group(2)
+                base_link = package_match.group(1)
+                hash_or_tag = package_match.group(2)
+                package_name = package_match.group(3)
+                if commit_hash_pattern.match(hash_or_tag):
+                    link = f'{base_link}/commit/{hash_or_tag}'
+                else:
+                    link = f'{base_link}/releases/tag/{hash_or_tag}'
 
                 return basename, has_links, {
                     'name': package_name,
@@ -129,8 +135,13 @@ def process_txt_file(txt_file_path, data):
             package_match = package_pattern_with_link.match(line)
             if package_match:
                 has_links = True
-                link = package_match.group(1)
-                package_name = package_match.group(2)
+                base_link = package_match.group(1)
+                hash_or_tag = package_match.group(2)
+                package_name = package_match.group(3)
+                if commit_hash_pattern.match(hash_or_tag):
+                    link = f'{base_link}/commit/{hash_or_tag}'
+                else:
+                    link = f'{base_link}/releases/tag/{hash_or_tag}'
 
                 if not data['requirements']:
                     # Si la lista está vacía, agregar un diccionario vacío para contener los paquetes
