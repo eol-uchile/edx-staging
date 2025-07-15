@@ -1,4 +1,4 @@
 django-redis==4.12.1
-edx-username-changer==0.3.2
+-e git+https://github.com/mitodl/edx-username-changer.git@main#egg=edx-username-changer
 fluent-logger==0.9.6
 python-json-logger==0.1.11
