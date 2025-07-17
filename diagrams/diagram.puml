@@ -36,7 +36,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(python_packages1, "django-redis")
             
-                Container(python_packages2, "edx-username-changer")
+                Container(python_packages2, "edx-username-changer", $link="https://github.com/mitodl/edx-username-changer.git/releases/tag/main")
             
                 Container(python_packages3, "fluent-logger")
             
