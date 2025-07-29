@@ -138,7 +138,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks27, "lti-consumer-xblock", $link="https://github.com/eol-uchile/xblock-lti-consumer/commit/b1384343be9ae1a4d6de5760a3a5c1475a3024cf")
             
-                Container(xblocks28, "cmmedu-ordertable-xblock", $link="https://github.com/cmmedu/cmmedu-ordertable-xblock/releases/tag/v1.0.0")
+                Container(xblocks28, "cmmedu-ordertable-xblock", $link="https://github.com/cmmedu/cmmedu-ordertable-xblock/releases/tag/v1.0.1")
             
             }
         
