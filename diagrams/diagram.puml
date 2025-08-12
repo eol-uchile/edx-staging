@@ -26,7 +26,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps5, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo/releases/tag/1.0.0")
             
-                Container(apps6, "edx-proctoring", $link="https://github.com/open-uchile/edx-proctoring/commit/3815d8852fc7059848444fbe401a5c08f89a9aac")
+                Container(apps6, "edx-proctoring", $link="https://github.com/openedx/edx-proctoring/releases/tag/2.6.7")
             
                 Container(apps7, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form/releases/tag/0.2.2+open")
             
