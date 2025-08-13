@@ -120,7 +120,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks18, "eoldiscussion-xblock", $link="https://github.com/eol-uchile/eol_xblock_discussion/releases/tag/1.0.0")
             
-                Container(xblocks19, "eolzoom-xblock", $link="https://github.com/eol-uchile/eol-zoom-xblock/releases/tag/1.0.0")
+                Container(xblocks19, "eolzoom-xblock", $link="https://github.com/eol-uchile/eol-zoom-xblock/releases/tag/1.1.0")
             
                 Container(xblocks20, "flow-control-xblock", $link="https://github.com/eol-uchile/flow-control-xblock/releases/tag/v1.0.1")
             
