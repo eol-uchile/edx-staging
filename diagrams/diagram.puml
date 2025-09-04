@@ -18,9 +18,9 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(apps, "apps", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/apps.txt") {
             
-                Container(apps1, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos/releases/tag/0.1.0")
+                Container(apps1, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos/releases/tag/1.0.0")
             
-                Container(apps2, "edxuserdata", $link="https://github.com/eol-uchile/edx-userdata/releases/tag/0.0.2")
+                Container(apps2, "edxuserdata", $link="https://github.com/eol-uchile/edx-userdata/releases/tag/1.0.0")
             
                 Container(apps3, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form/releases/tag/0.0.1")
             
@@ -36,7 +36,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps9, "super_csv", $link="https://github.com/eol-uchile/super-csv/commit/7eba102f1ce365131d05ba60967ada7b04a194d1")
             
-                Container(apps10, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin/releases/tag/0.0.1")
+                Container(apps10, "uchileedxlogin", $link="https://github.com/eol-uchile/uchileedxlogin/releases/tag/1.0.0")
             
             }
         
