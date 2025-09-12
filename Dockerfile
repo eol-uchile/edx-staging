@@ -23,8 +23,14 @@ ENV STATIC_ROOT_LMS=/openedx/staticfiles/
 ENV STATIC_ROOT_CMS=/openedx/staticfiles/studio/
 
 # Build static assets
-RUN NO_PREREQ_INSTALL=1 paver update_assets lms --settings=prod.assets
-RUN NO_PREREQ_INSTALL=1 paver update_assets cms --settings=prod.assets
+RUN openedx-assets xmodule
+RUN openedx-assets npm
+RUN openedx-assets webpack --env=prod
+RUN openedx-assets common
+RUN openedx-assets themes
+RUN SERVICE_VARIANT=lms python manage.py lms --settings=prod.assets compilejsi18n
+RUN SERVICE_VARIANT=cms python manage.py cms --settings=prod.assets compilejsi18n
+RUN openedx-assets collect --settings=prod.assets
 
 # production settings
 ENV SETTINGS=prod.production
