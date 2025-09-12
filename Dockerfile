@@ -23,8 +23,8 @@ ENV STATIC_ROOT_LMS=/openedx/staticfiles/
 ENV STATIC_ROOT_CMS=/openedx/staticfiles/studio/
 
 # Build static assets
-RUN NO_PREREQ_INSTALL=1 SERVICE_VARIANT=lms paver update_assets lms --settings=prod.assets
-RUN NO_PREREQ_INSTALL=1 SERVICE_VARIANT=cms paver update_assets cms --settings=prod.assets
+RUN NO_PREREQ_INSTALL=1 paver update_assets lms --settings=prod.assets
+RUN NO_PREREQ_INSTALL=1 paver update_assets cms --settings=prod.assets
 
 # production settings
 ENV SETTINGS=prod.production
