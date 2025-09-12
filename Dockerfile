@@ -28,8 +28,8 @@ RUN openedx-assets npm
 RUN openedx-assets webpack --env=prod
 RUN openedx-assets common
 RUN openedx-assets themes
-RUN python manage.py lms --settings=prod.assets compilejsi18n
-RUN python manage.py cms --settings=prod.assets compilejsi18n
+RUN SERVICE_VARIANT=lms python manage.py lms --settings=prod.assets compilejsi18n
+RUN SERVICE_VARIANT=cms python manage.py cms --settings=prod.assets compilejsi18n
 RUN openedx-assets collect --settings=prod.assets
 
 # production settings
