@@ -104,7 +104,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks11, "eol_forum_notifications", $link="https://github.com/eol-uchile/eol_forum_notifications/releases/tag/1.0.0")
             
-                Container(xblocks12, "eolgradediscussion", $link="https://github.com/eol-uchile/eol_gradeforum_xblock/commit/1b5160b01a081aa68b42f9aed87845fa88b2b8a0")
+                Container(xblocks12, "eolgradediscussion", $link="https://github.com/eol-uchile/eol_gradeforum_xblock/releases/tag/1.0.0")
             
                 Container(xblocks13, "img-annotation", $link="https://github.com/eol-uchile/eol_img_annotation/releases/tag/1.0.0")
             
@@ -120,7 +120,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks19, "eolzoom-xblock", $link="https://github.com/eol-uchile/eol-zoom-xblock/releases/tag/1.1.2")
             
-                Container(xblocks20, "flow-control-xblock", $link="https://github.com/eol-uchile/flow-control-xblock/releases/tag/v1.0.1")
+                Container(xblocks20, "flow-control-xblock", $link="https://github.com/eduNEXT/flow-control-xblock/releases/tag/v1.0.1")
             
                 Container(xblocks21, "xblock-free-text-response", $link="https://github.com/eol-uchile/free-text-response/releases/tag/0.4.0")
             
