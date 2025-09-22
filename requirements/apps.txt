@@ -7,5 +7,4 @@
 -e git+https://github.com/eol-uchile/eol_jump_to@0.0.1#egg=eol_jump_to
 -e git+https://github.com/eol-uchile/eol_survey@1.0.0#egg=eol_survey
 -e git+https://github.com/eol-uchile/eol_vimeo@1.0.0#egg=eol_vimeo
--e git+https://github.com/eol-uchile/super-csv@7eba102f1ce365131d05ba60967ada7b04a194d1#egg=super_csv
 -e git+https://github.com/eol-uchile/uchileedxlogin@1.0.0#egg=uchileedxlogin
