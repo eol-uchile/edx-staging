@@ -96,7 +96,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
 
     System_Boundary(theme, "Themes", $link="https://github.com/eol-uchile/edx-staging/blob/openuchile-release/koa/themes/") {
         
-            Container(theme1, "open-uchile-theme", $link="https://github.com/open-uchile/open-uchile-theme.git")
+            Container(theme1, "open-uchile-theme", $link="https://github.com/eol-uchile/open-uchile-theme.git")
         
     }
 
