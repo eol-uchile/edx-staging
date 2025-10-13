@@ -7,7 +7,7 @@
 -e git+https://github.com/eol-uchile/eol_forum_notifications@1.0.0#egg=eol_forum_notifications
 -e git+https://github.com/eol-uchile/eol_gradeforum_xblock@1.0.0#egg=eolgradediscussion
 -e git+https://github.com/eol-uchile/eol_list_grade@1.0.0#egg=eollistgrade-xblock
--e git+https://github.com/eol-uchile/eol_xblock_discussion@1.0.0#egg=eoldiscussion-xblock
+-e git+https://github.com/eol-uchile/eol_xblock_discussion@1.0.1#egg=eoldiscussion-xblock
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@1.1.2#egg=eolzoom-xblock
 -e git+https://github.com/eol-uchile/ubcpi@1.0.0#egg=ubcpi-xblock
 -e git+https://github.com/eol-uchile/pdfXBlock@v0.5.1#egg=pdf-xblock
