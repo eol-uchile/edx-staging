@@ -15,7 +15,7 @@
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@1.0.0#egg=eolpersistenttab-xblock
 -e git+https://github.com/eol-uchile/eol-question-xblock@v1.0.0#egg=eolquestion-xblock
 -e git+https://github.com/eol-uchile/eol-vof-xblock@v1.0.1#egg=vof-xblock
--e git+https://github.com/eol-uchile/eol_xblock_discussion@1.0.0#egg=eoldiscussion-xblock
+-e git+https://github.com/eol-uchile/eol_xblock_discussion@1.0.1#egg=eoldiscussion-xblock
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@1.1.2#egg=eolzoom-xblock
 -e git+https://github.com/eduNEXT/flow-control-xblock@v1.0.1#egg=flow-control-xblock
 -e git+https://github.com/eol-uchile/free-text-response@0.4.0#egg=xblock-free-text-response
