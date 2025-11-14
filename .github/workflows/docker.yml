@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   variables:
-    uses: eol-uchile/edx-platform/.github/workflows/variables.yml@eol/koa.master # TODO: points to eol-release trunk
+    uses: eol-uchile/workflow-commons/.github/workflows/variables.yml@main
   build:
     needs: [ variables ]
     runs-on: ubuntu-latest
