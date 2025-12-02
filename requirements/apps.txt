@@ -1,10 +1,10 @@
 -e git+https://github.com/openedx/edx-proctoring@2.6.7#egg=edx-proctoring
--e git+https://github.com/eol-uchile/edx-ucursos@1.0.0#egg=edxucursos
--e git+https://github.com/eol-uchile/edx-userdata@1.0.0#egg=edxuserdata
+-e git+https://github.com/eol-uchile/edx-ucursos@2.0.0#egg=edxucursos
 -e git+https://github.com/eol-uchile/eol_contact_form@0.0.1#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@1.0.0#egg=eol_duplicate_xblock
 -e git+https://github.com/eol-uchile/eol_instructor@0.0.1#egg=eol_instructor
 -e git+https://github.com/eol-uchile/eol_jump_to@0.0.1#egg=eol_jump_to
--e git+https://github.com/eol-uchile/eol_survey@1.0.0#egg=eol_survey
+-e git+https://github.com/eol-uchile/eol_survey@3.0.0#egg=eol_survey
 -e git+https://github.com/eol-uchile/eol_vimeo@1.0.1#egg=eol_vimeo
--e git+https://github.com/eol-uchile/uchileedxlogin@1.0.0#egg=uchileedxlogin
+-e git+https://github.com/eol-uchile/uchileedxlogin@2.0.0#egg=uchileedxlogin
+-e git+https://github.com/eol-uchile/eol_sso@1.0.1#egg=eol_sso
