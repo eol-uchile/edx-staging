@@ -1,5 +1,5 @@
 -e git+https://github.com/cmmedu/cmmedu-seguimiento@v1.0.4#egg=cmmedu_seguimiento
--e git+https://github.com/eol-uchile/eol_grade_ucursos@1.0.0#egg=gradeucursos
--e git+https://github.com/eol-uchile/eol_report_analytics@0.0.1#egg=eol_report_analytics
--e git+https://github.com/eol-uchile/eol_report_certificate@1.0.0#egg=eolreportcertificate
--e git+https://github.com/eol-uchile/eol_xblock_completion@0.0.3#egg=xblockcompletion
+-e git+https://github.com/eol-uchile/eol_grade_ucursos@2.0.0#egg=gradeucursos
+-e git+https://github.com/eol-uchile/eol_report_analytics@2.0.0#egg=eol_report_analytics
+-e git+https://github.com/eol-uchile/eol_report_certificate@2.0.0#egg=eolreportcertificate
+-e git+https://github.com/eol-uchile/eol_xblock_completion@1.0.0#egg=xblockcompletion
