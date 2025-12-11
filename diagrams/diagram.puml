@@ -28,7 +28,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps6, "edx-proctoring", $link="https://github.com/openedx/edx-proctoring/releases/tag/2.6.7")
             
-                Container(apps7, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form/releases/tag/0.5.1")
+                Container(apps7, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form/releases/tag/0.5.2")
             
             }
         
