@@ -4,4 +4,4 @@
 -e git+https://github.com/eol-uchile/eol_survey@1.0.0#egg=eol_survey
 -e git+https://github.com/eol-uchile/eol_vimeo@1.0.1#egg=eol_vimeo
 -e git+https://github.com/openedx/edx-proctoring@2.6.7#egg=edx-proctoring
--e git+https://github.com/eol-uchile/eol_contact_form@0.5.2#egg=eol_contact_form
+-e git+https://github.com/eol-uchile/eol_contact_form@0.5.3#egg=eol_contact_form
