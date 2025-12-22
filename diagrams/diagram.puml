@@ -68,7 +68,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks2, "ora2", $link="https://github.com/eol-uchile/edx-ora2/commit/e873498bd2671b830f19a2441ec1608b7d4bbbc4")
             
-                Container(xblocks3, "edx-sga", $link="https://github.com/eol-uchile/edx-sga/releases/tag/0.10.0+eol3.1.2-dev1")
+                Container(xblocks3, "edx-sga", $link="https://github.com/eol-uchile/edx-sga/releases/tag/0.10.0+eol3.1.2")
             
                 Container(xblocks4, "scormxblock-xblock", $link="https://github.com/eol-uchile/edx_xblock_scorm/commit/c23184c0e22a7847f0b0c917bbe431c2973770fb")
             
