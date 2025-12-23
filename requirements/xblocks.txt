@@ -4,7 +4,7 @@
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@c23184c0e22a7847f0b0c917bbe431c2973770fb#egg=scormxblock-xblock
 -e git+https://github.com/eol-uchile/eol-container-xblock@v1.0.0#egg=eolcontainer-xblock
 -e git+https://github.com/eol-uchile/eol-course-program-xblock@0.1.1#egg=eolcourseprogram-xblock
--e git+https://github.com/eol-uchile/eol_forum_notifications@1.0.0#egg=eol_forum_notifications
+-e git+https://github.com/eol-uchile/eol_forum_notifications@1.0.2-dev1#egg=eol_forum_notifications
 -e git+https://github.com/eol-uchile/eol_gradeforum_xblock@1.0.0#egg=eolgradediscussion
 -e git+https://github.com/eol-uchile/eol_list_grade@1.0.0#egg=eollistgrade-xblock
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@1.0.1#egg=eoldiscussion-xblock
