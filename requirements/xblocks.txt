@@ -11,3 +11,4 @@
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@1.1.2#egg=eolzoom-xblock
 -e git+https://github.com/eol-uchile/ubcpi@1.0.0#egg=ubcpi-xblock
 -e git+https://github.com/eol-uchile/pdfXBlock@v0.5.1#egg=pdf-xblock
+-e git+https://github.com/eol-uchile/sence-xblock@2.0.0#egg=sence-xblock
