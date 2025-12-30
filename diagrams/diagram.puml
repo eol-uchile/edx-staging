@@ -148,15 +148,11 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             Container(theme2, "cmm-openedx", $link="https://github.com/eol-uchile/cmm-openedx")
         
-            Container(theme3, "edx-uabierta", $link="https://github.com/eol-uchile/uabierta-theme")
+            Container(theme3, "eol-uchile-2020", $link="https://github.com/eol-uchile/eol-uchile-theme-2020")
         
-            Container(theme4, "eol-uchile-2020", $link="https://github.com/eol-uchile/eol-uchile-theme-2020")
+            Container(theme4, "virtual-labx-cla-theme", $link="https://github.com/eol-virtuallabx/virtual-labx-cla-theme.git")
         
-            Container(theme5, "redfid-theme", $link="https://github.com/eol-uchile/redfid-theme.git")
-        
-            Container(theme6, "virtual-labx-cla-theme", $link="https://github.com/eol-virtuallabx/virtual-labx-cla-theme.git")
-        
-            Container(theme7, "virtual-labx-theme", $link="https://github.com/eol-uchile/virtual-labx-theme.git")
+            Container(theme5, "virtual-labx-theme", $link="https://github.com/eol-uchile/virtual-labx-theme.git")
         
     }
 
