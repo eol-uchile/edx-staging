@@ -36,6 +36,8 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps10, "eol_sso", $link="https://github.com/eol-uchile/eol_sso/releases/tag/1.0.1")
             
+                Container(apps11, "course_classification", $link="https://github.com/eol-uchile/course_classification/releases/tag/1.4.0")
+            
             }
         
             System_Boundary(python_packages, "python_packages", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/python_packages.txt") {
