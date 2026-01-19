@@ -1,1 +1,0 @@
--e git+https://github.com/eol-uchile/portal_api@0.3#egg=portal_api
