@@ -148,9 +148,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             Container(theme3, "eol-uchile-2020", $link="https://github.com/eol-uchile/eol-uchile-theme-2020")
         
-            Container(theme4, "virtual-labx-cla-theme", $link="https://github.com/eol-virtuallabx/virtual-labx-cla-theme.git")
-        
-            Container(theme5, "virtual-labx-theme", $link="https://github.com/eol-uchile/virtual-labx-theme.git")
+            Container(theme4, "virtual-labx-theme", $link="https://github.com/eol-uchile/virtual-labx-theme.git")
         
     }
 
