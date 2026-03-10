@@ -1,2 +1,4 @@
 env/
 venv/
+requirements/apps/
+requirements/extensions/
