@@ -74,7 +74,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(tabs_plugins2, "eol_course_email", $link="https://github.com/eol-uchile/eol_course_email/releases/tag/0.0.1")
             
-                Container(tabs_plugins3, "eol_feedback", $link="https://github.com/eol-uchile/eol_feedback/commit/8fb78e4a9acfe2d1d3e48c296721029ec9b7cdf1")
+                Container(tabs_plugins3, "eol_feedback", $link="https://github.com/eol-uchile/eol_feedback/releases/tag/0.0.3")
             
                 Container(tabs_plugins4, "eol_progress_tab", $link="https://github.com/eol-uchile/eol_progress_tab/releases/tag/0.0.1")
             
@@ -106,11 +106,11 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks11, "eoldialogs-xblock", $link="https://github.com/eol-uchile/eol-dialogs-xblock/releases/tag/1.0.0")
             
-                Container(xblocks12, "eol_forum_notifications", $link="https://github.com/eol-uchile/eol_forum_notifications/releases/tag/1.0.3")
+                Container(xblocks12, "eol_forum_notifications", $link="https://github.com/eol-uchile/eol_forum_notifications/releases/tag/1.0.4")
             
                 Container(xblocks13, "eolgradediscussion", $link="https://github.com/eol-uchile/eol_gradeforum_xblock/releases/tag/1.0.0")
             
-                Container(xblocks14, "img-annotation", $link="https://github.com/eol-uchile/eol_img_annotation/releases/tag/1.0.0")
+                Container(xblocks14, "img-annotation", $link="https://github.com/eol-uchile/eol_img_annotation/releases/tag/1.0.1")
             
                 Container(xblocks15, "eollistgrade-xblock", $link="https://github.com/eol-uchile/eol_list_grade/releases/tag/1.0.0")
             
@@ -126,7 +126,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks21, "flow-control-xblock", $link="https://github.com/eduNEXT/flow-control-xblock/releases/tag/v1.0.1")
             
-                Container(xblocks22, "xblock-free-text-response", $link="https://github.com/eol-uchile/free-text-response/releases/tag/0.4.0")
+                Container(xblocks22, "xblock-free-text-response", $link="https://github.com/eol-uchile/free-text-response/releases/tag/0.4.1")
             
                 Container(xblocks23, "pdf-xblock", $link="https://github.com/eol-uchile/pdfXBlock/releases/tag/v0.5.1")
             
