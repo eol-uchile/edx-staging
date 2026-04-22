@@ -56,7 +56,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(reports, "reports", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/reports.txt") {
             
-                Container(reports1, "cmmedu_seguimiento", $link="https://github.com/cmmedu/cmmedu-seguimiento/releases/tag/v1.1.0")
+                Container(reports1, "cmmedu_seguimiento", $link="https://github.com/cmmedu/cmmedu-seguimiento/releases/tag/v1.2.0")
             
                 Container(reports2, "gradeucursos", $link="https://github.com/eol-uchile/eol_grade_ucursos/releases/tag/3.0.0")
             
@@ -148,7 +148,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             Container(theme1, "alpha-project-theme", $link="https://github.com/eol-uchile/alpha-project-theme.git")
         
-            Container(theme2, "cmm-openedx", $link="https://github.com/eol-uchile/cmm-openedx")
+            Container(theme2, "cmm-openedx", $link="https://github.com/eol-uchile/cmm-theme")
         
             Container(theme3, "eol-uchile-2020", $link="https://github.com/eol-uchile/eol-uchile-theme-2020")
         
