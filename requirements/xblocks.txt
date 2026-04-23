@@ -11,3 +11,4 @@
 -e git+https://github.com/eol-uchile/free-text-response@0.4.1#egg=xblock-free-text-response
 -e git+https://github.com/eol-uchile/pdfXBlock@v0.5.1#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/sence-xblock@2.0.0#egg=sence-xblock
+-e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@1.0.0#egg=eolpersistenttab-xblock
