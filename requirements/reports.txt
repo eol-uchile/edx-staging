@@ -1,1 +1,3 @@
--e git+https://github.com/eol-uchile/eol_report_analytics@0.0.1#egg=eol_report_analytics
+-e git+https://github.com/eol-uchile/eol_report_analytics@2.1.0#egg=eol_report_analytics
+-e git+https://github.com/eol-uchile/eol_report_certificate@2.1.1#egg=eolreportcertificate
+-e git+https://github.com/eol-uchile/eol_xblock_completion@1.1.0#egg=xblockcompletion
