@@ -16,11 +16,11 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps3, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock/releases/tag/1.0.0")
             
-                Container(apps4, "eol_sso", $link="https://github.com/eol-uchile/eol_sso/releases/tag/1.0.1")
+                Container(apps4, "eol_sso", $link="https://github.com/eol-uchile/eol_sso/releases/tag/1.2.0")
             
                 Container(apps5, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login/releases/tag/0.1.1")
             
-                Container(apps6, "eol_survey", $link="https://github.com/eol-uchile/eol_survey/releases/tag/1.0.0")
+                Container(apps6, "eol_survey", $link="https://github.com/eol-uchile/eol_survey/releases/tag/3.1.0")
             
                 Container(apps7, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo/releases/tag/1.0.1")
             
@@ -42,13 +42,17 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(reports, "reports", $link="https://github.com/eol-uchile/edx-staging/blob/openuchile-release/koa/requirements/reports.txt") {
             
-                Container(reports1, "eol_report_analytics", $link="https://github.com/eol-uchile/eol_report_analytics/releases/tag/0.0.1")
+                Container(reports1, "eol_report_analytics", $link="https://github.com/eol-uchile/eol_report_analytics/releases/tag/2.1.0")
+            
+                Container(reports2, "eolreportcertificate", $link="https://github.com/eol-uchile/eol_report_certificate/releases/tag/2.1.1")
+            
+                Container(reports3, "xblockcompletion", $link="https://github.com/eol-uchile/eol_xblock_completion/releases/tag/1.1.0")
             
             }
         
             System_Boundary(tabs_plugins, "tabs_plugins", $link="https://github.com/eol-uchile/edx-staging/blob/openuchile-release/koa/requirements/tabs_plugins.txt") {
             
-                Container(tabs_plugins1, "eol_completion", $link="https://github.com/eol-uchile/eol_completion/releases/tag/0.0.1+open")
+                Container(tabs_plugins1, "eol_completion", $link="https://github.com/eol-uchile/eol_completion/releases/tag/2.0.0")
             
                 Container(tabs_plugins2, "eol_course_email", $link="https://github.com/eol-uchile/eol_course_email/commit/cfcca8a18389f64a1383f686a684c585019d16f1")
             
