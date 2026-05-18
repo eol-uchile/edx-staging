@@ -34,20 +34,20 @@ jobs:
 
     - name: Create GitHub App Token
       id: app_token
-      uses: actions/create-github-app-token@v2
+      uses: actions/create-github-app-token@v3
       with:
         app-id: ${{ inputs.app_id || vars.EOLITO_BOT_APP_ID }}
         private-key: ${{ secrets.private_key || secrets.EOLITO_BOT_PRIVATE_KEY }}
 
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         fetch-depth: 1
         submodules: 'recursive'
         token: ${{ steps.app_token.outputs.token }} # create-github-app-token@v2 generates at runtime a short-lived token for the App (eolito-bot) with the defined permissions.
 
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
         python-version: '3.10'
 
