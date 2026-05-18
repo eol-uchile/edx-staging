@@ -11,7 +11,7 @@ jobs:
       packages: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: '${{ github.event.client_payload.project }}-release/${{ github.event.client_payload.version }}'
 
@@ -29,7 +29,7 @@ jobs:
 
       - name: Login to GitHub Container Registry
         if: github.ref == format('refs/heads/{0}-release/{1}', ${{ github.event.client_payload.project }}, ${{ github.event.client_payload.version }})
-        uses: docker/login-action@v3
+        uses: docker/login-action@v4
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
