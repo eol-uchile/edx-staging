@@ -18,7 +18,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
         
             System_Boundary(apps, "apps", $link="https://github.com/eol-uchile/edx-staging/blob/eol-release/koa/requirements/apps.txt") {
             
-                Container(apps1, "course_classification", $link="https://github.com/eol-uchile/course_classification/releases/tag/1.5.2")
+                Container(apps1, "course_classification", $link="https://github.com/eol-uchile/course_classification/releases/tag/1.6.0")
             
                 Container(apps2, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos/releases/tag/2.0.0")
             
@@ -100,7 +100,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks8, "eolcontainer-xblock", $link="https://github.com/eol-uchile/eol-container-xblock/releases/tag/v1.1.0")
             
-                Container(xblocks9, "eolcourseprogram-xblock", $link="https://github.com/eol-uchile/eol-course-program-xblock/commit/df549273a21c6b4674c6645940d7f33c4c8a2aea")
+                Container(xblocks9, "eolcourseprogram-xblock", $link="https://github.com/eol-uchile/eol-course-program-xblock/releases/tag/0.2.0")
             
                 Container(xblocks10, "dialogsquestionsxblock-xblock", $link="https://github.com/eol-uchile/eol-dialogs-question-xblock/releases/tag/v1.0.0")
             
@@ -120,7 +120,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks18, "vof-xblock", $link="https://github.com/eol-uchile/eol-vof-xblock/releases/tag/v1.0.1")
             
-                Container(xblocks19, "eoldiscussion-xblock", $link="https://github.com/eol-uchile/eol_xblock_discussion/releases/tag/1.1.1")
+                Container(xblocks19, "eoldiscussion-xblock", $link="https://github.com/eol-uchile/eol_xblock_discussion/releases/tag/1.3.0")
             
                 Container(xblocks20, "eolzoom-xblock", $link="https://github.com/eol-uchile/eol-zoom-xblock/releases/tag/1.1.2")
             
