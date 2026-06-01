@@ -1,4 +1,4 @@
--e git+https://github.com/eol-uchile/course_classification@1.5.2#egg=course_classification
+-e git+https://github.com/eol-uchile/course_classification@1.6.0#egg=course_classification
 -e git+https://github.com/eol-uchile/edx-ucursos@2.0.0#egg=edxucursos
 -e git+https://github.com/eol-uchile/eol-certificates@0.2.0#egg=eol_certificates
 -e git+https://github.com/eol-uchile/eol_contact_form@0.5.3#egg=eol_contact_form
