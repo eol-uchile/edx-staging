@@ -1,4 +1,3 @@
--e git+https://github.com/eol-uchile/corfo_generate_code@a6b171148ba7278c05c664f0eb41f52743634bd2#egg=corfogeneratecode
 -e git+https://github.com/eol-uchile/edx-ora2@e873498bd2671b830f19a2441ec1608b7d4bbbc4#egg=ora2
 -e git+https://github.com/eol-uchile/edx-sga@0.10.0+eol3.1.2#egg=edx-sga
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@c23184c0e22a7847f0b0c917bbe431c2973770fb#egg=scormxblock-xblock
