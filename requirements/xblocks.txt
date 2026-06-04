@@ -15,7 +15,7 @@
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@1.0.0#egg=eolpersistenttab-xblock
 -e git+https://github.com/eol-uchile/eol-question-xblock@v1.0.0#egg=eolquestion-xblock
 -e git+https://github.com/eol-uchile/eol-vof-xblock@v1.0.1#egg=vof-xblock
--e git+https://github.com/eol-uchile/eol_xblock_discussion@1.3.0#egg=eoldiscussion-xblock
+-e git+https://github.com/eol-uchile/eol_xblock_discussion@1.3.1#egg=eoldiscussion-xblock
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@1.1.2#egg=eolzoom-xblock
 -e git+https://github.com/eduNEXT/flow-control-xblock@v1.0.1#egg=flow-control-xblock
 -e git+https://github.com/eol-uchile/free-text-response@0.4.1#egg=xblock-free-text-response
@@ -24,4 +24,3 @@
 -e git+https://github.com/eol-uchile/ubcpi@1.0.0#egg=ubcpi-xblock
 -e git+https://github.com/openedx/xblock-drag-and-drop-v2@v3.0.0#egg=xblock-drag-and-drop-v2
 -e git+https://github.com/eol-uchile/xblock-in-video-quiz@1.0.0+dev8#egg=invideoquiz-xblock
--e git+https://github.com/eol-uchile/xblock-lti-consumer@b1384343be9ae1a4d6de5760a3a5c1475a3024cf#egg=lti-consumer-xblock
