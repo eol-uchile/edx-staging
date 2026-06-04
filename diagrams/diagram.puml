@@ -116,7 +116,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks17, "vof-xblock", $link="https://github.com/eol-uchile/eol-vof-xblock/releases/tag/v1.0.1")
             
-                Container(xblocks18, "eoldiscussion-xblock", $link="https://github.com/eol-uchile/eol_xblock_discussion/releases/tag/1.3.0")
+                Container(xblocks18, "eoldiscussion-xblock", $link="https://github.com/eol-uchile/eol_xblock_discussion/releases/tag/1.3.1")
             
                 Container(xblocks19, "eolzoom-xblock", $link="https://github.com/eol-uchile/eol-zoom-xblock/releases/tag/1.1.2")
             
@@ -133,8 +133,6 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
                 Container(xblocks25, "xblock-drag-and-drop-v2", $link="https://github.com/openedx/xblock-drag-and-drop-v2/releases/tag/v3.0.0")
             
                 Container(xblocks26, "invideoquiz-xblock", $link="https://github.com/eol-uchile/xblock-in-video-quiz/releases/tag/1.0.0+dev8")
-            
-                Container(xblocks27, "lti-consumer-xblock", $link="https://github.com/eol-uchile/xblock-lti-consumer/commit/b1384343be9ae1a4d6de5760a3a5c1475a3024cf")
             
             }
         
