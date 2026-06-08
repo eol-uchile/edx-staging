@@ -48,6 +48,7 @@ jobs:
     uses: ./.github/workflows/webhook.yml
     with:
       code: ${{ github.event.client_payload.code }}
+      version: ${{ github.event.client_payload.version }}
       app_id: ${{ vars.EOLITO_BOT_APP_ID }}
     secrets:
       private_key: ${{ secrets.EOLITO_BOT_PRIVATE_KEY }}
