@@ -18,7 +18,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps1, "course_classification", $link="https://github.com/eol-uchile/course_classification/releases/tag/1.6.0")
             
-                Container(apps2, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos/releases/tag/3.0.0")
+                Container(apps2, "edxucursos", $link="https://github.com/eol-uchile/edx-ucursos/releases/tag/3.0.1")
             
                 Container(apps3, "eol_certificates", $link="https://github.com/eol-uchile/eol-certificates/releases/tag/0.2.0")
             
