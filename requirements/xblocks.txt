@@ -23,4 +23,4 @@
 -e git+https://github.com/eol-uchile/sence-xblock@2.0.0#egg=sence-xblock
 -e git+https://github.com/eol-uchile/ubcpi@1.0.0#egg=ubcpi-xblock
 -e git+https://github.com/openedx/xblock-drag-and-drop-v2@v3.0.0#egg=xblock-drag-and-drop-v2
--e git+https://github.com/eol-uchile/xblock-in-video-quiz@1.0.0+dev8#egg=invideoquiz-xblock
+-e git+https://github.com/eol-uchile/xblock-in-video-quiz@1.0.0#egg=invideoquiz
