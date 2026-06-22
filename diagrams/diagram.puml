@@ -54,11 +54,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(tabs_plugins1, "eol_completion", $link="https://github.com/eol-uchile/eol_completion/releases/tag/2.0.1")
             
-                Container(tabs_plugins2, "eol_course_email", $link="https://github.com/eol-uchile/eol_course_email/releases/tag/0.0.1")
-            
-                Container(tabs_plugins3, "eol_progress_tab", $link="https://github.com/eol-uchile/eol_progress_tab/releases/tag/0.0.1")
-            
-                Container(tabs_plugins4, "welcome-mail", $link="https://github.com/eol-uchile/eol_welcome_mail/releases/tag/0.0.1")
+                Container(tabs_plugins2, "welcome-mail", $link="https://github.com/eol-uchile/eol_welcome_mail/releases/tag/0.0.1")
             
             }
         
