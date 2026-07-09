@@ -86,7 +86,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks13, "eolpersistenttab-xblock", $link="https://github.com/eol-uchile/eol-persistent-tab-xblock/releases/tag/1.0.0")
             
-                Container(xblocks14, "invideoquiz", $link="https://github.com/eol-uchile/xblock-in-video-quiz/releases/tag/1.0.0")
+                Container(xblocks14, "invideoquiz", $link="https://github.com/eol-uchile/xblock-in-video-quiz/releases/tag/1.1.0")
             
             }
         
