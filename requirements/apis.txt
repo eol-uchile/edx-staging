@@ -1,1 +1,1 @@
--e git+https://github.com/eol-uchile/eol-api@1.2.0#egg=eol_api
+-e git+https://github.com/eol-uchile/eol-api@1.2.0+l#egg=eol_api
