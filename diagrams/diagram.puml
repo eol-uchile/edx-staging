@@ -22,7 +22,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps6, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login/releases/tag/0.1.2")
             
-                Container(apps7, "eol_survey", $link="https://github.com/eol-uchile/eol_survey/releases/tag/3.2.0")
+                Container(apps7, "eol_survey", $link="https://github.com/eol-uchile/eol_survey/releases/tag/3.2.1+l")
             
                 Container(apps8, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo/releases/tag/2.0.0+dev5")
             
