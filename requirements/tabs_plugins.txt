@@ -1,2 +1,2 @@
 -e git+https://github.com/eol-uchile/eol_completion@2.1.0+l#egg=eol_completion
--e git+https://github.com/eol-uchile/eol_welcome_mail@0.0.1#egg=welcome-mail
+-e git+https://github.com/eol-uchile/eol_welcome_mail@0.0.1+l#egg=welcome-mail
