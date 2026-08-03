@@ -16,6 +16,8 @@ COPY ./themes/ /openedx/themes/
 # Copy settings with added COMPREHENSIVE_THEME_LOCALE_PATHS for themes
 COPY ./lms-assets.py /openedx/edx-platform/lms/envs/prod/assets.py
 COPY ./cms-assets.py /openedx/edx-platform/cms/envs/prod/assets.py
+RUN touch /openedx/edx-platform/lms/envs/prod/__init__.py
+RUN touch /openedx/edx-platform/cms/envs/prod/__init__.py
 
 # Build static assets
 RUN openedx-assets xmodule
