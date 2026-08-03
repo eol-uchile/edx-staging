@@ -3,7 +3,6 @@
 -e git+https://github.com/eol-uchile/eol-certificates@0.2.0+l#egg=eol_certificates
 -e git+https://github.com/eol-uchile/eol_contact_form@0.5.3+l#egg=eol_contact_form
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@1.0.0+l#egg=eol_duplicate_xblock
--e git+https://github.com/eol-uchile/eol_jump_to@0.0.1#egg=eol_jump_to
 -e git+https://github.com/eol-uchile/eol_sso@1.4.1-dev5#egg=eol_sso
 -e git+https://github.com/eol-uchile/eol_survey@3.2.1+l#egg=eol_survey
 -e git+https://github.com/eol-uchile/eol_vimeo@2.0.0+dev5#egg=eol_vimeo
