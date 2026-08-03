@@ -9,7 +9,6 @@ COMPREHENSIVE_THEME_DIRS.append('/openedx/themes')
 COMPREHENSIVE_THEME_LOCALE_PATHS = [
 	"/openedx/themes/cmm-openedx/conf/locale",
 	"/openedx/themes/eol-uchile-2020/conf/locale",
-	"/openedx/themes/virtual-labx-cla-theme/conf/locale",
 	"/openedx/themes/virtual-labx-theme/conf/locale",
 	"/openedx/themes/alpha-project-theme/conf/locale"
 ]
