@@ -84,7 +84,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks2, "cmmedu-ordertable-xblock", $link="https://github.com/cmmedu/cmmedu-ordertable-xblock/releases/tag/v1.0.1")
             
-                Container(xblocks3, "ora2", $link="https://github.com/eol-uchile/edx-ora2/releases/tag/2.13.3+eol1.0.0")
+                Container(xblocks3, "ora2", $link="https://github.com/eol-uchile/edx-ora2/releases/tag/2.11.6+eol1.0.0")
             
                 Container(xblocks4, "edx-sga", $link="https://github.com/eol-uchile/edx-sga/releases/tag/0.10.0+eol3.1.2")
             
