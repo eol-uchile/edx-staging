@@ -16,10 +16,8 @@ COPY ./themes/ /openedx/themes/
 # Copy settings with added COMPREHENSIVE_THEME_LOCALE_PATHS for themes
 COPY ./lms-assets.py /openedx/edx-platform/lms/envs/prod/assets.py
 COPY ./cms-assets.py /openedx/edx-platform/cms/envs/prod/assets.py
-
-# staticfiles env
-ENV STATIC_ROOT_LMS=/openedx/staticfiles/
-ENV STATIC_ROOT_CMS=/openedx/staticfiles/studio/
+RUN touch /openedx/edx-platform/lms/envs/prod/__init__.py
+RUN touch /openedx/edx-platform/cms/envs/prod/__init__.py
 
 # Build static assets
 RUN openedx-assets xmodule
@@ -30,9 +28,6 @@ RUN openedx-assets themes
 RUN python manage.py lms --settings=prod.assets compilejsi18n
 RUN python manage.py cms --settings=prod.assets compilejsi18n
 RUN openedx-assets collect --settings=prod.assets
-
-# production settings
-ENV SETTINGS=prod.production
 
 FROM rclone/rclone:1.56.0 AS s3
 
