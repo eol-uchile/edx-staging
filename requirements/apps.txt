@@ -5,6 +5,6 @@
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@1.0.0+l#egg=eol_duplicate_xblock
 -e git+https://github.com/eol-uchile/eol_sso@2.1.0+l#egg=eol_sso
 -e git+https://github.com/eol-uchile/eol_survey@3.2.1+l#egg=eol_survey
--e git+https://github.com/eol-uchile/eol_vimeo@2.0.0+dev5#egg=eol_vimeo
+-e git+https://github.com/eol-uchile/eol_vimeo@2.0.0+l#egg=eol_vimeo
 -e git+https://github.com/eol-uchile/uchileedxlogin@2.0.2+l#egg=uchileedxlogin
 -e git+https://github.com/openedx/edx-proctoring@2.6.7#egg=edx-proctoring
