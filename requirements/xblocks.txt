@@ -9,7 +9,7 @@
 -e git+https://github.com/eol-uchile/eol-dialogs-question-xblock@v1.1.0+l#egg=dialogsquestionsxblock-xblock
 -e git+https://github.com/eol-uchile/eol-dialogs-xblock@1.0.0+l#egg=eoldialogs-xblock
 -e git+https://github.com/eol-uchile/eol_forum_notifications@1.0.4+l#egg=eol_forum_notifications
--e git+https://github.com/eol-uchile/eol_gradeforum_xblock@1.0.0+l#egg=eolgradediscussion
+-e git+https://github.com/eol-uchile/eol_gradeforum_xblock@1.0.1+l#egg=eolgradediscussion
 -e git+https://github.com/eol-uchile/eol_img_annotation@1.0.1+l#egg=img-annotation
 -e git+https://github.com/eol-uchile/eol_list_grade@1.0.0+l#egg=eollistgrade-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@1.0.0+l#egg=eolpersistenttab-xblock
