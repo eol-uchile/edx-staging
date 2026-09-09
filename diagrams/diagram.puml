@@ -72,7 +72,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks6, "eol_forum_notifications", $link="https://github.com/eol-uchile/eol_forum_notifications/releases/tag/1.0.4+l")
             
-                Container(xblocks7, "eolgradediscussion", $link="https://github.com/eol-uchile/eol_gradeforum_xblock/releases/tag/1.0.0+l")
+                Container(xblocks7, "eolgradediscussion", $link="https://github.com/eol-uchile/eol_gradeforum_xblock/releases/tag/1.0.1+l")
             
                 Container(xblocks8, "eollistgrade-xblock", $link="https://github.com/eol-uchile/eol_list_grade/releases/tag/1.0.0+l")
             
