@@ -12,7 +12,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(apps1, "course_classification", $link="https://github.com/eol-uchile/course_classification/releases/tag/1.6.1+l")
             
-                Container(apps2, "eol_certificates", $link="https://github.com/eol-uchile/eol-certificates/releases/tag/0.2.0+l")
+                Container(apps2, "eol_certificates", $link="https://github.com/eol-uchile/eol-certificates/releases/tag/0.2.1+l")
             
                 Container(apps3, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form/releases/tag/0.5.3+l")
             
@@ -66,7 +66,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks3, "scormxblock-xblock", $link="https://github.com/eol-uchile/edx_xblock_scorm/releases/tag/0.5.1+l")
             
-                Container(xblocks4, "eolcontainer-xblock", $link="https://github.com/eol-uchile/eol-container-xblock/releases/tag/v1.2.0+l")
+                Container(xblocks4, "eolcontainer-xblock", $link="https://github.com/eol-uchile/eol-container-xblock/releases/tag/v1.3.0+l")
             
                 Container(xblocks5, "eolcourseprogram-xblock", $link="https://github.com/eol-uchile/eol-course-program-xblock/releases/tag/0.2.0+l")
             
