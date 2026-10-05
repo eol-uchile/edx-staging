@@ -2,7 +2,7 @@
 -e git+https://github.com/cmmedu/cmmedu-ordertable-xblock@v1.0.1#egg=cmmedu-ordertable-xblock
 -e git+https://github.com/eol-uchile/edx-ora2@2.11.6+eol1.0.0#egg=ora2
 -e git+https://github.com/eol-uchile/edx-sga@0.10.0+eol3.1.2#egg=edx-sga
--e git+https://github.com/eol-uchile/edx_xblock_scorm@0.5.1+l#egg=scormxblock-xblock
+-e git+https://github.com/eol-uchile/edx_xblock_scorm@0.5.2+l#egg=scormxblock-xblock
 -e git+https://github.com/eol-uchile/eol-conditional-xblock@1.0.1+l#egg=eolconditional-xblock
 -e git+https://github.com/eol-uchile/eol-container-xblock@v1.3.0+l#egg=eolcontainer-xblock
 -e git+https://github.com/eol-uchile/eol-course-program-xblock@0.2.0+l#egg=eolcourseprogram-xblock
