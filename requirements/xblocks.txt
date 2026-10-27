@@ -19,7 +19,7 @@
 -e git+https://github.com/eol-uchile/eol-zoom-xblock@1.1.2+l#egg=eolzoom-xblock
 -e git+https://github.com/eduNEXT/flow-control-xblock@v1.0.1#egg=flow-control-xblock
 -e git+https://github.com/eol-uchile/free-text-response@0.4.1+l#egg=xblock-free-text-response
--e git+https://github.com/eol-uchile/pdfXBlock@v0.5.1+l#egg=pdf-xblock
+-e git+https://github.com/eol-uchile/pdfXBlock@v0.5.2+l#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/sence-xblock@2.0.0+l#egg=sence-xblock
 -e git+https://github.com/eol-uchile/ubcpi@1.0.0#egg=ubcpi-xblock
 -e git+https://github.com/openedx/xblock-drag-and-drop-v2@v3.0.0#egg=xblock-drag-and-drop-v2
