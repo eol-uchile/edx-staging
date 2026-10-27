@@ -122,7 +122,7 @@ System_Boundary(c1, "edx-platform: edx-staging", $link="https://github.com/eol-u
             
                 Container(xblocks21, "xblock-free-text-response", $link="https://github.com/eol-uchile/free-text-response/releases/tag/0.4.1+l")
             
-                Container(xblocks22, "pdf-xblock", $link="https://github.com/eol-uchile/pdfXBlock/releases/tag/v0.5.1+l")
+                Container(xblocks22, "pdf-xblock", $link="https://github.com/eol-uchile/pdfXBlock/releases/tag/v0.5.2+l")
             
                 Container(xblocks23, "sence-xblock", $link="https://github.com/eol-uchile/sence-xblock/releases/tag/2.0.0+l")
             
