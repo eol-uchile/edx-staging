@@ -12,3 +12,4 @@
 -e git+https://github.com/eol-uchile/sence-xblock@2.0.0+l#egg=sence-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@1.0.0+l#egg=eolpersistenttab-xblock
 -e git+https://github.com/eol-uchile/xblock-in-video-quiz@1.1.0+l#egg=invideoquiz
+-e git+https://github.com/eol-uchile/eol-conditional-xblock@1.0.1+l#egg=eolconditional-xblock
