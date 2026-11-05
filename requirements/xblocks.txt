@@ -8,7 +8,7 @@
 -e git+https://github.com/eol-uchile/eol_list_grade@1.0.0+l#egg=eollistgrade-xblock
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@2.0.0+l#egg=eoldiscussion
 -e git+https://github.com/eol-uchile/free-text-response@0.4.1+l#egg=xblock-free-text-response
--e git+https://github.com/eol-uchile/pdfXBlock@v0.5.1+l#egg=pdf-xblock
+-e git+https://github.com/eol-uchile/pdfXBlock@v0.5.2+l#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/sence-xblock@2.0.0+l#egg=sence-xblock
 -e git+https://github.com/eol-uchile/eol-persistent-tab-xblock@1.0.0+l#egg=eolpersistenttab-xblock
 -e git+https://github.com/eol-uchile/xblock-in-video-quiz@1.1.0+l#egg=invideoquiz
