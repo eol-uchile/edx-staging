@@ -1,5 +1,6 @@
 -e git+https://github.com/eol-uchile/eol_completion@2.1.2+l#egg=eol_completion
 -e git+https://github.com/eol-uchile/eol_course_email@0.0.1+l#egg=eol_course_email
 -e git+https://github.com/cmmedu/eol_feedback@0.1.0+l#egg=eol_feedback
+-e git+https://github.com/eol-uchile/eol_learner_profiles@0.2.0+dev#egg=eol_learner_profiles
 -e git+https://github.com/eol-uchile/eol_progress_tab@0.0.1+l#egg=eol_progress_tab
 -e git+https://github.com/eol-uchile/eol_welcome_mail@0.0.1+l#egg=welcome_mail
